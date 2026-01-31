@@ -1,0 +1,1 @@
+I am looking for help determining what skills I should learn to get a tech job. Look at the introduction.md folder for more about my goals, interests.
