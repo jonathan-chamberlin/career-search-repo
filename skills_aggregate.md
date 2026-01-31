@@ -2,6 +2,15 @@
 
 *This document synthesizes qualifications, requirements, and skills across job listings by category.*
 
+## Summary Table
+
+| Job Category | Skills (Overarching) | Languages / Frameworks |
+|--------------|----------------------|------------------------|
+| VR / Immersive Tech | 3D Graphics, Game Engines, Computer Vision, Motion Capture, VR/AR Development | C++, Python, C#, Unity, Unreal Engine, OpenGL, Vulkan, Direct3D |
+| Machine Learning Engineer | Deep Learning, Distributed Computing, NLP, Computer Vision, HPC Infrastructure, Model Optimization | Python, C++, PyTorch, TensorFlow, JAX, CUDA, Kubernetes, Docker |
+| Analytics / Data Engineer | Data Modeling, ETL Pipelines, Data Visualization, Big Data, Cloud Platforms | SQL, Python, Java, Spark, AWS/Azure/GCP, Docker, Kubernetes |
+| AI Engineer | Full-Stack Development, AI/ML Integration, API Development, Product Engineering | Python, JavaScript/TypeScript, React, LangChain, Postgres/MySQL |
+
 ---
 
 ## VR / Immersive Tech

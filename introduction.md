@@ -13,6 +13,8 @@ Did you get any DS coops? We can also just chat on Sat
 
  So I’ll say my target is $270k/yr.
 
+ Salaries listed here: https://docs.google.com/spreadsheets/d/1gUamxLo6ug3LO3hherQJ3XqMEmhuKXeB/edit?usp=sharing&ouid=115930470858247575739&rtpof=true&sd=true
+
  # Jobs I'm interested in vs. not interested in 
 
 - ⭐Jobs I’m intereresed in vs. not interested in
