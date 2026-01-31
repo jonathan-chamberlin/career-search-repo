@@ -12,7 +12,8 @@
       "Bash(python:*)",
       "WebSearch",
       "WebFetch(domain:github.com)",
-      "WebFetch(domain:*)"
+      "WebFetch(domain:*)",
+      "Bash(git commit:*)"
     ]
   }
 }
