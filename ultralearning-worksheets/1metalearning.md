@@ -17,19 +17,19 @@ Understanding your motivation helps you prioritize what to learn and stay commit
 
 **Question:** Are you learning ML engineering primarily for an outcome (instrumental) or for the joy of learning itself (intrinsic)?
 
-- [ ] Primarily instrumental (career, money, specific job)
+- [] Primarily instrumental (career, money, specific job)
 - [ ] Primarily intrinsic (fascination with the field)
-- [ ] Both equally
+- [X] Both equally
 
 **Your answer (explain):**
--
+- ultimately i want to make $270k/year because this wod let me realistically save $50,000 for a bimax surgery in only 5 months.
 
 ### 1.2 Define Your Concrete Goal
 
 **Question:** What specific outcome do you want? Be as precise as possible.
 
 - **Job title you want:**
-  -
+  -ML Engineer
 - **Company type (startup/FAANG/research lab):**
   -
 - **Salary range target:**
