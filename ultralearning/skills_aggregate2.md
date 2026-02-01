@@ -1,5 +1,7 @@
 # Skills, Requirements, and Qualifications by Job Category
 
+Some jobs sourced from https://github.com/jonathan-chamberlin/career-search-repo/blob/main/ultralearning/skills_aggregate2.md
+
 A synthesized summary of what employers are looking for across job listings in each category.
 
 ## Summary Table
