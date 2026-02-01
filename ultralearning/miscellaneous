@@ -1,3 +1,15 @@
 Good way to program is to try different things, have them fail, then eventually try something and it works. The best method is not to be told how to do something. (Explained in this video https://www.youtube.com/shorts/u1AN5n6jo_w)
 
 At some point make an online portfolio. Also make the readme for the lunar lander. 
+
+Keep in mind that I have existing repos I made that could be improved. If you don't see any of the following repos on my github link, let me know:
+- https://github.com/jonathan-chamberlin
+- lunar-lander
+- agent-organism
+- uber-trips-analysis
+- notion-executive-assistant
+- northeastern-university
+
+For example, one project could be deploying my lunar lander TD3 simulation so it runs on the cloud and speeds up training. 
+Another could be refactoring my agent-organism to use classes instead of just functions.
+Maybe there are some other ways to improve my repos.
