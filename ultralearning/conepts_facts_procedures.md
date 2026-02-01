@@ -5,25 +5,26 @@
     4. Recommendation Systems
     5. NLP
     6. Computer Vision
-    7. HPC Infrastructure
-    8. Model Optimization
-    9. Context efficiency
-    10. Version control
+    7. A/B testing
+    8. HPC Infrastructure
+    9. Model Optimization
+    10. Context efficiency
+    11. Version control
         1. Worktrees
         2. Pull requests
         3. Pushing
-    11. CLIs
-    12. MCPs
-    13. Deployment, hosting
-    14. Agents calling Subagents
-    15. IDES
-    16. Cursor / Codex / Claude Code
-    17. Code review
-    18. Design choices at beginning of project that will be hard to change later
-    19. Cloud computing
-    20. Best way to get software role ([here](https://youtu.be/w7o355LsM9I?t=1251))
-    21. Type checking
-    22. Type safety 
+    12. CLIs
+    13. MCPs
+    14. Deployment, hosting
+    15. Agents calling Subagents
+    16. IDES
+    17. Cursor / Codex / Claude Code
+    18. Code review
+    19. Design choices at beginning of project that will be hard to change later
+    20. Cloud computing
+    21. Best way to get software role ([here](https://youtu.be/w7o355LsM9I?t=1251))
+    22. Type checking
+    23. Type safety 
 2. Facts. Stuff you need to memorize.
     1. Use cases, strengths, and weaknesses of each LLM and agent.
     2. Use cases, strengths, and weaknesses of each programming language 
