@@ -1,0 +1,63 @@
+1. Concepts. Anything that needs to be understood in flexible ways. Not just stuff that needs to be memorized.
+    1. Deep Learning
+    2. Distributed Computing
+    3. NLP
+    4. Computer Vision
+    5. HPC Infrastructure
+    6. Model Optimization
+    7. Context efficiency
+    8. Version control
+        1. Worktrees
+        2. Pull requests
+        3. Pushing
+    9. CLIs
+    10. MCPs
+    11. Deployment, hosting
+    12. Agents calling Subagents
+    13. IDES
+    14. Cursor / Codex / Claude Code
+    15. Code review
+    16. Design choices at beginning of project that will be hard to change later
+    17. Cloud computing
+    18. Best way to get software role ([here](https://youtu.be/w7o355LsM9I?t=1251))
+    19. Type checking 
+    20. Type safety 
+2. Facts. Stuff you need to memorize.
+    1. Use cases, strengths, and weaknesses of each LLM and agent.
+    2. Use cases, strengths, and weaknesses of each programming language 
+    3. Security vulnerabilities 
+    4. All the acronyms (CLI, SDK, etc.)
+    5. Git terminology 
+    6. Available softwares, libraries, connections to improve everything else
+    7. Job positions 
+    8. List of important skills and problems to solve, according to startup founders, hiring managers, and executives.
+    9. What npm does
+    10. Best way to type check code
+3. Procedures
+    1. **Python**
+    2. **C++**
+    3. **PyTorch**
+    4. **TensorFlow**
+    5. **JAX**
+    6. **CUDA**
+    7. **Kubernetes**
+    8. **Docker**
+    9. Downloading repos
+    10. Copying remote files into a repo
+    11. Creating a new repo
+    12. Create a new worktree
+    13. Having multiple work trees and having agents in each, then merging them together.
+    14. Agent workflows
+    15. Debugging agents 
+    16. Setting up cloud computing for ML / RL
+    17. Writing a great readme
+    18. Creating a compelling portfolio 
+    19. Reaching out for coffee chats
+    20. Contributing to existing code bases
+    21. Getting agents to write type checked code
+    22. Code review with Greptile
+    23. Being useful by joining programmer discords and providing people with solutions / resources to solve the problems they ask.
+    24. ‘Spending time in github issues tab’ [here](https://youtu.be/w7o355LsM9I?t=2613)
+    25. Answering questions in Theo’s discord or on X ([here](https://youtu.be/w7o355LsM9I?t=2613))
+    26. Attending conferences and job fairs)
+    27. Outreach to recruiters.
