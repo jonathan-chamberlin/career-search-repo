@@ -1,30 +1,31 @@
 1. Concepts. Anything that needs to be understood in flexible ways. Not just stuff that needs to be memorized.
-    1. Deep Learning
-    2. Distributed Training / Distributed Computing
-    3. MLOps
-    4. Recommendation Systems
-    5. NLP
-    6. Computer Vision
-    7. A/B testing
-    8. HPC Infrastructure
-    9. Model Optimization
-    10. Context efficiency
-    11. Version control
+    1.Debugging
+    2. Deep Learning
+    3. Distributed Training / Distributed Computing
+    4. MLOps
+    5. Recommendation Systems
+    6. NLP
+    7. Computer Vision
+    8. A/B testing
+    9. HPC Infrastructure
+    10. Model Optimization
+    11. Context efficiency
+    12. Version control
         1. Worktrees
         2. Pull requests
         3. Pushing
-    12. CLIs
-    13. MCPs
-    14. Deployment, hosting
-    15. Agents calling Subagents
-    16. IDES
-    17. Cursor / Codex / Claude Code
-    18. Code review
-    19. Design choices at beginning of project that will be hard to change later
-    20. Cloud computing
-    21. Best way to get software role ([here](https://youtu.be/w7o355LsM9I?t=1251))
-    22. Type checking
-    23. Type safety 
+    13. CLIs
+    14. MCPs
+    15. Deployment, hosting
+    16. Agents calling Subagents
+    17. IDES
+    18. Cursor / Codex / Claude Code
+    19. Code review
+    20. Design choices at beginning of project that will be hard to change later
+    21. Cloud computing
+    22. Best way to get software role ([here](https://youtu.be/w7o355LsM9I?t=1251))
+    23. Type checking
+    24. Type safety 
 2. Facts. Stuff you need to memorize.
     1. Use cases, strengths, and weaknesses of each LLM and agent.
     2. Use cases, strengths, and weaknesses of each programming language 
