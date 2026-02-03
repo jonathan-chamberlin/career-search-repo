@@ -14,18 +14,19 @@
         1. Worktrees
         2. Pull requests
         3. Pushing
-    13. CLIs
-    14. MCPs
-    15. Deployment, hosting
-    16. Agents calling Subagents
-    17. IDES
-    18. Cursor / Codex / Claude Code
-    19. Code review
-    20. Design choices at beginning of project that will be hard to change later
-    21. Cloud computing
-    22. Best way to get software role ([here](https://youtu.be/w7o355LsM9I?t=1251))
-    23. Type checking
-    24. Type safety 
+    4. Object oriented programming
+    14. CLIs
+    15. MCPs
+    16. Deployment, hosting
+    17. Agents calling Subagents
+    18. IDES
+    19. Cursor / Codex / Claude Code
+    20. Code review
+    21. Design choices at beginning of project that will be hard to change later
+    22. Cloud computing
+    23. Best way to get software role ([here](https://youtu.be/w7o355LsM9I?t=1251))
+    24. Type checking
+    25. Type safety 
 2. Facts. Stuff you need to memorize.
     1. Use cases, strengths, and weaknesses of each LLM and agent.
     2. Use cases, strengths, and weaknesses of each programming language 
@@ -37,6 +38,7 @@
     8. List of important skills and problems to solve, according to startup founders, hiring managers, and executives.
     9. What npm does
     10. Best way to type check code
+    11. OOP stuff (class, method, object, attribute)
 3. Procedures
     1. **Python**
     2. **C++**
