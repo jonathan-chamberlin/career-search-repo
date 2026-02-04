@@ -31,18 +31,18 @@ Understanding your motivation helps you prioritize what to learn and stay commit
 - **Job title you want:**
   -ML Engineer
 - **Company type (startup/FAANG/research lab):**
-  -
+  -Ultimately I want to work at a FANNG or top tier public company, like Meta, Google, Apple, Netflix, OpnAI, Anthropic, Perplexity, Airbnb, Intuit, etc.
 - **Salary range target:**
-  -
+  - Eventually I want to hit $270k/year total comp.
 - **Location/remote preference:**
-  -
+  - Ideally San Francisco, LA, or remote.
 - **Timeline to achieve this:**
-  -
+  - By 1 year after graduation, or May 2029.
 
 ### 1.3 Why This Path?
 
 **Question:** Why ML engineering specifically, rather than other tech roles?
--
+- 
 
 **Question:** What would you do if ML engineering jobs disappeared tomorrow?
 -
