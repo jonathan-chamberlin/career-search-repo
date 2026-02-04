@@ -419,6 +419,8 @@ Research how others successfully learned ML engineering.
 - this guy also did 300 leet code problems. he said you should work on a problem for 1 to 2 hours, and if you don't get it after two hours, look at the solution, then restart and do the problem by yourself.
 - leet code is good for learning data structures and algorithms, and builds your skill of pattern recognition when it comes to deciding what data structure or algorithm you should use to solve a problem.
 - think of leet code like th SAT for coding. as a student you never actually do SAT problems in college, but its like an IQ test fo you software knowledge. so i should practice data structure and algorithm problems, an leet code is one option to do that. 
+- system design is an important concept. He recommends the book Grokking system design. he recommends using excalidraw or lucidchart to "design Airbnb" fo system design. sutem design he says is way more importnat than leetcode. he doesnt use anything he learned through leetcode except the meta skill of problem solving, but he usees system design all the time.
+- when on a team, document what you build and its impact, so at the end of the year you are much more likely to get a promotion. 
   - https://www.youtube.com/watch?v=h3td0TPxZAc
 - **Person 2:**
   - Name/handle:
