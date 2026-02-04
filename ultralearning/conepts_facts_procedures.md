@@ -1,32 +1,68 @@
 1. Concepts. Anything that needs to be understood in flexible ways. Not just stuff that needs to be memorized.
-    1.Debugging
+
+    **ML/DL Fundamentals**
+    1. Debugging
     2. Deep Learning
-    3. Distributed Training / Distributed Computing
-    4. MLOps
-    5. Recommendation Systems
-    6. NLP
-    7. Computer Vision
-    8. A/B testing
-    9. HPC Infrastructure
-    10. Model Optimization
-    11. Context efficiency
-    12. Version control
+    3. Loss functions & optimizers (SGD, Adam, learning rate schedules)
+    4. Regularization techniques (dropout, batch norm, L1/L2)
+    5. Hyperparameter tuning strategies
+    6. Transfer learning / fine-tuning
+    7. Neural network architectures (CNNs, RNNs, Transformers)
+    8. Attention mechanisms
+    9. Bias-variance tradeoff
+
+    **Domain Areas**
+    10. Recommendation Systems
+    11. NLP
+    12. Computer Vision
+    13. Reinforcement Learning
+
+    **ML Engineer Concepts**
+    14. Distributed Training / Distributed Computing
+    15. MLOps
+    16. HPC Infrastructure
+    17. Model Optimization
+    18. Model serving / inference optimization
+    19. Batch vs real-time inference
+    20. Model monitoring (drift detection, performance decay)
+    21. Data pipelines for ML
+
+    **Data Scientist (Consumer) Concepts**
+    22. A/B testing
+    23. Causal inference
+    24. Statistical hypothesis testing
+    25. Experiment design
+    26. Feature engineering
+
+    **Research/Advanced (DS-ML)**
+    27. Generative models (GANs, VAEs, Diffusion models)
+    28. Self-supervised learning
+    29. LLM fine-tuning (LoRA, RLHF)
+
+    **System Design**
+    30. ML system design patterns
+    31. Latency vs throughput tradeoffs
+    32. Scalability for ML systems
+
+    **Software Engineering**
+    33. Context efficiency
+    34. Version control
         1. Worktrees
         2. Pull requests
         3. Pushing
-    4. Object oriented programming
-    14. CLIs
-    15. MCPs
-    16. Deployment, hosting
-    17. Agents calling Subagents
-    18. IDES
-    19. Cursor / Codex / Claude Code
-    20. Code review
-    21. Design choices at beginning of project that will be hard to change later
-    22. Cloud computing
-    23. Best way to get software role ([here](https://youtu.be/w7o355LsM9I?t=1251))
-    24. Type checking
-    25. Type safety 
+    35. Object oriented programming
+    36. CLIs
+    37. MCPs
+    38. Deployment, hosting
+    39. Agents calling Subagents
+    40. IDES
+    41. Cursor / Codex / Claude Code
+    42. Code review
+    43. Design choices at beginning of project that will be hard to change later
+    44. Cloud computing
+    45. Best way to get software role ([here](https://youtu.be/w7o355LsM9I?t=1251))
+    46. Type checking
+    47. Type safety 
 2. Facts. Stuff you need to memorize.
     1. Use cases, strengths, and weaknesses of each LLM and agent.
     2. Use cases, strengths, and weaknesses of each programming language 

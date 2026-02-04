@@ -29,9 +29,9 @@ Understanding your motivation helps you prioritize what to learn and stay commit
 **Question:** What specific outcome do you want? Be as precise as possible.
 
 - **Job title you want:**
-  -ML Engineer
+  -ML Engineer or Data Scientist (ML or Consumer)
 - **Company type (startup/FAANG/research lab):**
-  -Ultimately I want to work at a FANNG or top tier public company, like Meta, Google, Apple, Netflix, OpnAI, Anthropic, Perplexity, Airbnb, Intuit, etc.
+  -Ultimately I want to work at a FANNG or top tier public company, like Meta, Google, Apple, Netflix, OpnAI, Anthropic, Perplexity, Airbnb, Intuit, Tesla, Amazon, Microsoft, Adobe, Linkedin, etc.
 - **Salary range target:**
   - Eventually I want to hit $270k/year total comp.
 - **Location/remote preference:**
@@ -41,11 +41,13 @@ Understanding your motivation helps you prioritize what to learn and stay commit
 
 ### 1.3 Why This Path?
 
-**Question:** Why ML engineering specifically, rather than other tech roles?
-- 
+**Question:** Why ML engineering or Data Science (ML or Consumer) specifically, rather than other tech roles?
+- Because I already built 2 machine learning projects, agent-organism and lunar-lander, and had lots of fun making them. Additionally, for years I have really enjoyed tracking data. 
+
+Data engineering, VR / immersive tech don't sound too interesting. AI engineering seems like something I would get good at naturally because I could integrate stuff to improve the products and systems I create. 
 
 **Question:** What would you do if ML engineering jobs disappeared tomorrow?
--
+- I would do analytics engineering. I could get really good at that since I've really enjoyed tracking and working with data my whole life. But it pays less than the ML engineering or DS roles.
 
 *Suggestion: If your answer reveals a deeper interest (e.g., "I'd still want to build intelligent systems"), note that—it reveals your true motivation.*
 
@@ -53,7 +55,7 @@ Understanding your motivation helps you prioritize what to learn and stay commit
 
 ## Part 2: WHAT - Mapping Knowledge Structure
 
-Break down ML engineering into concepts, facts, and procedures.
+Break down ML engineering & Data Science into concepts, facts, and procedures.
 
 ### 2.1 Concepts (Things to Understand Deeply)
 
@@ -61,23 +63,52 @@ Concepts require flexible understanding—you need to grasp the "why" and apply 
 
 **Instructions:** For each concept, note your current level (1=none, 5=expert), priority (H/M/L), and any notes.
 
+---
+
+**1. Software Engineering Foundations** *(Learn first — prerequisite for everything)*
+- **Object oriented programming**
+  - Current level:
+  - Priority:
+  - Notes:
+- **Debugging**
+  - Current level:
+  - Priority:
+  - Notes:
 - **Deep Learning fundamentals**
   - Current level:
   - Priority:
   - Notes:
-- **Distributed Training**
+- **Loss functions & optimizers (SGD, Adam, learning rate schedules)**
   - Current level:
   - Priority:
   - Notes:
-- **MLOps / CI-CD for ML**
+- **Regularization techniques (dropout, batch norm, L1/L2)**
   - Current level:
   - Priority:
   - Notes:
+- **Hyperparameter tuning strategies**
+  - Current level:
+  - Priority:
+  - Notes:
+- **Transfer learning / fine-tuning**
+  - Current level:
+  - Priority:
+  - Notes:
+- **Neural network architectures (CNNs, RNNs, Transformers)**
+  - Current level:
+  - Priority:
+  - Notes:
+- **Attention mechanisms**
+  - Current level:
+  - Priority:
+  - Notes:
+- **Bias-variance tradeoff**
+  - Current level:
+  - Priority:
+  - Notes:
+
+**Domain Areas**
 - **Recommendation Systems**
-  - Current level:
-  - Priority:
-  - Notes:
-- **Reinforcement Learning**
   - Current level:
   - Priority:
   - Notes:
@@ -89,19 +120,159 @@ Concepts require flexible understanding—you need to grasp the "why" and apply 
   - Current level:
   - Priority:
   - Notes:
+- **Reinforcement Learning**
+  - Current level:
+  - Priority:
+  - Notes:
+
+**ML Engineer Concepts**
+- **Distributed Training (DDP, FSDP, DeepSpeed)**
+  - Current level:
+  - Priority:
+  - Notes:
+- **MLOps / CI-CD for ML**
+  - Current level:
+  - Priority:
+  - Notes:
+- **HPC Infrastructure**
+  - Current level:
+  - Priority:
+  - Notes:
 - **Model Optimization**
   - Current level:
   - Priority:
   - Notes:
-- **System Design for ML**
+- **Model serving / inference optimization**
   - Current level:
   - Priority:
   - Notes:
-- **Cloud Infrastructure**
+- **Batch vs real-time inference**
   - Current level:
   - Priority:
   - Notes:
-- **(Add your own)**
+- **Model monitoring (drift detection, performance decay)**
+  - Current level:
+  - Priority:
+  - Notes:
+- **Data pipelines for ML**
+  - Current level:
+  - Priority:
+  - Notes:
+
+**Data Scientist (Consumer) Concepts**
+- **A/B Testing & Experimentation**
+  - Current level:
+  - Priority:
+  - Notes:
+- **Causal Inference**
+  - Current level:
+  - Priority:
+  - Notes:
+- **Statistical hypothesis testing**
+  - Current level:
+  - Priority:
+  - Notes:
+- **Experiment design**
+  - Current level:
+  - Priority:
+  - Notes:
+- **Feature engineering**
+  - Current level:
+  - Priority:
+  - Notes:
+- **Data Visualization & Storytelling**
+  - Current level:
+  - Priority:
+  - Notes:
+
+**Research/Advanced (DS-ML)**
+- **Generative Models (GANs, VAEs, Diffusion models)**
+  - Current level:
+  - Priority:
+  - Notes:
+- **Self-supervised learning**
+  - Current level:
+  - Priority:
+  - Notes:
+- **LLM fine-tuning (LoRA, RLHF)**
+  - Current level:
+  - Priority:
+  - Notes:
+- **Research Methods & Paper Reading**
+  - Current level:
+  - Priority:
+  - Notes:
+
+**System Design**
+- **ML system design patterns**
+  - Current level:
+  - Priority:
+  - Notes:
+- **Latency vs throughput tradeoffs**
+  - Current level:
+  - Priority:
+  - Notes:
+- **Scalability for ML systems**
+  - Current level:
+  - Priority:
+  - Notes:
+
+**Software Engineering**
+- **Context efficiency**
+  - Current level:
+  - Priority:
+  - Notes:
+- **Version control (worktrees, PRs, pushing)**
+  - Current level:
+  - Priority:
+  - Notes:
+- **Object oriented programming**
+  - Current level:
+  - Priority:
+  - Notes:
+- **CLIs**
+  - Current level:
+  - Priority:
+  - Notes:
+- **MCPs**
+  - Current level:
+  - Priority:
+  - Notes:
+- **Deployment & hosting**
+  - Current level:
+  - Priority:
+  - Notes:
+- **Agents calling subagents**
+  - Current level:
+  - Priority:
+  - Notes:
+- **IDEs (VS Code, Cursor, etc.)**
+  - Current level:
+  - Priority:
+  - Notes:
+- **AI coding assistants (Claude Code, Cursor, Codex)**
+  - Current level:
+  - Priority:
+  - Notes:
+- **Code review**
+  - Current level:
+  - Priority:
+  - Notes:
+- **Design choices at beginning of project**
+  - Current level:
+  - Priority:
+  - Notes:
+- **Cloud computing**
+  - Current level:
+  - Priority:
+  - Notes:
+- **Type checking & type safety**
+  - Current level:
+  - Priority:
+  - Notes:
+
+**(Add your own)**
+-
   - Current level:
   - Priority:
   - Notes:
@@ -232,10 +403,11 @@ Research how others successfully learned ML engineering.
 **Question:** Find 3-5 ML engineers on LinkedIn/Twitter with jobs you want. What was their path?
 
 - **Person 1:**
-  - Name/handle:
+  - Name/handle: Ray Fu
   - Current role:
   - Their learning path:
-  - Key insight:
+  - Key insight: They said books like Cracking the Coding Interview and Programming Interviews in Python, Mock Interviews with People who got the job or hire other people (I could use Casey for this, or Griffin or Marco [ I'd have to find their instas or get their numbers from Matt]). He says the biggest thing is asking people in your network for referals. Remember that employees get paid if they refer someone who gets hired. A secondary tactic is going to linkedin, searching 'software engineer' then connecting with as many as possible. Sending your resumes to application sites doesn't really work because there are 10,000 other people doing the same. Start building and posting about your journey online (I could make a task to post twice per week on linkedin something about what I'm building) 
+  - https://www.youtube.com/watch?v=h3td0TPxZAc
 - **Person 2:**
   - Name/handle:
   - Current role:
