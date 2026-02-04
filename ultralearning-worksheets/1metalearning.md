@@ -405,8 +405,15 @@ Research how others successfully learned ML engineering.
 - **Person 1:**
   - Name/handle: Ray Fu
   - Current role:
-  - Their learning path:
-  - Key insight: They said books like Cracking the Coding Interview and Programming Interviews in Python, Mock Interviews with People who got the job or hire other people (I could use Casey for this, or Griffin or Marco [ I'd have to find their instas or get their numbers from Matt]). He says the biggest thing is asking people in your network for referals. Remember that employees get paid if they refer someone who gets hired. A secondary tactic is going to linkedin, searching 'software engineer' then connecting with as many as possible. Sending your resumes to application sites doesn't really work because there are 10,000 other people doing the same. Start building and posting about your journey online (I could make a task to post twice per week on linkedin something about what I'm building) 
+  - Their learning path: He had a friend who he hungout with everyday who already did technical interviews, and they would code together (I could do this with Kenny).
+  - Key insights:
+    - They said books like Cracking the Coding Interview and Programming Interviews in Python
+    - Mock Interviews with People who got the job or hire other people (I could use Casey for this, or Griffin or Marco [ I'd have to find their instas or get their numbers from Matt]).
+    - He says the biggest thing is asking people in your network for referals. Remember that employees get paid if they refer someone who gets hired. I could ask Olivia Gagan for a referal, or if there is a software engineer I could get an introduction to to have a coffee chat with. A secondary tactic is going to linkedin, searching 'software engineer' then connecting with as many as possible. 
+    - Sending your resumes to application sites doesn't really work because there are 10,000 other people doing the same.
+    - Start building and posting about your journey online (I could make a task to post twice per week on linkedin something about what I'm building).
+    - People in tech are so nice and want to help new people. Ask people for help.
+    - At startups people look for software development, but bigger companies look for your knowledge of problem solving, especially solving data structures and algorithms problems. You don't really need to know how to create an API endpoint, for example, because you could quickly pick that up on the job. 
   - https://www.youtube.com/watch?v=h3td0TPxZAc
 - **Person 2:**
   - Name/handle:
