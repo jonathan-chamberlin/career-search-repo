@@ -414,6 +414,11 @@ Research how others successfully learned ML engineering.
     - Start building and posting about your journey online (I could make a task to post twice per week on linkedin something about what I'm building).
     - People in tech are so nice and want to help new people. Ask people for help.
     - At startups people look for software development, but bigger companies look for your knowledge of problem solving, especially solving data structures and algorithms problems. You don't really need to know how to create an API endpoint, for example, because you could quickly pick that up on the job. 
+- you just need to know the principles and be really good at problem-solving. part of that is researching how people have solve problems before.
+- one of those problem-solving principles is to not give up. Be stubborn about solving it. Said in a way that's more actionable, if there's a concept that's hard to understand, keep working on it until you do understand it. You can do it.
+- this guy also did 300 leet code problems. he said you should work on a problem for 1 to 2 hours, and if you don't get it after two hours, look at the solution, then restart and do the problem by yourself.
+- leet code is good for learning data structures and algorithms, and builds your skill of pattern recognition when it comes to deciding what data structure or algorithm you should use to solve a problem.
+- think of leet code like th SAT for coding. as a student you never actually do SAT problems in college, but its like an IQ test fo you software knowledge. so i should practice data structure and algorithm problems, an leet code is one option to do that. 
   - https://www.youtube.com/watch?v=h3td0TPxZAc
 - **Person 2:**
   - Name/handle:
