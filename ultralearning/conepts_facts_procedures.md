@@ -84,6 +84,7 @@
     6. **CUDA**
     7. **Kubernetes**
     8. **Docker**
+    8. Using VSCode (shortcuts, settings, tools, interface)
     9. Downloading repos
     10. Copying remote files into a repo
     11. Creating a new repo
