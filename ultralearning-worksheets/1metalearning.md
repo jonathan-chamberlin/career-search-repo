@@ -261,29 +261,43 @@ Research how others successfully learned ML engineering.
 
 **Question:** Analyze 10+ job postings for your target role. What tools/skills appear most frequently?
 
-- **Skill/Tool 1:**
-  - Frequency (out of 10):
+*Based on analysis of 11 ML Engineer job listings from skills_aggregate2.md (Pinterest, Waymo, Blue Origin, Woven by Toyota, Tubi, Walt Disney, TikTok, NVIDIA, Databricks, Hugging Face, ByteDance)*
+
+- **Skill/Tool 1: Python**
+  - Frequency (out of 11): 11/11
   - Your current level:
-- **Skill/Tool 2:**
-  - Frequency (out of 10):
+- **Skill/Tool 2: PyTorch/TensorFlow**
+  - Frequency (out of 11): 9/11
   - Your current level:
-- **Skill/Tool 3:**
-  - Frequency (out of 10):
+- **Skill/Tool 3: C++**
+  - Frequency (out of 11): 6/11
   - Your current level:
-- **Skill/Tool 4:**
-  - Frequency (out of 10):
+- **Skill/Tool 4: Distributed Training (DDP, FSDP, DeepSpeed, Megatron)**
+  - Frequency (out of 11): 5/11
   - Your current level:
-- **Skill/Tool 5:**
-  - Frequency (out of 10):
+- **Skill/Tool 5: Computer Vision**
+  - Frequency (out of 11): 5/11
   - Your current level:
-- **Skill/Tool 6:**
-  - Frequency (out of 10):
+- **Skill/Tool 6: Recommendation Systems**
+  - Frequency (out of 11): 4/11
   - Your current level:
-- **Skill/Tool 7:**
-  - Frequency (out of 10):
+- **Skill/Tool 7: NLP**
+  - Frequency (out of 11): 3/11
   - Your current level:
-- **Skill/Tool 8:**
-  - Frequency (out of 10):
+- **Skill/Tool 8: CUDA / GPU Programming**
+  - Frequency (out of 11): 3/11
+  - Your current level:
+- **Skill/Tool 9: MLOps**
+  - Frequency (out of 11): 2/11
+  - Your current level:
+- **Skill/Tool 10: A/B Testing**
+  - Frequency (out of 11): 2/11
+  - Your current level:
+- **Skill/Tool 11: Feature Engineering**
+  - Frequency (out of 11): 2/11
+  - Your current level:
+- **Skill/Tool 12: Kubernetes / Docker**
+  - Frequency (out of 11): 1/11
   - Your current level:
 
 ### 3.2 The Include/Exclude Method
