@@ -652,11 +652,11 @@ Research how others successfully learned ML engineering.
 - system design is an important concept. He recommends the book Grokking system design. he recommends using excalidraw or lucidchart to "design Airbnb" fo system design. sutem design he says is way more importnat than leetcode. he doesnt use anything he learned through leetcode except the meta skill of problem solving, but he usees system design all the time.
 - when on a team, document what you build and its impact, so at the end of the year you are much more likely to get a promotion. 
   - https://www.youtube.com/watch?v=h3td0TPxZAc
-- **Person 2:** [LEFT OFF]
+- **Person 2:** Gabriel Petersen
   - Name/handle:
-  - Current role:
-  - Their learning path:
-  - Key insight:
+  - Current role: open ai researcher
+  - Their learning path: started selling a ecom recommendation system code door to door to businesses. First he made a super simple java pokemon clone. then he made a udemy python course an made a simple 2d shooter game. When you have a real problem to solve, like integrating a product recommedation system with his client's website, its so much clearer what you need you need to get good at. having unlimited time is a bad idea for learning. 
+  - Key insight: the best way to learn is to start top down. meaning start with s problem or project. then break it into subproblems recursively. you can ask chatgpt what project you should build. and ask it to explain the intution behind how something works. learning bottom up (like fundamentals first) is a BAD IDEA TO AVOID.
 - **Person 3:**
   - Name/handle:
   - Current role:
