@@ -804,6 +804,8 @@ Customize the benchmark approach for your specific goals.
   - Your modification:
   - Why:
 
+
+Wayfair uses hacker rank to test technical people. 
 ---
 
 ## Part 4: Resource Inventory
