@@ -302,8 +302,8 @@ Facts are information you need to recall without derivation.
 - [ ] **Security vulnerabilities:** Common ML attack vectors
 
 **Add your own:**
-- [ ]
-- [ ]
+- [ ] System design
+- [ ] Reference concepts_facts_procedures.md
 - [ ]
 
 ### 2.3 Procedures (Things to Practice Until Automatic)
