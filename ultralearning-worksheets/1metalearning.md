@@ -803,9 +803,6 @@ Customize the benchmark approach for your specific goals.
 - **Standard approach: (add your own)**
   - Your modification:
   - Why:
-
-
-Wayfair uses hacker rank to test technical people. 
 ---
 
 ## Part 4: Resource Inventory
@@ -855,6 +852,9 @@ Wayfair uses hacker rank to test technical people.
   - Community 2:
     - Platform:
     - Priority:
+- **Study Tools:**
+    - Hackerrank (wayfair uses this to interview technical people)
+    - Leetcode
 
 ### 4.2 Tools to Set Up
 
