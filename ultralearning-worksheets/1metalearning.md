@@ -1031,6 +1031,10 @@ Draft 5 specific questions:
 
 ---
 
+ONCE YOU FINISH FILLING THIS OUT, run this prompt
+
+Okay I finished filling out 1metalearning.md. Now I want you to identify any places I have not yet filled in.
+
 ## Summary: Your Metalearning Map
 
 *Complete this section after finishing the worksheet.*
@@ -1072,9 +1076,7 @@ Draft 5 specific questions:
 *Remember: The map is not the territory. Update this document as you learn more about what works for you.*
 
 
-ONCE YOU FINISH FILLING THIS OUT, run this prompt
-
-Okay I finished filling out 1metalearning.md. Now I want you to insert below brainstormed tactics, projects, drills to help me learn the concepts, facts, and procedures in the md file. 
+ 
 
 # Insert here
 
