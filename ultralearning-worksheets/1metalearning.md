@@ -978,6 +978,10 @@ Customize the benchmark approach for your specific goals.
 ### 7.1 Questions for Experts
 
 **Instructions:** Prepare questions for ML engineers you can reach out to.
+- Casey
+- Liam Kaufman
+- Mario from vegas
+- Jonathan Parra from Vegas
 
 Draft 5 specific questions:
 
