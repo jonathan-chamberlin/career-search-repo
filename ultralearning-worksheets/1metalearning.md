@@ -1013,6 +1013,12 @@ Draft 5 specific questions:
   - What to ask:
   - Status:
 
+
+### 7.3 Referals I could ask for 
+    - Taylor from MOA who used to sell google cloud
+    - Engingineers above
+    - Olivia Gagan (uni recruiter for fidelity)
+
 ---
 
 ## Action Items Checklist
