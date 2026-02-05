@@ -654,9 +654,10 @@ Research how others successfully learned ML engineering.
   - https://www.youtube.com/watch?v=h3td0TPxZAc
 - **Person 2:**  https://www.youtube.com/watch?v=vq5WhoPCWQ8Gabriel
   - Name/handle: Gabriel Petersen
-  - Current role: open ai researcher
+  - Current role: open ai researcher on sora (video model)
   - Their learning path: started selling a ecom recommendation system code door to door to businesses. First he made a super simple java pokemon clone. then he made a udemy python course an made a simple 2d shooter game. When you have a real problem to solve, like integrating a product recommedation system with his client's website, its so much clearer what you need you need to get good at. having unlimited time is a bad idea for learning. 
   - Key insight: the best way to learn is to start top down. meaning start with s problem or project. then break it into subproblems recursively. you can ask chatgpt what project you should build. and ask it to explain the intution behind how something works. learning bottom up (like fundamentals first) is a BAD IDEA TO AVOID.
+  - to learn using AI, you can ask it to make a quiz. You can also ask it what are the most fundamental concepts in ML, for example.
 - **Person 3:**
   - Name/handle:
   - Current role:
