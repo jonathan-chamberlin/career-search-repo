@@ -46,6 +46,8 @@ Understanding your motivation helps you prioritize what to learn and stay commit
 
 Data engineering, VR / immersive tech don't sound too interesting. AI engineering seems like something I would get good at naturally because I could integrate stuff to improve the products and systems I create. 
 
+Robot Learning (ML Engineer for Robotics) has too high a barrier to entry - most roles require a PhD or 3-6+ years of experience deploying ML to physical robots, which I don't have. 
+
 **Question:** What would you do if ML engineering jobs disappeared tomorrow?
 - I would do analytics engineering. I could get really good at that since I've really enjoyed tracking and working with data my whole life. But it pays less than the ML engineering or DS roles.
 
@@ -67,207 +69,233 @@ Concepts require flexible understanding—you need to grasp the "why" and apply 
 
 **1. Software Engineering Foundations** *(Learn first — prerequisite for everything)*
 - **Object oriented programming**
-  - Current level:
-  - Priority:
-  - Notes:
+  - Current level: Beginner
+  - Priority: Fundamental
+  - Notes: I used classes in my lunar lander project a bit so I do understand it to an extent. But I'd have trouble if I wrote it by hand.
 - **Debugging**
-  - Current level:
-  - Priority:
-  - Notes:
+  - Current level: Low. 
+  - Priority: Fundamental
+  - Notes: I have not really had to debug stuff since I just had AI fix it for me.
 - **Deep Learning fundamentals**
-  - Current level:
-  - Priority:
-  - Notes:
+  - Current level: medium
+  - Priority: Fundamental
+  - Notes: Did DDPG in agent-organism repo and TD3 in lunar-lander repo.
 - **Loss functions & optimizers (SGD, Adam, learning rate schedules)**
-  - Current level:
-  - Priority:
-  - Notes:
+  - Current level: Medium-low
+  - Priority: Idk how important this is the machine learning
+  - Notes: I used this in my lunar-lander repo.
 - **Regularization techniques (dropout, batch norm, L1/L2)**
-  - Current level:
+  - Current level: Idk what this is so 0
   - Priority:
   - Notes:
 - **Hyperparameter tuning strategies**
-  - Current level:
-  - Priority:
-  - Notes:
+  - Current level: Medium
+  - Priority: Medium
+  - Notes: In my lunar-lander I had a claude skill that had it setup and test hyperparameters and keep the highest ones.
 - **Transfer learning / fine-tuning**
-  - Current level:
-  - Priority:
+  - Current level: 0
+  - Priority: Idk what this is
   - Notes:
 - **Neural network architectures (CNNs, RNNs, Transformers)**
-  - Current level:
-  - Priority:
+  - Current level: 0 
+  - Priority: Idk what this is 
   - Notes:
 - **Attention mechanisms**
-  - Current level:
-  - Priority:
+  - Current level: 0 
+  - Priority: Idk what this is 
   - Notes:
 - **Bias-variance tradeoff**
-  - Current level:
-  - Priority:
+  - Current level: 0
+  - Priority: Idk what this is
   - Notes:
 
 **Domain Areas**
 - **Recommendation Systems**
-  - Current level:
-  - Priority:
+  - Current level: 0
+  - Priority: H (core skill for ML Engineer Rec Sys roles)
   - Notes:
+- **User Modeling / Personalization**
+  - Current level: 0
+  - Priority: H (5/7 rec sys listings)
+  - Notes: Building short-term and long-term user interest models
+- **Ranking Systems (CTR/CVR Prediction)**
+  - Current level: 0
+  - Priority: H
+  - Notes: Click-through rate and conversion rate prediction models
+- **Candidate Generation / Content Retrieval**
+  - Current level: 0
+  - Priority: M
+  - Notes: First stage of recommendation pipeline - retrieving candidates
+- **Approximate Nearest Neighbors (ANN)**
+  - Current level: 0
+  - Priority: M
+  - Notes: Efficient similarity search for recommendations at scale
 - **NLP / Transformers**
-  - Current level:
-  - Priority:
+  - Current level: 0
+  - Priority: I'm not very interested in NLP specifically
   - Notes:
 - **Computer Vision**
-  - Current level:
-  - Priority:
+  - Current level: 0
+  - Priority: Intuitively I'm more interested in RL learning, I know because I already did this, and recommendation systems (but that one I don't know because I've never tried it before).
   - Notes:
 - **Reinforcement Learning**
-  - Current level:
-  - Priority:
-  - Notes:
+  - Current level: Medium
+  - Priority: idk
+  - Notes: I've already done two projects with simulations using RL, one was a discrete environemnt I coded from scratch mostly by myself, another was a continuous environement which I vibe coded.
 
 **ML Engineer Concepts**
 - **Distributed Training (DDP, FSDP, DeepSpeed)**
-  - Current level:
+  - Current level: low
   - Priority:
   - Notes:
 - **MLOps / CI-CD for ML**
-  - Current level:
+  - Current level: 0
   - Priority:
   - Notes:
 - **HPC Infrastructure**
-  - Current level:
+  - Current level: 0
   - Priority:
   - Notes:
 - **Model Optimization**
-  - Current level:
+  - Current level: low-medium
   - Priority:
   - Notes:
 - **Model serving / inference optimization**
-  - Current level:
+  - Current level: 0
   - Priority:
   - Notes:
 - **Batch vs real-time inference**
-  - Current level:
+  - Current level: 0
   - Priority:
   - Notes:
 - **Model monitoring (drift detection, performance decay)**
-  - Current level:
+  - Current level: 0
   - Priority:
   - Notes:
 - **Data pipelines for ML**
-  - Current level:
+  - Current level: 0
   - Priority:
   - Notes:
 
 **Data Scientist (Consumer) Concepts**
 - **A/B Testing & Experimentation**
-  - Current level:
+  - Current level: medium
   - Priority:
-  - Notes:
+  - Notes: I did A/B testing in my lunar-lander project, hyperparameter tuning
 - **Causal Inference**
-  - Current level:
+  - Current level: 0 
   - Priority:
   - Notes:
 - **Statistical hypothesis testing**
-  - Current level:
+  - Current level: medium
   - Priority:
-  - Notes:
+  - Notes: I did this in my lunar lander project
 - **Experiment design**
-  - Current level:
+  - Current level: medium
   - Priority:
-  - Notes:
+  - Notes: Did in my lunar lander project
 - **Feature engineering**
-  - Current level:
+  - Current level: 0 
   - Priority:
   - Notes:
 - **Data Visualization & Storytelling**
-  - Current level:
+  - Current level: medium
   - Priority:
-  - Notes:
+  - Notes: I did this in my sales org project and my uber-trips-analysis project.
 
 **Research/Advanced (DS-ML)**
 - **Generative Models (GANs, VAEs, Diffusion models)**
-  - Current level:
+  - Current level: 0
   - Priority:
   - Notes:
 - **Self-supervised learning**
-  - Current level:
+  - Current level: 0
   - Priority:
   - Notes:
 - **LLM fine-tuning (LoRA, RLHF)**
-  - Current level:
+  - Current level: 0
   - Priority:
   - Notes:
 - **Research Methods & Paper Reading**
-  - Current level:
+  - Current level: 0
   - Priority:
   - Notes:
 
 **System Design**
 - **ML system design patterns**
-  - Current level:
+  - Current level: low
   - Priority:
   - Notes:
 - **Latency vs throughput tradeoffs**
-  - Current level:
+  - Current level: 0
   - Priority:
   - Notes:
 - **Scalability for ML systems**
-  - Current level:
+  - Current level: 0
+  - Priority:
+  - Notes:
+
+**Interview & Problem-Solving**
+- **Data structures and algorithms**
+  - Current level: 1
+  - Priority:
+  - Notes:
+- **Problem-solving principles (pattern recognition, not giving up)**
+  - Current level: 2-3
   - Priority:
   - Notes:
 
 **Software Engineering**
 - **Context efficiency**
-  - Current level:
+  - Current level: medium
   - Priority:
   - Notes:
 - **Version control (worktrees, PRs, pushing)**
-  - Current level:
+  - Current level: low-medium
   - Priority:
   - Notes:
 - **Object oriented programming**
-  - Current level:
+  - Current level: low-medium
   - Priority:
   - Notes:
 - **CLIs**
-  - Current level:
+  - Current level: 0
   - Priority:
   - Notes:
 - **MCPs**
-  - Current level:
+  - Current level: low
   - Priority:
   - Notes:
 - **Deployment & hosting**
-  - Current level:
+  - Current level: low
   - Priority:
   - Notes:
 - **Agents calling subagents**
-  - Current level:
+  - Current level: 0
   - Priority:
   - Notes:
 - **IDEs (VS Code, Cursor, etc.)**
-  - Current level:
+  - Current level: low-medium
   - Priority:
   - Notes:
 - **AI coding assistants (Claude Code, Cursor, Codex)**
-  - Current level:
+  - Current level: medoium
   - Priority:
   - Notes:
 - **Code review**
-  - Current level:
+  - Current level: almost 0
   - Priority:
   - Notes:
 - **Design choices at beginning of project**
-  - Current level:
+  - Current level: low
   - Priority:
   - Notes:
 - **Cloud computing**
-  - Current level:
+  - Current level: 0
   - Priority:
   - Notes:
 - **Type checking & type safety**
-  - Current level:
+  - Current level: 0
   - Priority:
   - Notes:
 
@@ -279,18 +307,16 @@ Concepts require flexible understanding—you need to grasp the "why" and apply 
 
 **Question:** Which 3 concepts will be hardest for you to learn? Why?
 
-1. **Hardest concept:**
-   - Why:
-2. **Second hardest:**
-   - Why:
-3. **Third hardest:**
-   - Why:
+1. **Hardest concept:** ML Ops.
+   - Why: I have no experience deploying stuff.
+2. **Second hardest:** Recommendation Systems
+   - Why: I've no experience with this either.
+3. **Third hardest:** Code Review
+   - Why: Requires me to have a level of understandiung of the code I read
 
 ### 2.2 Facts (Things to Memorize)
 
-Facts are information you need to recall without derivation.
-
-**Instructions:** Check off categories you need to memorize, add specifics.
+Facts are information you need to recall without derivation. All of the following:
 
 - [ ] **Framework comparisons:** PyTorch vs TensorFlow vs JAX (when to use each)
 - [ ] **Algorithm tradeoffs:** When to use DQN vs PPO vs SAC, etc.
@@ -300,11 +326,32 @@ Facts are information you need to recall without derivation.
 - [ ] **Acronyms:** DDP, FSDP, RLHF, RAG, MLP, CNN, RNN, etc.
 - [ ] **Git terminology:** rebase, cherry-pick, worktrees, etc.
 - [ ] **Security vulnerabilities:** Common ML attack vectors
+- [ ] **LLM/Agent comparisons:** Use cases, strengths, and weaknesses of each LLM and agent
+- [ ] **Programming language comparisons:** Use cases, strengths, and weaknesses of each programming language
+- [ ] **Available tools:** Software, libraries, connections to improve workflows
+- [ ] **Job positions:** Different roles and what they entail
+- [ ] **Important skills:** List of skills and problems to solve according to founders, hiring managers, executives
+- [ ] **npm:** What npm does
+- [ ] **Type checking:** Best way to type check code
+- [ ] **OOP terminology:** class, method, object, attribute
 
-**Add your own:**
-- [ ] System design
-- [ ] Reference concepts_facts_procedures.md
-- [ ]
+**Recommendation Systems Knowledge:**
+- [ ] **RecSys architectures:** Two-tower models, multi-stage retrieval + ranking, real-time vs batch
+- [ ] **Ranking metrics:** CTR, CVR, NDCG, MRR, diversity metrics
+- [ ] **Cold start problem:** Solutions for new users and new items
+- [ ] **Embedding techniques:** Matrix factorization, neural collaborative filtering, item2vec
+- [ ] **Feature stores:** What Feast, Tecton, and other feature stores do
+- [ ] **ANN algorithms:** HNSW, Faiss, ScaNN for approximate nearest neighbor search
+
+**Books to study from:**
+- [ ] Cracking the Coding Interview
+- [ ] Programming Interviews in Python
+- [ ] Grokking System Design
+
+**Interview knowledge:**
+- [ ] Big companies look for problem-solving (data structures & algorithms); startups look for software development skills
+- [ ] Employees get paid for successful referrals
+- [ ] Common LeetCode problem patterns and which data structure/algorithm to use
 
 ### 2.3 Procedures (Things to Practice Until Automatic)
 
@@ -312,44 +359,178 @@ Procedures are skills that require hands-on repetition.
 
 **Instructions:** For each procedure, note your current ability (1-5) and priority (H/M/L).
 
-- **Writing production Python**
-  - Current ability:
-  - Priority:
-- **PyTorch model development**
-  - Current ability:
-  - Priority:
+**Languages & Frameworks**
+- **Python (production-quality)**
+  - Current ability: 3
+  - Priority: H (11/11 listings)
+- **C++**
+  - Current ability: 1
+  - Priority: M (6/11 listings)
+- **PyTorch**
+  - Current ability: 2
+  - Priority: H (9/11 listings, preferred framework)
+- **TensorFlow**
+  - Current ability: 1
+  - Priority: M (9/11 listings, but PyTorch preferred)
+- **JAX**
+  - Current ability: 1
+  - Priority: L (rare in listings)
+- **CUDA**
+  - Current ability: 1
+  - Priority: M (3/11 listings)
+
+**DevOps & Infrastructure**
 - **Docker containerization**
-  - Current ability:
+  - Current ability: 1
   - Priority:
 - **Kubernetes deployment**
-  - Current ability:
+  - Current ability: 1
   - Priority:
-- **Setting up cloud ML environments**
-  - Current ability:
+- **Setting up cloud ML environments (AWS/GCP)**
+  - Current ability: 1
+  - Priority: M (3/7 rec sys listings mention AWS)
+- **CI/CD pipeline creation**
+  - Current ability: 1
   - Priority:
+- **Distributed systems for ML**
+  - Current ability:
+  - Priority: H (6/7 rec sys listings)
+- **Deep learning model training & deployment**
+  - Current ability:
+  - Priority: H (4/7 rec sys listings)
+
+**Version Control & Tooling**
 - **Git workflows (branches, PRs, merges)**
-  - Current ability:
+  - Current ability: 3
   - Priority:
+- **Gitlab (version control used at many big companies)**
+  - Current ability: 1
+  - Priority:
+- **Downloading repos**
+  - Current ability: 1
+  - Priority:
+- **Copying remote files into a repo**
+  - Current ability: 1
+  - Priority:
+- **Creating a new repo**
+  - Current ability: 4
+  - Priority:
+- **Create a new worktree**
+  - Current ability: 2
+  - Priority:
+- **Multiple worktrees with agents, then merging**
+  - Current ability: 2
+  - Priority:
+- **Using VSCode (shortcuts, settings, tools, interface)**
+  - Current ability: 2
+  - Priority:
+
+**ML Development**
 - **Debugging ML models**
-  - Current ability:
+  - Current ability: 2
   - Priority:
 - **Writing tests for ML code**
-  - Current ability:
+  - Current ability: 2
   - Priority:
 - **Experiment tracking setup**
-  - Current ability:
-  - Priority:
-- **CI/CD pipeline creation**
-  - Current ability:
-  - Priority:
-- **Code review (giving and receiving)**
-  - Current ability:
+  - Current ability: 3
   - Priority:
 - **Reading and implementing papers**
-  - Current ability:
+  - Current ability: 1
   - Priority:
-- **(Add your own)**
+
+**Recommendation Systems Development**
+- **Building ranking models (CTR/CVR prediction)**
   - Current ability:
+  - Priority: H (core rec sys skill)
+- **User embedding / representation learning**
+  - Current ability:
+  - Priority: H (5/7 listings)
+- **Real-time feature engineering**
+  - Current ability:
+  - Priority: M (2/7 listings)
+- **Building candidate retrieval systems**
+  - Current ability:
+  - Priority: M
+- **A/B testing for recommendations**
+  - Current ability:
+  - Priority: H (4/7 listings)
+- **Working with Spark for large-scale data**
+  - Current ability:
+  - Priority: M (3/7 listings)
+- **Building data pipelines for ML**
+  - Current ability:
+  - Priority: M (3/7 listings)
+- **Causal inference for recommendation evaluation**
+  - Current ability:
+  - Priority: M (2/7 listings)
+
+**AI-Augmented Development**
+- **Agent workflows**
+  - Current ability: 2
+  - Priority:
+- **Debugging agents**
+  - Current ability: 3
+  - Priority:
+- **Getting agents to write type-checked code**
+  - Current ability: 1
+  - Priority:
+- **Code review with Greptile**
+  - Current ability:1
+  - Priority:
+
+**Portfolio & Documentation**
+- **Writing a great README**
+  - Current ability:2
+  - Priority:
+- **Creating a compelling portfolio**
+  - Current ability:2
+  - Priority:
+- **Documenting what you build and its impact (for promotions)**
+  - Current ability:1
+  - Priority:
+
+**Networking & Job Search**
+- **Reaching out for coffee chats**
+  - Current ability:2
+  - Priority:
+- **Contributing to existing codebases**
+  - Current ability:1
+  - Priority:
+- **Being useful in programmer discords (providing solutions/resources)**
+  - Current ability:1
+  - Priority:
+- **Spending time in GitHub issues tab**
+  - Current ability:1
+  - Priority:
+- **Answering questions in Theo's discord or on X**
+  - Current ability:1
+  - Priority:
+- **Attending conferences and job fairs**
+  - Current ability:3
+  - Priority:
+- **Outreach to recruiters**
+  - Current ability:2
+  - Priority:
+- **Asking for referrals from network**
+  - Current ability:2
+  - Priority:
+- **Connecting with software engineers on LinkedIn**
+  - Current ability:1
+  - Priority:
+- **Building and posting about your journey online (post twice/week on LinkedIn)**
+  - Current ability:2
+  - Priority:
+
+**Interview Prep**
+- **Mock interviews with people who got the job or hire others**
+  - Current ability:1
+  - Priority:
+- **LeetCode problems (work 1-2 hours, look at solution, redo yourself)**
+  - Current ability:1
+  - Priority:
+- **System design practice using Excalidraw or Lucidchart ("design Airbnb")**
+  - Current ability:2
   - Priority:
 
 ---
@@ -364,38 +545,83 @@ Research how others successfully learned ML engineering.
 
 **Question:** What do top ML programs (Stanford CS229, CMU ML, MIT) teach and in what order?
 
-- **Stanford CS229:**
-  -
-- **CMU ML:**
-  -
-- **MIT:**
-  -
+- **Stanford CS229:** [cs229.stanford.edu](https://cs229.stanford.edu/)
+  - **Course progression:**
+    1. Supervised Learning (LMS, Logistic Regression, SVMs, Neural Networks)
+    2. Learning Theory (Bias/Variance tradeoffs, practical debugging advice)
+    3. Deep Learning (Neural Networks, Backpropagation, Vectorization)
+    4. Unsupervised Learning (K-means, EM, PCA, ICA)
+    5. Reinforcement Learning (MDPs, Q-learning, Policy Search)
+  - **Strengths:** Taught by Andrew Ng (original); strong mathematical foundations; covers theory AND practical debugging advice; excellent lecture notes freely available; gold standard for ML fundamentals
+  - **Weaknesses:** Graduate-level math heavy (requires linear algebra, probability, calculus); detailed syllabus restricted to Stanford students; less focus on modern deep learning compared to specialized courses
+  - **Source:** [Stanford Engineering Everywhere](https://see.stanford.edu/course/cs229), [CS229 Lecture Notes](https://cs229.stanford.edu/main_notes.pdf)
+
+- **CMU ML:** [ml.cmu.edu](https://www.ml.cmu.edu/academics/machine-learning-masters-curriculum)
+  - **Course progression (Master's curriculum):**
+    1. 10-701 Intro to ML OR 10-715 Advanced Intro to ML
+    2. 10-617 Intermediate Deep Learning OR 10-703 Deep RL OR 10-707 Advanced Deep Learning
+    3. 10-708 Probabilistic Graphical Models
+    4. 10-718 Machine Learning in Practice
+    5. 10-725 Optimization for Machine Learning
+    6. 36-700/705 Probability and Statistics
+    + 3 electives + practicum/internship
+  - **Strengths:** Dedicated ML department (not just CS); rigorous theory (10-715 prepares for research); strong probabilistic/Bayesian focus; required practicum ensures real-world experience
+  - **Weaknesses:** 10-715 is PhD-level intensity ("HEAVY and FAST"); requires strong prerequisites (algorithms, linear algebra, probability); less accessible for self-study
+  - **Source:** [CMU ML Masters Curriculum](https://ml.cmu.edu/academics/machine-learning-masters-curriculum), [10-715 Course Page](https://www.cs.cmu.edu/~epxing/Class/10715/about.html)
+
+- **MIT 6.036/6.867:** [ocw.mit.edu](https://ocw.mit.edu/courses/6-036-introduction-to-machine-learning-fall-2020/)
+  - **Course progression:**
+    1. 6.036 Intro to ML (undergrad): Classification, regression, neural networks, reinforcement learning, clustering, recommender systems
+    2. 6.867 Machine Learning (grad): Deeper theory - boosting, SVMs, HMMs, Bayesian networks
+    3. 6.862 Applied ML (grad): Same as 6.036 + semester project
+  - **Strengths:** Freely available on MIT OpenCourseWare; taught by Leslie Kaelbling (RL pioneer); good balance of theory and application; undergraduate accessible (6.036)
+  - **Weaknesses:** 6.867 materials are older (2006); less comprehensive than Stanford/CMU for production ML; graduate courses restricted
+  - **Source:** [MIT OCW 6.036](https://ocw.mit.edu/courses/6-036-introduction-to-machine-learning-fall-2020/), [MIT Open Learning Library](https://openlearninglibrary.mit.edu/courses/course-v1:MITx+6.036+1T2019/about)
+
 - **Key takeaways:**
-  -
+  - All programs start with supervised learning fundamentals before unsupervised/RL
+  - Math prerequisites are consistent: linear algebra, probability, calculus, algorithms
+  - Stanford CS229 is best for self-study (free materials); CMU is most rigorous; MIT most accessible
+  - None focus heavily on MLOps/production - that requires separate coursework
 
 #### Online Courses
 
 **Question:** What are the most recommended courses/resources? (FastAI, Coursera, etc.)
 
-- **Course 1:**
-  - Name:
-  - What it covers:
-  - Recommended by:
+- **Course 1: Machine Learning Specialization (Andrew Ng / Stanford / Coursera)**
+  - Link: [coursera.org/specializations/machine-learning-introduction](https://www.coursera.org/specializations/machine-learning-introduction)
+  - What it covers: 3-course specialization covering supervised learning (regression, classification, neural networks), unsupervised learning (clustering, anomaly detection), recommender systems, and reinforcement learning. Rebuilt in 2022 with Python/TensorFlow (previously MATLAB).
+  - Recommended by: Universally recommended as THE starting point for ML beginners; Andrew Ng is co-founder of Coursera and former Google Brain/Baidu AI lead
   - Your interest (1-5):
-- **Course 2:**
-  - Name:
-  - What it covers:
-  - Recommended by:
+
+- **Course 2: Deep Learning Specialization (Andrew Ng / DeepLearning.AI / Coursera)**
+  - Link: [coursera.org/specializations/deep-learning](https://www.coursera.org/specializations/deep-learning)
+  - What it covers: 5-course specialization - Neural Networks basics, Improving Deep Neural Networks (hyperparameter tuning, regularization, optimization), Structuring ML Projects, CNNs, Sequence Models (RNNs, LSTMs, Transformers). Rated 4.9/5 by 120K+ learners.
+  - Recommended by: Industry standard for deep learning foundations; prepares you to "set technical direction for an AI team"
   - Your interest (1-5):
-- **Course 3:**
-  - Name:
-  - What it covers:
-  - Recommended by:
+
+- **Course 3: Practical Deep Learning for Coders (FastAI)**
+  - Link: [course.fast.ai](https://course.fast.ai/)
+  - What it covers: 9 lessons (~90 min each) covering computer vision, NLP, tabular data using PyTorch + fastai library. Top-down approach: build working models first, then learn theory. Part 2 covers diffusion models, DDPM/DDIM, Dreambooth.
+  - Recommended by: FastAI alumni have gone to Google Brain, OpenAI, Adobe, Amazon, Tesla; published at NeurIPS. Free, no special hardware needed. Best for "learn by doing" style.
   - Your interest (1-5):
-- **Course 4:**
-  - Name:
-  - What it covers:
-  - Recommended by:
+
+- **Course 4: Full Stack Deep Learning**
+  - Link: [fullstackdeeplearning.com](https://fullstackdeeplearning.com/)
+  - What it covers: MLOps and production ML - infrastructure/tooling, data management, experiment tracking, model deployment, monitoring, CI/CD, ML team organization. Teaches how to build AI-powered products end-to-end.
+  - Recommended by: Started as UC Berkeley bootcamp; fills the gap between "train a model" and "deploy to production"; free and open
+  - Your interest (1-5):
+
+- **Course 5: MLOps Zoomcamp (DataTalks.Club)**
+  - Link: [datatalks.club/blog/mlops-zoomcamp.html](https://datatalks.club/blog/mlops-zoomcamp.html)
+  - What it covers: Free 3-month hands-on MLOps course - Docker, AWS, MLflow experiment tracking, Mage orchestration, model deployment (batch/real-time/streaming), Prometheus + Evidently monitoring, CI/CD. Community-driven with peer support.
+  - Recommended by: Highly practical, project-based; all materials on GitHub; good for learning deployment skills missing from academic courses
+  - Your interest (1-5):
+
+- **Course 6: Made With ML**
+  - Link: [madewithml.com](https://madewithml.com/)
+  - What it covers: End-to-end ML system development - connects MLOps components (tracking, testing, serving, orchestration) as you build a complete system. Focus on going from development to production with mature CI/CD workflows.
+  - Recommended by: Created by Goku Mohandas; practical focus on production ML; free and open-source
   - Your interest (1-5):
 
 #### Practitioner Interviews
@@ -484,6 +710,49 @@ Research how others successfully learned ML engineering.
   - Your current level:
 - **Skill/Tool 12: Kubernetes / Docker**
   - Frequency (out of 11): 1/11
+  - Your current level:
+
+#### Job Postings Analysis - ML Engineer (Recommendation Systems)
+
+**Question:** Analyze job postings for ML Engineer (Recommendation Systems) roles. What tools/skills appear most frequently?
+
+*Based on analysis of 7 ML Engineer (Recommendation Systems) job listings (TikTok, Amazon Prime Video, Amazon Personalization, Amazon Music, Meta, Netflix)*
+
+- **Skill/Tool 1: Python**
+  - Frequency (out of 7): 7/7
+  - Your current level:
+- **Skill/Tool 2: PyTorch/TensorFlow**
+  - Frequency (out of 7): 7/7
+  - Your current level:
+- **Skill/Tool 3: Distributed Systems**
+  - Frequency (out of 7): 6/7
+  - Your current level:
+- **Skill/Tool 4: User Modeling / Personalization**
+  - Frequency (out of 7): 5/7
+  - Your current level:
+- **Skill/Tool 5: A/B Testing**
+  - Frequency (out of 7): 4/7
+  - Your current level:
+- **Skill/Tool 6: Deep Learning**
+  - Frequency (out of 7): 4/7
+  - Your current level:
+- **Skill/Tool 7: Spark**
+  - Frequency (out of 7): 3/7
+  - Your current level:
+- **Skill/Tool 8: AWS**
+  - Frequency (out of 7): 3/7
+  - Your current level:
+- **Skill/Tool 9: Data Pipelines**
+  - Frequency (out of 7): 3/7
+  - Your current level:
+- **Skill/Tool 10: C++**
+  - Frequency (out of 7): 2/7
+  - Your current level:
+- **Skill/Tool 11: Causal Inference**
+  - Frequency (out of 7): 2/7
+  - Your current level:
+- **Skill/Tool 12: Real-Time ML Systems**
+  - Frequency (out of 7): 2/7
   - Your current level:
 
 ### 3.2 The Include/Exclude Method

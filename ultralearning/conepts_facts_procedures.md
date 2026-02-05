@@ -44,6 +44,10 @@
     31. Latency vs throughput tradeoffs
     32. Scalability for ML systems
 
+    **Interview & Problem-Solving**
+    33. Data structures and algorithms
+    34. Problem-solving principles (pattern recognition, not giving up)
+
     **Software Engineering**
     33. Context efficiency
     34. Version control
@@ -65,16 +69,26 @@
     47. Type safety 
 2. Facts. Stuff you need to memorize.
     1. Use cases, strengths, and weaknesses of each LLM and agent.
-    2. Use cases, strengths, and weaknesses of each programming language 
-    3. Security vulnerabilities 
+    2. Use cases, strengths, and weaknesses of each programming language
+    3. Security vulnerabilities
     4. All the acronyms (CLI, SDK, etc.)
-    5. Git terminology 
+    5. Git terminology
     6. Available softwares, libraries, connections to improve everything else
-    7. Job positions 
+    7. Job positions
     8. List of important skills and problems to solve, according to startup founders, hiring managers, and executives.
     9. What npm does
     10. Best way to type check code
     11. OOP stuff (class, method, object, attribute)
+
+    **Books to know / study from**
+    12. Cracking the Coding Interview
+    13. Programming Interviews in Python
+    14. Grokking System Design
+
+    **Interview knowledge**
+    15. Big companies look for problem-solving (data structures & algorithms); startups look for software development skills
+    16. Employees get paid for successful referrals
+    17. Common LeetCode problem patterns and which data structure/algorithm to use
 3. Procedures
     1. **Python**
     2. **C++**
@@ -86,6 +100,7 @@
     8. **Docker**
     8. Using VSCode (shortcuts, settings, tools, interface)
     9. Downloading repos
+    10. Gitlab (version control system used at many big companies <https://www.youtube.com/shorts/ZdoVdGuZH04>)
     10. Copying remote files into a repo
     11. Creating a new repo
     12. Create a new worktree
@@ -102,5 +117,14 @@
     23. Being useful by joining programmer discords and providing people with solutions / resources to solve the problems they ask.
     24. ‘Spending time in github issues tab’ [here](https://youtu.be/w7o355LsM9I?t=2613)
     25. Answering questions in Theo’s discord or on X ([here](https://youtu.be/w7o355LsM9I?t=2613))
-    26. Attending conferences and job fairs)
-    27. Outreach to recruiters.
+    26. Attending conferences and job fairs
+    27. Outreach to recruiters
+
+    **Interview Prep Procedures**
+    28. Mock interviews with people who got the job or hire others
+    29. Asking for referrals from network
+    30. Connecting with software engineers on LinkedIn
+    31. Building and posting about your journey online (post twice per week on LinkedIn)
+    32. LeetCode problems (work 1-2 hours, then look at solution, then redo by yourself)
+    33. System design practice using Excalidraw or Lucidchart ("design Airbnb")
+    34. Documenting what you build and its impact on a team (for promotions)

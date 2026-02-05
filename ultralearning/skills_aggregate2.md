@@ -9,6 +9,8 @@ A synthesized summary of what employers are looking for across job listings in e
 | Job Category | Skills (Overarching) | Languages / Frameworks |
 |--------------|----------------------|------------------------|
 | Machine Learning Engineer | Deep Learning, Distributed Training, MLOps, Recommendation Systems, NLP, Computer Vision | Python, C++, PyTorch, TensorFlow, CUDA, Spark, Kubernetes |
+| ML Engineer (Recommendation Systems) | Ranking Systems, Personalization, Real-Time ML, User Modeling, A/B Testing, Content Retrieval | Python, C++, PyTorch, TensorFlow, Spark, Presto, AWS |
+| ML Engineer (Robot Learning) | Perception, Reinforcement Learning, Sim-to-Real, Manipulation, Edge Deployment, Sensor Fusion | Python, C++/Rust, PyTorch, TensorFlow, ROS, ONNX/TensorRT |
 | Analytics / Data Engineer | Data Pipelines, ETL, Data Modeling, Cloud Platforms, Big Data | SQL, Python, Java, Spark, AWS/Azure/GCP, Airflow |
 | AI Engineer | LLM Integration, RAG Pipelines, Full-Stack Development, API Integration | Python, JavaScript/TypeScript, LangChain, Docker, Kubernetes |
 | Data Scientist (Consumer) | A/B Testing, Causal Inference, Statistical Modeling, Experimentation, Data Visualization | Python, R, SQL, Tableau/Looker, Spark |
@@ -29,6 +31,66 @@ Strong algorithm and data structure foundations with hands-on experience deployi
 
 ### Qualifications
 BS/MS in Computer Science, ML, or related field for most roles; PhD preferred for research-focused positions. Graduating in 2025-2026 with competitive programming awards (Kaggle, ICPC) or prior ML internship experience is advantageous.
+
+---
+
+## ML Engineer (Recommendation Systems)
+
+### Skills
+Python and C++ are essential, with deep expertise in PyTorch/TensorFlow for building ranking and retrieval models. Experience with distributed data processing (Spark, Presto), real-time ML systems, feature engineering, and approximate nearest neighbor search is critical. Familiarity with A/B testing frameworks and causal inference for measuring recommendation quality is expected.
+
+### Requirements
+Architect, design, and implement large-scale recommendation systems end-to-end, including candidate generation, ranking stages, and content retrieval. Build user interest models for short-term and long-term preferences; develop CTR/CVR prediction models with real-time data pipelines. Lead technical direction while collaborating with product teams to optimize personalization across millions of users.
+
+### Qualifications
+MS/PhD in Computer Science, ML, or related field strongly preferred; 3-6+ years experience building recommendation or personalization systems at scale. Prior experience at companies with large-scale recommender systems (Meta, Google, Amazon, TikTok, Netflix) is highly valued.
+
+### Skill Frequency (from 7 job listings)
+
+| Skill | Frequency |
+|-------|-----------|
+| Python | 7/7 |
+| PyTorch/TensorFlow | 7/7 |
+| Distributed Systems | 6/7 |
+| User Modeling / Personalization | 5/7 |
+| A/B Testing | 4/7 |
+| Deep Learning | 4/7 |
+| Spark | 3/7 |
+| AWS | 3/7 |
+| Data Pipelines | 3/7 |
+| C++ | 2/7 |
+| Causal Inference | 2/7 |
+| Real-Time ML Systems | 2/7 |
+
+---
+
+## ML Engineer (Robot Learning)
+
+### Skills
+Python and C++/Rust are essential for robotics ML, with PyTorch/TensorFlow for model development. Experience with robotics frameworks (ROS), edge deployment (ONNX/TensorRT), sensor data processing (camera, lidar, IMU), and simulation environments is critical. Familiarity with reinforcement learning, imitation learning, and sim-to-real transfer is expected.
+
+### Requirements
+Deploy ML models to real robot hardware; build perception systems for detection, segmentation, and manipulation. Develop learning-based control policies using imitation learning and reinforcement learning. Optimize for real-time performance on edge devices; bridge research methods to production robotic systems.
+
+### Qualifications
+MS/PhD in Robotics, Computer Science, or ML strongly preferred; 3-6+ years experience in robotics and ML. Hands-on experience deploying models to physical robots is highly valued. Prior work at robotics companies (Boston Dynamics, Toyota Research, etc.) or autonomous vehicle companies is a plus.
+
+### Skill Frequency (from 10 job listings)
+
+| Skill | Frequency |
+|-------|-----------|
+| Python | 10/10 |
+| PyTorch/TensorFlow | 8/10 |
+| Computer Vision / Perception | 7/10 |
+| C++/Rust | 6/10 |
+| Reinforcement Learning | 5/10 |
+| Edge Deployment (ONNX/TensorRT) | 4/10 |
+| Sensor Data (Camera/Lidar/IMU) | 4/10 |
+| Robotics Simulation | 3/10 |
+| Imitation Learning | 3/10 |
+| Foundation Models / VLA | 2/10 |
+| LLMs for Robotics | 2/10 |
+| ROS | 2/10 |
 
 ---
 
