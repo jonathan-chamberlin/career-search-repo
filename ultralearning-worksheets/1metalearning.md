@@ -653,18 +653,52 @@ Research how others successfully learned ML engineering.
 - when on a team, document what you build and its impact, so at the end of the year you are much more likely to get a promotion. 
   - https://www.youtube.com/watch?v=h3td0TPxZAc
 - **Person 2:**  https://www.youtube.com/watch?v=vq5WhoPCWQ8Gabriel
+https://x.com/gabriel1
   - Name/handle: Gabriel Petersen
   - Current role: open ai researcher on sora (video model)
   - Their learning path: started selling a ecom recommendation system code door to door to businesses. First he made a super simple java pokemon clone. then he made a udemy python course an made a simple 2d shooter game. When you have a real problem to solve, like integrating a product recommedation system with his client's website, its so much clearer what you need you need to get good at. having unlimited time is a bad idea for learning. 
-  - Key insight: the best way to learn is to start top down. meaning start with s problem or project. then break it into subproblems recursively. you can ask chatgpt what project you should build. and ask it to explain the intution behind how something works. learning bottom up (like fundamentals first) is a BAD IDEA TO AVOID.
-  - to learn using AI, you can ask it to make a quiz. You can also ask it what are the most fundamental concepts in ML, for example.
+  - Key insight: the best way to learn is to start top down. meaning start with s problem or project. then break it into subproblems recursively. you can ask chatgpt what project you should build. and ask it to explain the intution behind how something works. learning bottom up (like fundamentals first) is a BAD IDEA TO AVOID. He says you can learn diffussion models, for example, in 3 days top down, but it takes 6 years to learn bottom up (academia)
+  - to learn using AI, you can ask it to make a quiz. You can also ask it what are the most fundamental concepts in ML, for example. You can have AI write code, then go through line by line to understand what each line does. For example, if it tells you "this help the algorithm learn faster,' you should ask it, 'what do you mean it makes it learn faster.' Then once you have understanding, explain it to the AI and keep doing this until the AI confirms you understand it. He calls it 'recursive gap filling.' The key is knowing what gaps are in your knowledge, and what parts you don't really understand.
+    - Build the reflect of 'everytime you have a problem or question, ask AI right away.' He emphasizes this is really important. 
+    - you can ask ai to explain something like you're 12. you can ask for 10 ideas about how to improve your codebase. you can ask it about research papers that would help you improve your codebase. 'Give me a list of exactly what this paper tried differently.' 
+    - he emphasizes that you can learn anything and get into anything even without college.  
+    - If you want to build something like ML, he believes it is really important to read the code that's generating. Ultimately you want to develop an understanding.
+    - He kept finding the best teams, learn from them, work as closely with them as possible. Show appreciation for people who review your code because that means they'll give you more and better feedback. If your manager reviews your code, you should ask to hop on a call to go over every comment.  
+    - He first joined a startup like airtable. He worked very closely with a really skilled engineer who cared about perfect code and gave him 100 comments per pull request. (Action: when i'm writing code, my ai agent reviewing it should care about perfect code and give me tons of comments.)
+    - when you go to an event, or asking for a referal, make sure to mention something impressive you've built. Like a good demo. A good demo communicates that you understand coding and are a good developer. Making demos is super important. He emphasizes you should be able to send someone a link to your demo.
+    - Also your portfolio should be a link where it is a story about yourself that demonstrates high agency. Then send it to 500 people.
+    - He said avoid company recruiter because they are not technical. They don't want to look bad if the hire doesn't work out, so they will go with safe bets like 'they went to the top school.' Instead reach out to technical leads, hiring managers, or executives at startups. Those people, when looking at your demo, could actaully understand that you can do the job. 
+    - Every single startup wants to hire people with high agency who can learn things.
+    - Gabriel says you will meet interesting people at college, but you'll meet many more much more interesting people if you go to SF or start working in a company. 
+    -His exact learning professor ML prompt workflow:
+        bounce what to make, code it, debug it so it works, explain parts, explain intuition why it works, explain the math intution, explain to me like i'm 12, go into all details
 - **Person 3:**
-  - Name/handle:
-  - Current role:
-  - Their learning path:
-  - Key insight:
+  - Name/handle: Sajjaad Khader 
+  - Current role: Landed first software engineering role at 20 making $220k/yr at amazon. He helps students land in big tech.
+  Video 1: https://www.youtube.com/watch?v=yUQbl9J3kJU
+    - Key insight: Start by working on projects. Machine learning project. You can get datasets from kaggle. Clean data using pandas or numpy. Then lean SKlearn library, and use the fit and predict functions to test and train your model. Create visualization using matplotlib and get performance metrics.
+    - Remove start date of college. Remove high school experiences unless it's super technical
+    - Add 20-30 people on linkedin at a certain company by searching '{job_title} at {company_name}'. Then send them this message:
+        Hey! My name is Jonathan. I'm a data science major at Northeastern University. I have X experience and I have Y interest. Would you be down to hop on a 15-minute call to talk about your experiences at the company?
+        I'd want to do this at (1) Meta, Google, and (2) Uper, Amazon, OpenAI, Anthropic, xAI.
+        - Once you hop on a call, establish rapport, an eventually ask 'Hey would you be down to give me a referal for the upcoming coop/internship program?
+        He emphasizes to DO NOT apply without a referal. Absolutly don't do it.
+        Behavioral interviews:
+            - During interviews, you want to answer behavioral questions by telling a story about an item on your resume. Tie it into one of the company's core values. For example, if amazon asks you something, you could tie it into how you're customer obsessed. Or if amazon asks you your biggest weakness, say that you sometimes dive too deep into problems and don't see the bigger picture.
+        - Technical interviews.
+            Options are online assessments, online video interviews, and whiteboard interviews. 
+            These target data structures and algorithms problems and Leet code. 
+            Learn data structures before using leet code by using the website https://csvistool.com/
+            After learning that, use leetcode and start with easy questions. Start by doing a few easy problems of one data structure, then a few easy problems of another data structure, etc. Covering all the data structures (meaning doing problems for each) is more important than doing harder leetcode problems.
+            If you get stuck on a leetcode practice problem, use https://www.geeksforgeeks.org/, because it has optimal solutions for leetcode problems with explanations.
+            For an internship, do not ever negotiate your salary unless you have a really good competing offer.
+            1-2 months before your internship, ask the recruiter to put you in touch with your maanger, ask to get on a 1 on 1, and learn what you'll do and what tools you use so you can perhaps take a coursera course if they use a tool you aren't used to
+        Video 2: https://www.youtube.com/watch?v=Xt1T2UAEq0Q
+            - Value went from who is the strongest, to who is the smartest (who can use the new technology the best), to now agency is the most important thing. Agency is how good you are at using AI. The premis of the value is how good you are using at agents. 'How can i use ai to reach my goals.' Context engineering is important where you provide the info that AI needs to succeed. I should put an example of my creative context engineering on my resume.
+
 - **Person 4:**
-  - Name/handle:
+  - Name/handle: Ritesh Verma
+    - https://www.youtube.com/watch?v=hU83uz1h0z4 [LEFT OFF]
   - Current role:
   - Their learning path:
   - Key insight:
@@ -1093,10 +1127,16 @@ Okay I finished filling out 1metalearning.md. Now I want you to identify any pla
 
  
 
-# Insert here
-
-</> 
+ 
 
 # Once the ones i want are selected, run this prompt.
 
 Awesome now keeping all those in mind, regenerate ultralearning_swe.md to accurately reflect my preferences, goal, the concepts, facts, and procedures I deemed important, and the principles.
+
+**Important files to reference:**
+- `ultralearning-worksheets/demo-guidelines.md` - Checklist for what makes a good ML demo (critical for portfolio projects)
+- `skills_aggregated2.md` - Actual job posting requirements
+- The "Practitioner Interviews" section above (Ray Fu, Gabriel Petersen, Sajjaad Khader)
+- Casey Brown's advice from introduction.md
+
+Prioritize information from these sources since they come from actual job postings and experts who have done this successfully.
