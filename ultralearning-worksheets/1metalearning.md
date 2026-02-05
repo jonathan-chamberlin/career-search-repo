@@ -533,6 +533,10 @@ Procedures are skills that require hands-on repetition.
   - Current ability:2
   - Priority:
 
+### 2.4 What do you already know?
+- I'm already comfortable with statistics, linear algebra, calculus, algebra, artihmatic, and probability.
+
+
 ---
 
 ## Part 3: HOW - Research Learning Methods
@@ -648,7 +652,7 @@ Research how others successfully learned ML engineering.
 - system design is an important concept. He recommends the book Grokking system design. he recommends using excalidraw or lucidchart to "design Airbnb" fo system design. sutem design he says is way more importnat than leetcode. he doesnt use anything he learned through leetcode except the meta skill of problem solving, but he usees system design all the time.
 - when on a team, document what you build and its impact, so at the end of the year you are much more likely to get a promotion. 
   - https://www.youtube.com/watch?v=h3td0TPxZAc
-- **Person 2:**
+- **Person 2:** [LEFT OFF]
   - Name/handle:
   - Current role:
   - Their learning path:
