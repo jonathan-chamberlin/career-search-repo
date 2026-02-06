@@ -744,6 +744,36 @@ https://x.com/gabriel1
 - He tracked what he did every hour. I should track what I do every day.(My interpreation: I should somehow record waht I work on in terms of ML engineering, and make 1-2 posts on linkedin every week explaining what I did)
 - He joined a team where they were building a project together where they tied together LLMs in a way where they could collaborate.
 
+- **Person 5:**
+- Name: Theo t3
+- Video: https://www.youtube.com/shorts/x71Rm0MWVHY
+Role: Software CEO helping devs making applications and coding using AI.
+Insight: he said even if you have a software role, you should be interviewing at least every 6 months. Maybe at your current company you are a junior but should be a senior. Plus having an offer at another company will help you negotiate to increase your salary at your current role. There is no reason to not interview other than 'youre boss says you shouldn't.'
+
+- **Person 6:**
+- Name: Cyrus Yari. This video was not useful so disreguard.
+- Video: https://www.youtube.com/watch?v=QSkzA3Dk6fo
+- Role: Senior Software Engineer at Tesla
+- Insight: He started in investment banking after college. He then did product management and had a startup but it didn't take off.  
+- Companies value soft skills. Luckily I'm already highly skilled at charisma, public speaking, leadership, and sales.
+
+- **Person 7:**
+- Name: Maddy Zhang
+- Video 1: https://www.youtube.com/watch?v=e6JisS9tEtY
+    - Role: SWE google. (interned at: xIBM, xMicrosoft, xAmazon.)
+    - Insight: Read about the principles and mission of the company you're interested in to see if you're actually a good fit.
+    - It's really good if you know people inside the company and ask for referals. 
+    - OpenAI tested her on a leetcode problem during the technical phone screen. They recommended python but you can use any language.
+    - They also ask her system design questions. Core concepts include scalability, availability, reliabablity, and CAP theorum. I should add these as concepts above. I should be familiair with concepts like networking (technical term), security, and performance best practices. And web/cloud architecture and distributed systems design.
+    - When building a project, include system design flowchart. This is to test if you can explain the system logically. 
+    - Be able to explain tradeoffs for design descisions you made.
+    - To learn system design, do this course: https://www.educative.io/courses/grokking-the-system-design-interview
+    - Practice explaining technical concepts to non-technical friends.
+    - Prepare stories demonstrating collabortation and handling ambiguity.
+- Video2: https://www.youtube.com/watch?v=opP_Ng76t1g
+    - Medium and smaller tech companies are generally are generally more okay with you working remotly than big tech.
+    - You can apply to the google summer of code program. It's bascially a remote internship that gives you a great opportunity to collaborate and work on a real team. Applications open in march but you should apply earlier. 'start contributing to participating organizations now. pick 3 organizations, start fixing bugs, engage with mentors on discord, and be part of the team.' <claude> Do research on what she probably means when she says that, and how i can take action on her advice.
+
 #### Job Postings Analysis - COMBINED (All Target Roles)
 
 **Question:** Analyze job postings for ALL target roles. What tools/skills appear most frequently?
