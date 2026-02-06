@@ -13,3 +13,5 @@ Keep in mind that I have existing repos I made that could be improved. If you do
 For example, one project could be deploying my lunar lander TD3 simulation so it runs on the cloud and speeds up training. 
 Another could be refactoring my agent-organism to use classes instead of just functions.
 Maybe there are some other ways to improve my repos.
+
+Fireship was sponsored by hostinger which lets you do docker and deployment stuff https://www.hostinger.com/vps-hosting?utm_medium=affiliate&utm_source=aff183129&utm_campaign=48&session=102a7798f5be6d850191aee43186c4

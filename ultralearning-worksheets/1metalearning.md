@@ -697,11 +697,16 @@ https://x.com/gabriel1
             - Value went from who is the strongest, to who is the smartest (who can use the new technology the best), to now agency is the most important thing. Agency is how good you are at using AI. The premis of the value is how good you are using at agents. 'How can i use ai to reach my goals.' Context engineering is important where you provide the info that AI needs to succeed. I should put an example of my creative context engineering on my resume.
 
 - **Person 4:**
-  - Name/handle: Ritesh Verma
-    - https://www.youtube.com/watch?v=hU83uz1h0z4 [LEFT OFF]
-  - Current role:
+  - Name/handle: Yvonne Wang https://www.youtube.com/watch?v=R8udhb7m398
+  - Current role: Senior technical recruiter at amazon
   - Their learning path:
-  - Key insight:
+  - Key insight: Reviewed 50k applicants. Rejected 95% of them. At amazon, if you don't do well in an interview, there is a cooloff period where if they apply to another role they are automatically rejected. This cooloff period can be 6-24 months.
+  - Apply to no more than 2 jobs. If you don't meet the basic qualifications, you will likely be rejected.
+  - Biggest resume red flag is if information on your resume and linkedin don't match (like job dates). They also do a background check, so make sure the dates are real.
+  - She said you definetly shouldn't apply to a job if you don't meet the basic qualifications you shouldn't apply, unless you get a referal or network with someone in person.
+  - Etracuriculars do help on your resume, especially something that shows you can communicate. So my sales role does demonstrate value.
+  - You should message recruiters. Big tech companies usually have a specific recruiter looking for a role, so find the recruiter assigned for that role, and DM them on linkedin, link the role, and explain your qualificaitons.
+  - Utilize your university's career services department.
 - **Person 5:**
   - Name/handle:
   - Current role:
