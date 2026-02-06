@@ -787,38 +787,32 @@ You'll see that amazon has top 5 northeasrtern students. THen if you search nort
     subject: Quick call from fellow non-target
   Body:
     Hi Nishanth,
-I hope this message finds you well! I came across your profile and was genuinely impressed by your trajectory-particularly how you've progressed from Northeastern to securing roles at UBS, and Citadel.
-As someone from a non-target school (Santa Clara University) pursuing math and finance, your path resonated with me. It's super encouraging to see how you've progressed and strategically built experience through internships in M&A before transitioning into quantitative research.
-I'm currently working to break into quantitative finance and would love to learn from your experience, particularly:
-• How you approached recruiting from Northeastern and positioned yourself for competitive roles
-• Any advice on building relevant technical skills that made you stand out
-• What you wish you'd known earlier in your journey
-I completely understand you're busy, but 15-20 minutes of your time would be invaluable. I'm happy to work around your schedule.
-Thanks so much for considering, and congratulations on the conversion to full-time at Citadel!
-Best regards,
-Tarun Baskaran
+    I hope this message finds you well! I came across your profile and was genuinely impressed by your trajectory-particularly how you've progressed from Northeastern to securing roles at UBS, and Citadel.
+    As someone from a non-target school (Santa Clara University) pursuing math and finance, your path resonated with me. It's super encouraging to see how you've progressed and strategically built experience through internships in M&A before transitioning into quantitative research.
+    I'm currently working to break into quantitative finance and would love to learn from your experience, particularly:
+    • How you approached recruiting from Northeastern and positioned yourself for competitive roles
+    • Any advice on building relevant technical skills that made you stand out
+    • What you wish you'd known earlier in your journey
+    I completely understand you're busy, but 15-20 minutes of your time would be invaluable. I'm happy to work around your schedule.
+    Thanks so much for considering, and congratulations on the conversion to full-time at Citadel!
+    Best regards,
+    Tarun Baskaran
 
-linkedin DM good example (Good because he's trying to get to know you, not asking for a recommendation right away):
-  Hi Nishanth, I'm a NU CS & Finance freshman doing research in neural nets applications in quant finance with professor Sergey Aityan. Would love to connect and learn about your experience at Citadel.
+  2. linkedin DM good example (Good because he's trying to get to know you, not asking for a recommendation right away):
+    Hi Nishanth, I'm a NU CS & Finance freshman doing research in neural nets applications in quant finance with professor Sergey Aityan. Would love to connect and learn about your experience at Citadel.
 
-linkedin DM good example (good because its friednly)
-  Hi Nishanth,
-I hope you're doing well! I'm an incoming sophomore doing a PE internship this summer with a Houston based firm, and I'm interested in recruiting for PE this upcoming year. I see that you're headed to Blackrock, and I wanted to reach out to ask if you had availability this week for a quick chat to discuss your experiences. Frankly, the recruiting process sounds hellish, so l'd appreciate any and all advice you'd have about your journey!
+  3. linkedin DM good example (good because its friednly)
+    Hi Nishanth,
+    I hope you're doing well! I'm an incoming sophomore doing a PE internship this summer with a Houston based firm, and I'm interested in recruiting for PE this upcoming year. I see that you're headed to Blackrock, and I wanted to reach out to ask if you had availability this week for a quick chat to discuss your experiences. Frankly, the recruiting process sounds hellish, so l'd appreciate any and all advice you'd have about your journey!
 
-linkedin DM bad example (Bad because he straight up asks off a referral without wanting to talk):
-Subject: Referral Inquiry
-
-Hi Nishanth,
-
-I am Sandesh and I have worked previously at Apple, Ebay and Oracle.
-
-I'm on a quest for my full-time career at Citadel. My skills and experiences lies in Full Stack development (Front-end focused).
-
-I searched the career portal and I am interested in following openings:
-
-https://www.citadelsecurities.com/careers/details/ui-engineer/
-
-Would you be willing to refer me to these openings? Of course, if there is any way I can return the favor in the future, l am happy to do so. Thanks for your time and I look forward to hearing from you soon.
+  4. linkedin DM bad example (Bad because he straight up asks off a referral without wanting to talk):
+  Subject: Referral Inquiry
+    Hi Nishanth,
+    I am Sandesh and I have worked previously at Apple, Ebay and Oracle.
+    I'm on a quest for my full-time career at Citadel. My skills and experiences lies in Full Stack development (Front-end focused).
+    I searched the career portal and I am interested in following openings:
+    https://www.citadelsecurities.com/careers/details/ui-engineer/
+    Would you be willing to refer me to these openings? Of course, if there is any way I can return the favor in the future, l am happy to do so. Thanks for your time and I look forward to hearing from you soon.
 
 
 
