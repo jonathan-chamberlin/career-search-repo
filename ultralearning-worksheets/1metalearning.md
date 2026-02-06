@@ -774,6 +774,17 @@ Insight: he said even if you have a software role, you should be interviewing at
     - Medium and smaller tech companies are generally are generally more okay with you working remotly than big tech.
     - You can apply to the google summer of code program. It's bascially a remote internship that gives you a great opportunity to collaborate and work on a real team. Applications open in march but you should apply earlier. 'start contributing to participating organizations now. pick 3 organizations, start fixing bugs, engage with mentors on discord, and be part of the team.' <claude> Do research on what she probably means when she says that, and how i can take action on her advice.
 
+- **Person 8:**
+- Name: Nishanth
+- Role: Intern at citadel
+- Path:
+- Insights: 
+- go to linkedin for software company > people, people > search northeastern.
+You'll see that amazon has top 5 northeasrtern students. THen if you search northeasrtern in that menu, you can see alum who work at that company. Itook pics on my phone of good messag eexamples.
+Or go to khoury in linkedin, go to alumni, see where they go to work.
+- Then you can see 
+
+
 #### Job Postings Analysis - COMBINED (All Target Roles)
 
 **Question:** Analyze job postings for ALL target roles. What tools/skills appear most frequently?
