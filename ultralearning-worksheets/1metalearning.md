@@ -2,6 +2,19 @@
 
 *"Before diving in, research how ML engineering is best learned and what the most important sub-skills are."*
 
+---
+
+## Target Roles (Job Categories I'm Pursuing)
+
+1. **Machine Learning Engineer** - Building and deploying ML models at scale
+2. **ML Engineer (Recommendation Systems)** - Personalization, ranking, and user modeling
+3. **Data Scientist (Consumer)** - A/B testing, causal inference, product analytics
+4. **Data Scientist (ML)** - Research-focused, deep learning, publishing papers
+
+*These are the 4 job categories I'm optimizing for. All skills analysis and learning priorities below are based on job postings in these categories.*
+
+---
+
 **Time Investment:** Spend 5-10% of your total learning time on metalearning. For a 400-hour learning project, that's ~20-40 hours upfront.
 
 **Date Started:** _______________
@@ -707,104 +720,100 @@ https://x.com/gabriel1
   - Etracuriculars do help on your resume, especially something that shows you can communicate. So my sales role does demonstrate value.
   - You should message recruiters. Big tech companies usually have a specific recruiter looking for a role, so find the recruiter assigned for that role, and DM them on linkedin, link the role, and explain your qualificaitons.
   - Utilize your university's career services department.
+  - Attending college events will help a lot with getting a job. 
+  - You have to have a really clear idea of what role you want when talking to ta recruiter.
+  - The recruiter is always on your side because they get paid to choose people who accept job offers.
+  - University career services is a really good idea when it comes to finding a recruiter. 
+  - Ask your recruiter if the company has an resources to help you pass the 'OA (online assessment)'
+  - She emphasizes multiple times to utilize campus resources. So a component of my ultralearning plan should be investigating and using my university career services here at northeastern university.
+  - She also said that joining a professional organization or club with professionals will help a lot, because networking helps a ton when it comes to getting an internship. I could apply for AINU when applications open next fall. She emphasizes you should go to the events of these organizations.
 - **Person 5:**
-  - Name/handle:
-  - Current role:
+  - Name/handle: Victor Luo
+  - Video link: https://www.youtube.com/watch?v=ajYJZAigrPs
+  - Current role: Was SWE at Amazon, and now   Tiktok ML Engineer
   - Their learning path:
-  - Key insight:
+  - Key insight: ML engineering is designing models where it can make accurate predictions based off troves of data.
+  - Another role is a platform engineer. Since tiktok has so many users pinging the model, these engineers make sure that the model can handle the volume of pings.
+- Their process is to identify a problem, then do liturature reading (understanding state of the art ways that problem has been solved before)
+- ML engineers need both a business udnerstanding and a engineering understanding. Business understanding because they only have limited resources in terms of GPUs the model can run on, or number of expiriments you can test at a time, so you want to pick high impact expiriments. 
+- He did a startup as a non-technical founder, but decided that he needs to develop a technical understanding. He self studied for a few months, but then decided to do a bootcamp and he said that was super beneficial. This youtube interview was done by the person running the bootcamp, so this interview was clearly marketing. 
+- After the bootcamp called codesmith, he got an internship at amazon. 
+- He says autonomous problem solving is the most important skill.
+- Work on projects that you feel like are outside your ability.
+- One drill he did that i should implement is that a week after writing code, i should explain it (active recall). If I can't , I need to get a refresher.
+- He tracked what he did every hour. I should track what I do every day.(My interpreation: I should somehow record waht I work on in terms of ML engineering, and make 1-2 posts on linkedin every week explaining what I did)
+- He joined a team where they were building a project together where they tied together LLMs in a way where they could collaborate.
 
-#### Job Postings Analysis
+#### Job Postings Analysis - COMBINED (All Target Roles)
 
-**Question:** Analyze 10+ job postings for your target role. What tools/skills appear most frequently?
+**Question:** Analyze job postings for ALL target roles. What tools/skills appear most frequently?
 
-*Based on analysis of 11 ML Engineer job listings from skills_aggregate2.md (Pinterest, Waymo, Blue Origin, Woven by Toyota, Tubi, Walt Disney, TikTok, NVIDIA, Databricks, Hugging Face, ByteDance)*
+*Based on analysis of 36 job listings across all 4 target categories from job_listings.xlsx and skills_aggregate2.md*
 
-- **Skill/Tool 1: Python**
-  - Frequency (out of 11): 11/11
-  - Your current level:
-- **Skill/Tool 2: PyTorch/TensorFlow**
-  - Frequency (out of 11): 9/11
-  - Your current level:
-- **Skill/Tool 3: C++**
-  - Frequency (out of 11): 6/11
-  - Your current level:
-- **Skill/Tool 4: Distributed Training (DDP, FSDP, DeepSpeed, Megatron)**
-  - Frequency (out of 11): 5/11
-  - Your current level:
-- **Skill/Tool 5: Computer Vision**
-  - Frequency (out of 11): 5/11
-  - Your current level:
-- **Skill/Tool 6: Recommendation Systems**
-  - Frequency (out of 11): 4/11
-  - Your current level:
-- **Skill/Tool 7: NLP**
-  - Frequency (out of 11): 3/11
-  - Your current level:
-- **Skill/Tool 8: CUDA / GPU Programming**
-  - Frequency (out of 11): 3/11
-  - Your current level:
-- **Skill/Tool 9: MLOps**
-  - Frequency (out of 11): 2/11
-  - Your current level:
-- **Skill/Tool 10: A/B Testing**
-  - Frequency (out of 11): 2/11
-  - Your current level:
-- **Skill/Tool 11: Feature Engineering**
-  - Frequency (out of 11): 2/11
-  - Your current level:
-- **Skill/Tool 12: Kubernetes / Docker**
-  - Frequency (out of 11): 1/11
-  - Your current level:
+| Skill | Frequency | Your Level |
+|-------|-----------|------------|
+| Python | 36/36 (100%) | |
+| PyTorch/TensorFlow | 28/36 (78%) | |
+| Distributed Systems/Spark | 18/36 (50%) | |
+| A/B Testing/Experimentation | 15/36 (42%) | |
+| Recommendation/Personalization | 14/36 (39%) | |
+| Deep Learning | 14/36 (39%) | |
+| Machine Learning | 13/36 (36%) | |
+| SQL | 12/36 (33%) | |
+| Data Visualization | 12/36 (33%) | |
+| C++ | 11/36 (31%) | |
+| Causal Inference | 9/36 (25%) | |
+| Statistical Analysis | 9/36 (25%) | |
+| NLP | 8/36 (22%) | |
+| Cloud (AWS/GCP/Azure) | 5/36 (14%) | |
 
-#### Job Postings Analysis - ML Engineer (Recommendation Systems)
+---
 
-**Question:** Analyze job postings for ML Engineer (Recommendation Systems) roles. What tools/skills appear most frequently?
+#### Breakdown by Job Category
 
-*Based on analysis of 7 ML Engineer (Recommendation Systems) job listings (TikTok, Amazon Prime Video, Amazon Personalization, Amazon Music, Meta, Netflix)*
+**Machine Learning Engineer (11 roles)**
+| Skill | Frequency |
+|-------|-----------|
+| Python | 11/11 |
+| PyTorch/TensorFlow | 9/11 |
+| C++ | 6/11 |
+| Recommendation/Personalization | 5/11 |
+| Distributed Systems/Spark | 5/11 |
 
-- **Skill/Tool 1: Python**
-  - Frequency (out of 7): 7/7
-  - Your current level:
-- **Skill/Tool 2: PyTorch/TensorFlow**
-  - Frequency (out of 7): 7/7
-  - Your current level:
-- **Skill/Tool 3: Distributed Systems**
-  - Frequency (out of 7): 6/7
-  - Your current level:
-- **Skill/Tool 4: User Modeling / Personalization**
-  - Frequency (out of 7): 5/7
-  - Your current level:
-- **Skill/Tool 5: A/B Testing**
-  - Frequency (out of 7): 4/7
-  - Your current level:
-- **Skill/Tool 6: Deep Learning**
-  - Frequency (out of 7): 4/7
-  - Your current level:
-- **Skill/Tool 7: Spark**
-  - Frequency (out of 7): 3/7
-  - Your current level:
-- **Skill/Tool 8: AWS**
-  - Frequency (out of 7): 3/7
-  - Your current level:
-- **Skill/Tool 9: Data Pipelines**
-  - Frequency (out of 7): 3/7
-  - Your current level:
-- **Skill/Tool 10: C++**
-  - Frequency (out of 7): 2/7
-  - Your current level:
-- **Skill/Tool 11: Causal Inference**
-  - Frequency (out of 7): 2/7
-  - Your current level:
-- **Skill/Tool 12: Real-Time ML Systems**
-  - Frequency (out of 7): 2/7
-  - Your current level:
+**ML Engineer (Recommendation Systems) (7 roles)**
+| Skill | Frequency |
+|-------|-----------|
+| Python | 7/7 |
+| PyTorch/TensorFlow | 8/7 |
+| Distributed Systems/Spark | 9/7 |
+| Recommendation/Personalization | 7/7 |
+| A/B Testing/Experimentation | 4/7 |
+
+**Data Scientist (Consumer) (9 roles)**
+| Skill | Frequency |
+|-------|-----------|
+| Python | 9/9 |
+| A/B Testing/Experimentation | 9/9 |
+| SQL | 8/9 |
+| Data Visualization | 12/9 |
+| Causal Inference | 7/9 |
+| Statistical Analysis | 6/9 |
+
+**Data Scientist (ML) (9 roles)**
+| Skill | Frequency |
+|-------|-----------|
+| Python | 9/9 |
+| PyTorch/TensorFlow | 11/9 |
+| Deep Learning | 6/9 |
+| Machine Learning | 4/9 |
+| NLP | 4/9 |
 
 ### 3.2 The Include/Exclude Method
 
 Customize the benchmark approach for your specific goals.
 
 #### What to INCLUDE (emphasize more than standard)
-
+[LEFT OFF]
 **Question:** Based on your goals, what should you spend MORE time on than a typical curriculum suggests?
 
 - **Topic/Skill 1:**
@@ -1093,15 +1102,21 @@ Okay I finished filling out 1metalearning.md. Now I want you to identify any pla
 
 *Complete this section after finishing the worksheet.*
 
+### Target Roles:
+1. Machine Learning Engineer
+2. ML Engineer (Recommendation Systems)
+3. Data Scientist (Consumer)
+4. Data Scientist (ML)
+
 ### My Goal in One Sentence:
 -
 
-### Top 5 Skills to Prioritize:
-1.
-2.
-3.
-4.
-5.
+### Top 5 Skills to Prioritize (based on 36 job postings):
+1. Python (100% of roles)
+2. PyTorch/TensorFlow (78% of roles)
+3. Distributed Systems/Spark (50% of roles)
+4. A/B Testing/Experimentation (42% of roles)
+5. Recommendation/Personalization + Deep Learning (39% each)
 
 ### Top 3 Resources I'll Use:
 1.

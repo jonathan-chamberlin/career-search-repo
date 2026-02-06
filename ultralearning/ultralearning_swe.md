@@ -30,8 +30,6 @@ Spend ~20 hours mapping out your learning path before diving in.
 - Docker & Kubernetes
 - Cloud computing setup for ML/RL
 
-**Note on SQL:** SQL is intentionally excluded—job postings for ML Engineers emphasize Python, C++, and ML frameworks over database querying, which is more central to Data Engineering and Analytics roles. Learn basic SQL (joins, aggregations) only if needed for pulling training data.
-
 ---
 
 ## Phase 2: Core Skills via Projects (Weeks 3-16)

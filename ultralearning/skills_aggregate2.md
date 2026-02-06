@@ -32,6 +32,21 @@ Strong algorithm and data structure foundations with hands-on experience deployi
 ### Qualifications
 BS/MS in Computer Science, ML, or related field for most roles; PhD preferred for research-focused positions. Graduating in 2025-2026 with competitive programming awards (Kaggle, ICPC) or prior ML internship experience is advantageous.
 
+### Skill Frequency (from 11 job listings)
+
+| Skill | Frequency |
+|-------|-----------|
+| Python | 11/11 |
+| PyTorch/TensorFlow | 9/11 |
+| C++ | 6/11 |
+| Recommendation/Personalization | 5/11 |
+| Distributed Systems/Spark | 5/11 |
+| NLP | 2/11 |
+| Docker/Kubernetes | 2/11 |
+| Deep Learning | 2/11 |
+| SQL | 2/11 |
+| A/B Testing/Experimentation | 2/11 |
+
 ---
 
 ## ML Engineer (Recommendation Systems)
@@ -131,6 +146,21 @@ Design and analyze experiments to support product decisions; develop predictive 
 ### Qualifications
 BS in quantitative field (CS, Math, Statistics, Economics) minimum; MS/PhD strongly preferred for senior roles. 0-5+ years experience depending on level, with strong analytical and communication skills.
 
+### Skill Frequency (from 9 job listings)
+
+| Skill | Frequency |
+|-------|-----------|
+| Data Visualization (Tableau/Looker) | 12/9 |
+| Python | 9/9 |
+| A/B Testing/Experimentation | 9/9 |
+| SQL | 8/9 |
+| Causal Inference | 7/9 |
+| Statistical Analysis | 6/9 |
+| Distributed Systems/Spark | 4/9 |
+| Machine Learning | 3/9 |
+| Recommendation/Personalization | 2/9 |
+| Deep Learning | 2/9 |
+
 ---
 
 ## Data Scientist (ML)
@@ -143,6 +173,19 @@ Conduct original research and publish papers in top-tier venues (NeurIPS, CVPR, 
 
 ### Qualifications
 PhD in Computer Science, ML, Statistics, or related field is typically required; MS with significant research experience considered. Strong publication record and first-author papers at major conferences are highly valued.
+
+### Skill Frequency (from 9 job listings)
+
+| Skill | Frequency |
+|-------|-----------|
+| PyTorch/TensorFlow | 11/9 |
+| Python | 9/9 |
+| Deep Learning | 6/9 |
+| Machine Learning | 4/9 |
+| NLP | 4/9 |
+| C++ | 3/9 |
+| Statistical Analysis | 3/9 |
+| SQL | 2/9 |
 
 ---
 
