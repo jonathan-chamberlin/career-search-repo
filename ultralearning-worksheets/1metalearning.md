@@ -780,8 +780,8 @@ Insight: he said even if you have a software role, you should be interviewing at
 - Path:
 - Insights: 
 - go to linkedin for software company > people, people > search northeastern.
-You'll see that amazon has top 5 northeasrtern students. THen if you search northeasrtern in that menu, you can see alum who work at that company. Itook pics on my phone of good messag eexamples.
-Or go to khoury in linkedin, go to alumni, see where they go to work.
+You'll see that amazon has top 5 northeasrtern students. THen if you search northeasrtern in that menu, you can see alum who work at that company. Itook pics on my phone of good messag eexamples (https://www.linkedin.com/company/amazon/people/?keywords=northeastern)
+Or go to khoury in linkedin, go to alumni, see where they go to work. (https://www.linkedin.com/school/khoury-college/people/)
 - Then you can see 
 
 
