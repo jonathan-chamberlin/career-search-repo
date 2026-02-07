@@ -16,7 +16,8 @@
       "Bash(git commit:*)",
       "Bash(del:*)",
       "Bash(gh api:*)",
-      "Bash(dir:*)"
+      "Bash(dir:*)",
+      "Bash(echo:*)"
     ]
   }
 }

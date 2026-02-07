@@ -1120,21 +1120,21 @@ Customize the benchmark approach for your specific goals.
 **Question:** How will you split your time across activities?
 
 - **Building projects:**
-  - % of time: 53%
-  - Hours/week: 10
-  - Notes: Mon-Thu 12pm-3pm is the core project block (12 hrs available, but ~2 hrs will naturally go to gap-filling/research during project work). This is where rec sys projects, RL projects, and deploying demos happen. Includes recursive gap filling with AI when hitting walls.
+  - % of time: 47%
+  - Hours/week: 9
+  - Notes: Mon-Wed 12pm-3pm is the core project block. This is where rec sys projects, RL projects, and deploying demos happen. Includes recursive gap filling with AI when hitting walls.
+- **Networking:**
+  - % of time: 16%
+  - Hours/week: 3
+  - Notes: Thursday 12pm-3pm. Dedicated networking day — LinkedIn outreach to Northeastern alumni at target companies, coffee chats, writing and publishing posts on LinkedIn/X/GitHub about what I'm building and learning (2x/week), attending Khoury career events. Every project demo becomes something to show engineers when asking for referrals.
 - **Drilling weak skills (LeetCode/DSA, debugging practice):**
   - % of time: 16%
   - Hours/week: 3
   - Notes: Friday 12pm-3pm. Dedicated DSA day — 2-3 LeetCode easy problems per session. Start with csvistool.com to learn data structures visually, then do problems across ALL data structures (breadth over difficulty, per Sajjaad's advice). Also practice reading/debugging code without AI help.
 - **Reading/research + retrieval practice:**
-  - % of time: 10%
-  - Hours/week: 2
-  - Notes: Saturday 1pm-3pm. First hour: Victor's active recall drill — explain last week's code from memory without looking at it. If I can't, get a refresher. Draft what I learned into a LinkedIn post. Second hour: Gabriel's recursive gap filling — ask AI to explain concepts hit during the week, ask "what do you mean" recursively, explain back until AI confirms understanding. Also skim system design patterns and research for next week's project tasks.
-- **Community/networking:**
   - % of time: 11%
   - Hours/week: 2
-  - Notes: Scattered throughout the week. LinkedIn outreach to Northeastern alumni at target companies, coffee chats, posting about journey 2x/week, attending Khoury career events. Every project demo becomes something to show engineers when asking for referrals.
+  - Notes: Saturday 1pm-3pm. First hour: Victor's active recall drill — explain last week's code from memory without looking at it. If I can't, get a refresher. Second hour: Gabriel's recursive gap filling — ask AI to explain concepts hit during the week, ask "what do you mean" recursively, explain back until AI confirms understanding. Also skim system design patterns and research for next week's project tasks.
 - **Catch-up buffer:**
   - % of time: 10%
   - Hours/week: 2
@@ -1153,33 +1153,33 @@ Customize the benchmark approach for your specific goals.
 
 **Question:** What might derail your learning?
 
-- **Obstacle 1: (Example: Burnout)**
-  - Likelihood (H/M/L):
-  - Mitigation strategy:
-- **Obstacle 2:**
-  - Likelihood (H/M/L):
-  - Mitigation strategy:
-- **Obstacle 3:**
-  - Likelihood (H/M/L):
-  - Mitigation strategy:
-- **Obstacle 4:**
-  - Likelihood (H/M/L):
-  - Mitigation strategy:
+- **Obstacle 1: Distraction/procrastination**
+  - Likelihood (H/M/L): H
+  - Mitigation strategy: During the 12pm-3pm blocks, put phone in another room or use an app blocker (Cold Turkey, Freedom, or Focus mode). Close all tabs except what I'm working on. If I catch myself procrastinating, just start a 25-minute Pomodoro — starting is the hardest part. Track hours in Notion daily so I can see when I'm slipping before it becomes a pattern.
+- **Obstacle 2: Vibe coding trap — letting AI do all the work without understanding the code**
+  - Likelihood (H/M/L): H
+  - Mitigation strategy: Enforce Gabriel's recursive gap filling on every project session. After AI writes code, go through the core ML logic line by line and explain what each line does. If I can't explain it, that's a gap to fill immediately. Saturday retrieval practice will expose this — if I can't explain last week's code from memory, I was vibe coding. The rule: never move on from a block of code until I can explain WHY it works, not just THAT it works.
+- **Obstacle 3: No feedback loop — not knowing if what I'm learning is useful for getting hired**
+  - Likelihood (H/M/L): M
+  - Mitigation strategy: Use coffee chats and networking (2 hrs/week) to get real feedback from engineers at target companies. Ask them directly: "I'm building X — is this the kind of project that would stand out on a resume for your team?" Also re-check job postings every month against my skills to see if I'm closing gaps. Mock interviews 6 months before job hunting will give the hardest feedback. Find a coding partner who can review my work and tell me what's weak.
+- **Obstacle 4: Not having a coding partner or anyone giving me real code review**
+  - Likelihood (H/M/L): H
+  - Mitigation strategy: Actively look for a partner through: (1) Northeastern CS classmates or Khoury clubs, (2) ML/coding Discord communities, (3) coffee chats that turn into recurring sessions. In the meantime, use Greptile for AI code review on every PR. Also ask engineers during coffee chats if they'd be willing to review one project — Gabriel said people in tech are generous with help. Goal: have a regular coding partner within 2 months.
 
 ### 6.2 Accountability
 
 **Question:** How will you stay accountable?
 
 - [ ] **Learning partner/study group:**
-  - Who:
-- [ ] **Public commitment (blog, Twitter):**
-  - Where:
+  - Who: Nobody yet. Goal: find a regular coding partner within 2 months through Northeastern CS classmates, Khoury clubs, ML Discords, or coffee chat connections. Kenny is a candidate if he's interested in coding together regularly like Ray Fu did with his friend.
+- [X] **Public commitment (LinkedIn, GitHub, X):**
+  - Where: LinkedIn posts 2x/week about what I'm building and learning. GitHub repos with good READMEs and live demos. X for sharing projects and engaging with ML/tech community.
 - [ ] **Regular check-ins with mentor:**
-  - Who:
-- [ ] **Progress tracking system:**
-  - What:
+  - Who: Casey Brown (career mentor). Also aim to establish recurring check-ins with an engineer at a target company through networking outreach.
+- [X] **Progress tracking system:**
+  - What: Notion — daily log of what I worked on and how many hours. Weekly review every Saturday to see if I'm hitting my 19 hrs/week target and if time allocation matches the plan. If I'm consistently under, that's the distraction/procrastination obstacle kicking in.
 - [ ] **Other:**
-  - What:
+  - What: Saturday active recall sessions double as accountability — if I can't explain what I built last week, it means I was vibe coding or not focused. This is a built-in self-check every week.
 
 ---
 
@@ -1224,10 +1224,19 @@ Draft 5 specific questions:
   - Status:
 
 
-### 7.3 Referals I could ask for 
+### 7.3 Referals I could ask for
     - Taylor from MOA who used to sell google cloud
     - Engingineers above
     - Olivia Gagan (uni recruiter for fidelity)
+    - Nishanth
+    - Greg Schafer, his roomate works at scale.ai
+    - Marco from Phi Delt
+    - Griffin from phi delt
+
+**Networking cadence:**
+- Now through summer 2026: Reach out to at least 1 person from the lists above per week for a coffee chat or intro conversation. Build the relationship first — don't ask for a referral yet.
+- Fall 2026 (Aug-Oct): Reach out to ALL of them for a real conversation. By this point I should have 2+ projects with live demos to show. At the end of each conversation, ask: "Would you be down to give me a referral for the upcoming spring co-op cycle?"
+
 
 ---
 
@@ -1248,10 +1257,10 @@ Draft 5 specific questions:
 
 ### Before Starting Main Learning
 - [ ] Finalize your personalized curriculum (include/exclude decisions made)
-- [ ] Create weekly schedule template
+- [done] Create weekly schedule template
 - [ ] Set up accountability system
-- [ ] Complete Part 7 (at least 1 expert consultation)
-- [ ] Review this worksheet and refine based on new information
+- [done] Complete Part 7 (at least 1 expert consultation)
+- [done] Review this worksheet and refine based on new information
 
 ---
 
@@ -1296,12 +1305,61 @@ Okay I finished filling out 1metalearning.md. Now I want you to identify any pla
 
 ---
 
-## Review Schedule
+## Phases over months
 
-- [ ] **Week 2:** Review this worksheet and adjust based on early learning
-- [ ] **Month 1:** Major review—is the plan working? Adjust as needed
-- [ ] **Month 3:** Check progress against goals, update priorities
-- [ ] **Month 6:** Comprehensive review, potentially redo Parts 2-3
+*Target: Spring 2027 co-op/internship. Applying with referrals in fall 2026. 19 hrs/week throughout.*
+
+### Phase 1 (Feb-Mar) FOUNDATIONS
+Focus:
+- Set up all tools from section 4.2: Python env with conda/venv, PyTorch installed and tested, Docker installed, cloud account (AWS or GCP free tier), Git + GitHub configured, VS Code with extensions, Claude Code, experiment tracking (W&B or MLflow), Notion for daily tracking. Everything should be working before serious project work starts.
+- Start first ML project — a recommendation system. This is the highest priority skill gap: rec sys appears in 39% of all 36 target listings and 100% of rec sys MLE listings. Pick a real dataset (MovieLens, Amazon reviews, or similar from Kaggle). Build a basic collaborative filtering model first, then iterate toward a two-tower or ranking model. The project IS the curriculum — learn deep learning concepts (loss functions, embeddings, neural network architectures) top-down as they come up, using Gabriel's recursive gap filling with AI.
+- Begin LeetCode on Fridays. Before touching LeetCode, spend the first 2-3 Fridays on csvistool.com learning how each data structure works visually (arrays, linked lists, stacks, queues, hash maps, trees, graphs). Then start doing 2-3 easy problems per data structure. Breadth across all data structures matters more than doing hard problems (Sajjaad's advice). Track which data structures I've covered.
+- Start LinkedIn outreach: 1 person/week minimum. Start with the easiest contacts — Northeastern alumni at target companies found via linkedin.com/school/khoury-college/people/. Use Nishanth's good DM examples from section 3.1. Goal is building relationships, NOT asking for referrals yet. Just ask for a 15-minute coffee chat about their experience.
+- Set up Notion daily tracking: log what I worked on each day and how many hours. Weekly review every Saturday to check if I'm hitting 19 hrs/week and if time allocation matches the plan.
+
+### Phase 2 (Apr-May) FIRST DEMO
+Focus:
+- Finish the rec sys project and deploy it as a live demo that anyone can access via a link. This means: containerize with Docker, host on AWS/GCP (or a simpler option like Railway/Render if needed), write a clear README explaining what the project does, how the model works, and the tradeoffs I made. Include a system design diagram showing the architecture (data flow, model serving, frontend). Follow the checklist in demo-guidelines.md. This deployed demo is now my #1 asset for networking — Gabriel said "you should be able to send someone a link to your demo."
+- Post about the completed project on LinkedIn and X. Explain what I built, what I learned, and one interesting technical challenge I solved. This is the start of building in public. Aim for 2 posts/week: 1 about the project, 1 about a concept I learned through recursive gap filling.
+- Start second ML project in a different domain to show range. Options: (1) an RL agent with a live demo (builds on my lunar-lander and agent-organism experience), (2) an A/B testing / experimentation platform project (covers the DS Consumer skill gap — A/B testing appears in 42% of all target listings and 100% of DS Consumer roles), or (3) a product analytics project with causal inference. Pick whichever I'm most excited about — excitement sustains motivation.
+- Continue LeetCode easy problems. By end of May I should have done easy problems across ALL major data structures at least once. If I've covered all data structures, start doing 2-3 from each again to build pattern recognition.
+- Attend end-of-semester Khoury career events, employer panels, and any tech meetups. Bring my deployed demo to show people. Investigate joining AINU when applications open next fall.
+- Saturday recall sessions should now be testing real project knowledge. Can I explain how my rec sys model works from memory? Can I draw the system design diagram without looking? If not, that's a gap to fill.
+
+### Phase 3 (Jun-Jul) SECOND DEMO + SYSTEM DESIGN
+Focus:
+- Deep work on second project. Same standard as project #1: deploy as a live demo with a link, Docker containerized, good README, system design diagram, tradeoff explanations. By end of July I should have 2 deployed projects that demonstrate different ML skills.
+- Start system design study. Read Grokking System Design (or use the Educative course Maddy Zhang recommended: educative.io/courses/grokking-the-system-design-interview). Practice with Excalidraw or Lucidchart: pick a system like "design a recommendation feed" or "design Airbnb" and draw the full architecture. Ray Fu said system design is "way more important than leetcode" and he uses it every day at work. Do at least 1 design exercise every 2 weeks.
+- LeetCode: start mixing in medium problems now that easy breadth is covered. Focus on the most common patterns: two pointers, sliding window, BFS/DFS, dynamic programming basics. Still 2-3 problems/week on Fridays. Use geeksforgeeks.org for optimal solutions with explanations when stuck (Sajjaad's advice).
+- Build portfolio website. Now that I have 2 projects with live demos, create a personal site that tells a story about myself demonstrating high agency (Gabriel's advice). Link to both project demos, GitHub repos, and include a short bio about my ML learning journey. This becomes the single link I send to engineers and hiring managers.
+- Continue weekly networking outreach. Now I have real demos to show people during coffee chats. Start reaching out to slightly harder targets — engineers and technical leads at companies I actually want to work at, not just easy contacts.
+- Practice explaining every design decision and tradeoff in both projects out loud. Maddy Zhang said Google asks you to explain tradeoffs, and being able to do this naturally (not from a script) takes practice.
+
+### Phase 4 (Aug-Sep) INTERVIEW PREP + REFERRAL PUSH
+Focus:
+- Start mock interviews. Reach out to Casey, Griffin, and Marco and ask them to run practice interviews with me. Casey can do behavioral + career advice. Griffin and Marco (Phi Delt) can simulate technical questions if they're in CS/SWE. Also find mock interview partners through Northeastern career services — Yvonne Wang emphasized using campus resources multiple times. Do at least 1 mock interview every 2 weeks.
+- LeetCode ramp up: increase to 4-5 problems/week. Focus on medium problems and the most common interview patterns. If stuck for 1-2 hours, look at the solution, then redo it yourself (Ray Fu's method). Goal is pattern recognition — knowing which data structure/algorithm to use for a given problem type.
+- System design practice intensifies: do 1 full design exercise per week with Excalidraw. Practice explaining the design out loud as if in an interview. Cover: scalability, availability, reliability, CAP theorem, networking, and distributed systems concepts (Maddy Zhang's list).
+- **REFERRAL PUSH:** This is the most important networking month. Reach out to ALL people in section 7.3 for real conversations: Taylor (Google Cloud), engineers from section 7.1, Olivia Gagan (Fidelity), Nishanth (Citadel), Greg Schafer (Scale.ai connection), Marco, Griffin. Show them my portfolio site and demos. At the end of each conversation, ask: "Would you be down to give me a referral for the upcoming spring co-op cycle?" Remember: employees get paid for successful referrals, so you're not just asking for a favor.
+- Apply to 1-2 companies I don't care about for real interview reps (Prime's advice — "great way to get better at interviews is to apply to and interview at places you don't care about"). This gives me low-stakes practice before the real interviews.
+- Prepare 3-4 behavioral stories from my resume that tie into target companies' core values. For Amazon: customer obsession, ownership. For Google: impact at scale. For Meta: move fast. Practice telling these stories concisely (Yvonne Wang + Sajjaad's advice).
+
+### Phase 5 (Oct-Nov) ACTIVE APPLICATIONS
+Focus:
+- Apply to spring 2027 co-ops/internships at target companies WITH referrals. Do NOT cold apply — Sajjaad said "absolutely don't do it" without a referral. Target list: Amazon, Meta, Google, Uber, OpenAI, Anthropic, xAI, Scale.ai, Airbnb, Intuit, Adobe, LinkedIn. Apply to no more than 2 roles per company (Yvonne's advice — at Amazon, doing badly in one interview triggers a cooldown for all roles).
+- Message the specific recruiter assigned to the role I'm applying for. Find them on LinkedIn, DM them, link the role, and explain my qualifications (Yvonne's advice — recruiters are on your side because they get paid to fill roles). Also ask the recruiter if the company has resources to help me pass the online assessment.
+- Continue mock interviews and LeetCode to stay sharp between real interviews. After each real interview, write down what went well and what I struggled with. Drill the weak areas immediately.
+- If I get rejected from a company, note the cooldown period (Amazon's is 6-24 months) and plan to reapply after the co-op. Don't take it personally — Yvonne reviewed 50k applicants and rejected 95%.
+- Keep building/improving projects if there's downtime between interviews. Could add a feature, improve the demo, or start a third project. Active GitHub commits during application season shows you're still building.
+- Utilize Northeastern career services for interview prep, resume review, and recruiter connections. Yvonne emphasized this multiple times. Check if NUWorks has spring 2027 co-op postings.
+
+### Phase 6 (Dec-Jan) SECURE OFFER + PREP FOR DAY 1
+Focus:
+- Final interview rounds. If I have multiple offers, use competing offers to negotiate (but only negotiate internship salary if I have a really strong competing offer — Sajjaad's advice). For full-time roles later in career, always negotiate.
+- Once I accept an offer: 1-2 months before start date, ask the recruiter to put me in touch with my future manager. Get on a 1-on-1 call and learn what I'll be working on, what tools/frameworks the team uses, and what I should study to hit the ground running. If they use a tool I'm not familiar with, take a targeted Coursera course or build a small project with it (Sajjaad's advice).
+- Continue LeetCode and system design at maintenance level (2-3 problems/week) to keep skills sharp for the co-op.
+- Read about the company's principles, mission, and recent technical blog posts so I can have informed conversations from day 1 (Maddy Zhang's advice about understanding if you're a good fit).
+- Start co-op in January 2027. During the co-op: document everything I build and its impact so I have evidence for a promotion or strong reference at the end (Ray Fu's advice). Ask my manager to review my code on calls and show appreciation for feedback (Gabriel's advice — this gets you more and better feedback).
 
 *Remember: The map is not the territory. Update this document as you learn more about what works for you.*
 
