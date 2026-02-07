@@ -896,26 +896,85 @@ You'll see that amazon has top 5 northeasrtern students. THen if you search nort
 Customize the benchmark approach for your specific goals.
 
 #### What to INCLUDE (emphasize more than standard)
-[LEFT OFF]
+
 **Question:** Based on your goals, what should you spend MORE time on than a typical curriculum suggests?
 
-- **Topic/Skill 1:**
-  - Why emphasize this:
-- **Topic/Skill 2:**
-  - Why emphasize this:
-- **Topic/Skill 3:**
-  - Why emphasize this:
+- **Topic/Skill 1: Recommendation Systems (build at least 1 project)**
+  - Why emphasize this: Appears in 39% of all 36 target listings and 100% of Rec Sys MLE listings. Stanford CS229, CMU, and MIT barely touch rec systems — they focus on supervised/unsupervised learning and theory. This is a massive gap between what academia teaches and what companies hire for. I want to start high-level and go deeper if I like it. Building a rec sys project also demonstrates distributed systems, deep learning, and A/B testing skills all in one.
+
+- **Topic/Skill 2: Networking & Referrals (10-15% of weekly time, ~2-3 hrs/week)**
+  - Why emphasize this: Standard curricula spend 0% on this. But EVERY practitioner I studied (Ray Fu, Gabriel Petersen, Sajjaad Khader, Nishanth, Yvonne Wang) said referrals are the #1 way to get hired, and cold applications basically don't work. Sajjaad said "DO NOT apply without a referral." This includes: LinkedIn outreach to Northeastern alumni at target companies, coffee chats, posting about my journey twice/week, attending Khoury career fairs and employer panels, and building relationships before I need them.
+
+- **Topic/Skill 3: Debugging & Reading Code Without AI (major emphasis)**
+  - Why emphasize this: My debugging skill is 'low' because I've been letting AI fix everything for me. Gabriel (OpenAI) stressed that understanding code line-by-line is essential — he said "it is really important to read the code that's generating." Victor (TikTok MLE) said autonomous problem-solving is the most important skill. Companies test this directly in technical interviews. Standard curricula teach this implicitly through assignments, but since I use AI to skip it, I need to deliberately practice debugging and understanding code on my own.
+
+- **Topic/Skill 4: Deploying Every Project as a Live Demo**
+  - Why emphasize this: Standard curricula stop at training models in notebooks. Gabriel (OpenAI) said "you should be able to send someone a link to your demo" and that a good demo is essential when asking for referrals or going to events. My demo-guidelines.md checklist confirms this. My deployment/hosting skill is currently 'low' and MLOps is my #1 hardest concept to learn. By making deployment a requirement for every project (Docker, FastAPI, cloud hosting), I build this skill incrementally rather than cramming it later. This also directly supports my networking strategy — I need something impressive to show people.
+
+- **Topic/Skill 5: System Design (start light now, ramp up over time)**
+  - Why emphasize this: Ray Fu said system design is "way more important than leetcode" and that he uses it every day at work. Google, Amazon, and OpenAI all ask system design questions in interviews (confirmed by Maddy Zhang). Standard ML curricula don't teach system design at all. Starting now means: including architecture diagrams in every project, being able to explain tradeoffs for design decisions, and reading Grokking System Design. By the time I'm interviewing, this will feel natural instead of crammed.
+
+- **Topic/Skill 6: Real Product A/B Testing & Experimentation**
+  - Why emphasize this: Shows up in 42% of all target listings, 100% of DS Consumer roles, and 57% of Rec Sys MLE roles. My "medium" level from lunar-lander hyperparameter tuning is not the same thing — real A/B testing at companies involves user experiments, statistical significance on product metrics, and experimentation platforms. Standard ML curricula barely cover this. Since I'm targeting both DS Consumer and Rec Sys MLE roles, this is a must.
+
+- **Topic/Skill 7: Finding a Regular Coding Partner / Code Reviewer**
+  - Why emphasize this: Ray Fu had a friend he coded with every day. Gabriel worked closely with a skilled engineer who gave him 100 comments per PR. Victor joined a team building projects together. Standard curricula don't emphasize this, but collaborative coding and code review are how you actually improve. I need to find someone — through school, Discord, or LinkedIn — who can review my code and push me to write better code. In the meantime, I'll use Greptile for AI code review on my projects.
+
+- **Topic/Skill 8: Recursive Gap Filling (15-25% of project time understanding code deeply)**
+  - Why emphasize this: Gabriel (OpenAI) described this method: have AI write code, go line by line understanding each line, and when something is vague like "this helps the algorithm learn faster," keep asking "what do you mean" recursively until you truly understand. Then explain it back to AI until it confirms understanding. This directly builds the debugging skill I'm prioritizing and is fundamentally different from vibe coding. 15-25% of project time = focus on the core ML logic, not every single line.
+
+- **Topic/Skill 9: Weekly Active Recall + Daily Tracking**
+  - Why emphasize this: Victor (TikTok MLE) explained his drill: a week after writing code, explain it from memory. If you can't, get a refresher. He also tracked what he did every hour. Ultralearning Principle 5 (Retrieval) says testing yourself is far more effective than re-reading. I'll do weekly recall sessions where I explain last week's code from memory, and track daily what I worked on. The daily tracking also feeds my LinkedIn posts (2x/week) for the networking emphasis.
+
+- **Topic/Skill 10: DSA Practice — HackerRank first → LeetCode → back to HackerRank (start now, low volume)**
+  - Why emphasize this: Sajjaad (Amazon $220k) said learn data structures using csvistool.com BEFORE starting practice problems, then do easy problems across ALL data structures (breadth > difficulty). Ray Fu did 300 problems. My DSA level is currently 1, and big companies test this heavily. Starting now at low volume (2-3 easy/week) means slow and steady over years instead of cramming 300 problems before interviews. Standard curricula teach DSA but don't connect it to interview-style problem solving.
+  - **3-phase approach:**
+    - **Phase 1 — HackerRank (first few months):** Start here because (a) 3,000+ companies (Goldman Sachs, JPMorgan, Amazon, Bloomberg, Adobe, Uber) use HackerRank as their actual screening tool, so I need to be comfortable with the platform, (b) HackerRank requires raw stdin/stdout parsing which is different from LeetCode's pre-parsed inputs — the #1 reason prepared candidates fail real assessments is being blindsided by this format difference, (c) HackerRank is more beginner-friendly with structured progression, and (d) it also has SQL and Python practice tracks which cover skills in my target listings. Use the Interview Preparation Kit (69 problems across 13 categories) and the 1-Month or 3-Month Preparation Kits. Also do the SQL track since SQL appears in 33% of my target roles. Learn one data structure at a time using csvistool.com first, then practice problems for that data structure on HackerRank.
+    - **Phase 2 — LeetCode (after HackerRank foundation):** Move to LeetCode for deeper algorithm pattern mastery. LeetCode has company-tagged problems (Premium shows which companies ask which questions), a more active community with optimized solutions, and problem lists like Blind 75 and NeetCode 150 that are more targeted for interview patterns. This is where I build real algorithmic depth and pattern recognition. HackerRank taught me the platform and basics; LeetCode teaches me to think algorithmically.
+    - **Phase 3 — Back to HackerRank (pre-interview):** When I start getting actual company assessments (which are often administered ON HackerRank), return for 2-3 days of platform-specific practice to re-familiarize with the stdin/stdout format, timed environment, and proctoring. Also: HackerRank now has an AI-assisted IDE in assessments where companies can see my full AI chat transcript — they evaluate whether I use AI thoughtfully as a collaborator vs. blindly copy-pasting. This directly ties into my "mastering AI-augmented development" emphasis.
+  - **Key insight:** "LeetCode is the gym where you train. HackerRank is the arena where you fight to get hired." Using only one platform fails — LeetCode-only means I'm unprepared for HackerRank's I/O format under time pressure; HackerRank-only means I lack the depth of algorithm pattern practice LeetCode provides.
+
+- **Topic/Skill 11: Open Source Contribution (pick 1-2 ML projects)**
+  - Why emphasize this: Maddy Zhang (Google SWE) recommended Google Summer of Code and said "start contributing to participating organizations now — pick 3 organizations, start fixing bugs, engage with mentors on Discord." This builds real codebase experience (reading other people's code, code review, debugging — all skills I'm weak at), networking with experienced engineers, and looks great on a resume. Standard curricula only have you build solo projects. Contributing to PyTorch, Hugging Face, or Ray gives me collaborative coding experience.
+
+- **Topic/Skill 12: Mastering AI-Augmented Development (context engineering, multi-agent workflows)**
+  - Why emphasize this: Casey said "it's a very hard time for juniors because AI has replaced most of the work juniors would do." Sajjaad said "agency is the most valued trait now — how good you are at using AI to reach goals." My current AI coding skill is medium. Getting extremely good at AI tools — Claude Code, Cursor, multi-agent workflows, context engineering, getting AI to write production-quality type-checked code — is what separates top 10% juniors from the rest right now. This should go on my resume as a differentiator.
+
+- **Topic/Skill 13: Networking with Engineers/Managers (not recruiters)**
+  - Why emphasize this: Gabriel (OpenAI) said "avoid company recruiters because they are not technical — instead reach out to technical leads, hiring managers, or executives at startups. Those people, when looking at your demo, could actually understand that you can do the job." Nishanth showed how to find Northeastern alumni at target companies on LinkedIn. I'll DM engineers at target companies for coffee chats and referrals, not recruiters. When I have impressive demos, engineers can evaluate them and vouch for me.
+
+**Additional decisions from practitioner insights:**
+- **Portfolio website:** Build after completing 2-3 projects with live demos. No point having a site with nothing on it. Then it becomes the link I send to 500 people (Gabriel's advice).
+- **Paper reading:** Only when relevant to a specific project problem. Not a weekly habit. Full paper reading is more for PhD-level DS (ML) roles.
+- **Primary target roles (first job):** ML Engineer (general) + Data Scientist (Consumer). These two have the most overlapping skills (Python, A/B testing, ML). DS (ML) requires PhD, Rec Sys MLE requires 3-6+ years — both are later-career pivots. Optimize for whichever offer comes first between MLE and DS Consumer.
+- **Interview practice:** Start mock interviews 6 months before actually job hunting. Use Casey, Griffin, Marco. Also apply to companies I don't care about for real interview reps (Prime's advice). Too early and I won't have enough knowledge to practice meaningfully.
 
 #### What to EXCLUDE (de-emphasize or skip)
 
 **Question:** What can you spend LESS time on or skip entirely?
 
-- **Topic/Skill 1:**
-  - Why de-emphasize:
-- **Topic/Skill 2:**
-  - Why de-emphasize:
-- **Topic/Skill 3:**
-  - Why de-emphasize:
+- **Topic/Skill 1: Data Scientist (ML) research track — DROP ENTIRELY**
+  - Why de-emphasize: Requires PhD and publications at NeurIPS/CVPR/ICML. I don't have a PhD and am not planning one. Time spent on generative models (GANs, VAEs, diffusion), self-supervised learning, LLM fine-tuning (LoRA, RLHF), and research methods/paper writing is wasted for my actual targets (MLE + DS Consumer). These are the most time-consuming topics in standard ML curricula and they don't help me get my first job.
+
+- **Topic/Skill 2: NLP and Computer Vision as standalone domains — DE-EMPHASIZE BOTH**
+  - Why de-emphasize: I wrote "I'm not very interested in NLP specifically" and "intuitively I'm more interested in RL and recommendation systems." NLP appears in only 22% of my target listings, CV in 0% of non-robotics targets. Standard curricula spend weeks on CNN architectures for image classification and RNN/LSTM for text — skip those dedicated study blocks. Only learn Transformer/attention architecture because it shows up in rec systems (attention mechanisms for ranking models). Don't build NLP or CV projects.
+
+- **Topic/Skill 3: Mathematical proofs and derivations — DE-EMPHASIZE**
+  - Why de-emphasize: Stanford CS229 and CMU spend huge amounts of time on convergence proofs, deriving backpropagation from scratch, proving bias-variance decomposition, etc. I'm already comfortable with stats, linear algebra, calc, and probability. Gabriel (OpenAI) said learning bottom-up (fundamentals/proofs first) is "a BAD IDEA TO AVOID" — you can learn things in 3 days top-down vs 6 years bottom-up. Focus on intuition and application, not mathematical derivations. Understand WHY something works conceptually, don't derive it.
+
+- **Topic/Skill 4: TensorFlow and JAX — DE-EMPHASIZE**
+  - Why de-emphasize: PyTorch is the preferred framework and I already have momentum with it. Learning two frameworks means less depth in either. JAX is rare in listings — skip entirely. TensorFlow appears in listings but mostly alongside PyTorch. Learn TF basics (enough to read TF code and know the key differences), but don't build projects in it. Go deep on PyTorch only.
+
+- **Topic/Skill 5: C++ and CUDA — LIGHT EXPOSURE ONLY**
+  - Why de-emphasize: C++ appears in 31% of listings but mostly for senior MLE roles optimizing inference latency. CUDA only in 3/11 listings. C++ slows down prototyping significantly compared to Python. For my timeline and entry-level targeting, it's not worth deep investment. Do ~10-20 hours total: enough to read C++ code, understand memory management basics, and pass a basic interview question about it. Learn it properly later once I'm in a role that requires it.
+
+- **Topic/Skill 6: Heavy Kubernetes and MLOps — LIGHT EXPOSURE**
+  - Why de-emphasize: My ultralearning plan has a whole Phase 3 on MLOps (weeks 13-16) with Kubernetes deployment, CI/CD pipelines, model registries, etc. But I'm targeting entry-level/intern roles first, and Casey said the #1 priority is getting a coop/internship. Entry-level roles rarely require Kubernetes expertise — that's senior MLE territory. Learn Docker and simple cloud deployment (enough to deploy demos as live links). Learn what Kubernetes does conceptually and do one simple deployment, but don't go deep until I'm in a role that needs it.
+
+- **Topic/Skill 7: Deep learning fundamentals as a standalone study block — LEARN THROUGH PROJECTS INSTEAD**
+  - Why de-emphasize: Items like regularization, transfer learning, neural network architectures, attention mechanisms, bias-variance tradeoff are standard curriculum topics I don't know yet. But rather than doing a dedicated "deep learning fundamentals" course before building, I'll learn these as they come up in my rec sys and RL projects. Gabriel's top-down approach: when I encounter a concept I don't know, ask AI to explain the intuition, then do recursive gap filling until I understand. This is faster and stickier than watching 40 hours of Andrew Ng lectures first.
+
+- **SWE tools (CLIs, MCPs, type checking, IDEs, etc.):** Not a separate study block. Learn them naturally through projects. But when using a tool during a project, ask AI professor for best practices so I get good with each one instead of building bad habits.
 
 *Suggestion: Be ruthless here. You can't learn everything. What's truly unnecessary for YOUR goal?*
 
@@ -923,18 +982,31 @@ Customize the benchmark approach for your specific goals.
 
 **Question:** How will you learn differently than the standard approach?
 
-- **Standard approach: Watch video lectures**
-  - Your modification:
-  - Why:
-- **Standard approach: Do course exercises**
-  - Your modification:
-  - Why:
-- **Standard approach: Read textbooks**
-  - Your modification:
-  - Why:
-- **Standard approach: (add your own)**
-  - Your modification:
-  - Why:
+- **Standard approach: Watch video lectures (40+ hours of Andrew Ng, Stanford CS229, etc. before touching code)**
+  - Your modification: Skip video lectures entirely. When I hit a concept I don't understand during a project, use Gabriel's recursive gap filling with AI instead. Ask AI to explain the concept, ask "what do you mean by that" recursively until I truly understand, then explain it back to AI until it confirms I get it. AI gives the same explanation instantly and I can ask follow-ups — videos are slow and one-directional.
+  - Why: Gabriel (OpenAI) proved that top-down learning (start with a project, learn as needed) takes 3 days vs 6 years bottom-up (academia). Watching 40 hours of lectures before building is the exact bottom-up approach he says to avoid. AI is a better tutor than a recorded video because it's interactive, adapts to my level, and I can drill into exactly what I don't understand.
+
+- **Standard approach: Do course exercises (Coursera assignments, textbook problem sets, Kaggle notebook tutorials)**
+  - Your modification: Replace course exercises with real projects. Skip full problem sets entirely. The only structured exercises I'll do are: (1) HackerRank → LeetCode → HackerRank for DSA (2-3 problems/week, starting on HackerRank for a few months to learn the platform and stdin/stdout format, then LeetCode for deeper algorithm patterns, then back to HackerRank before real assessments), and (2) targeted exercises ONLY when I identify a specific weakness during a project (e.g., can't implement a loss function → find 3 exercises on that one thing, do them, move on). Never do a full course's exercise track.
+  - Why: Gabriel said "having a real problem to solve makes it so much clearer what you need to get good at." Course exercises are someone else's problems with known solutions — they don't build the autonomous problem-solving that Victor (TikTok MLE) called the most important skill. My include list already requires building projects with live demos, which gives me real problems that force real learning.
+
+- **Standard approach: Read textbooks cover-to-cover (Bishop's Pattern Recognition, Goodfellow's Deep Learning — 500-800 page books)**
+  - Your modification: Use AI summaries instead of reading textbooks. Ask AI to summarize key concepts from any book or topic. Only open the actual book if the AI explanation isn't clear enough. Exception: for interview prep, I may skim Cracking the Coding Interview and Grokking System Design for their problem patterns, but even then I'll primarily use AI to extract the key frameworks and practice the actual problems rather than reading pages of text.
+  - Why: Textbooks are written for broad audiences and include huge amounts of content I've already decided to de-emphasize (proofs, NLP, CV, etc.). AI can give me the exact slice of knowledge I need for my specific project or weakness, without wading through 500 pages. Time saved goes to building and deploying.
+
+- **Standard approach: Learn solo (watch lectures alone, do exercises alone, build projects alone)**
+  - Your modification: Two major changes:
+    1. **AI as always-on tutor/professor:** Have AI act as a personal professor during every coding session. Gabriel's exact workflow: bounce what to make → code it → debug it so it works → explain parts → explain intuition why it works → explain the math intuition → explain to me like I'm 12 → go into all details. Every time I have a problem or question, ask AI immediately (Gabriel says this reflex is "really important"). When using tools during projects, ask AI for best practices so I develop good habits, not bad ones.
+    2. **Build in public:** Document everything I learn publicly — LinkedIn posts 2x/week about what I'm building, GitHub repos with good READMEs, potentially a blog. Teaching others forces me to understand deeply (Feynman technique from Ultralearning Principle 8). This also directly feeds my networking emphasis (10-15% of time) since every post is a touchpoint with potential referral sources.
+  - Why: Solo learning is the slowest method. AI as tutor gives me instant, adaptive explanations and code review. Building in public forces deep understanding (you can't explain what you don't understand) AND builds my professional network simultaneously. Both practitioners (Gabriel, Victor) and ultralearning principles (Retrieval, Intuition, Feedback) support this approach.
+
+- **Standard approach: Learn fundamentals before applying (bottom-up: math → theory → simple examples → projects)**
+  - Your modification: Invert the order completely. Top-down: pick a project (rec sys, RL agent) → start building → hit a wall → learn exactly what I need to get past it → keep building. Gabriel said this takes 3 days to learn diffusion models top-down vs. 6 years bottom-up. When I encounter something I don't know (like "what is regularization?"), use recursive gap filling with AI until I understand the intuition, then immediately apply it in my project. The project IS the curriculum.
+  - Why: I already know the math (stats, linear algebra, calc, probability). What I'm missing is applied ML knowledge and engineering skills. Those are best learned by doing, not by studying. Every practitioner I interviewed (Gabriel, Victor, Sajjaad) emphasized building projects and solving real problems over academic study.
+
+- **Standard approach: Separate learning from job search (study for months/years, then start applying)**
+  - Your modification: Integrate job search activities from day one. Networking 2-3 hrs/week, LinkedIn posts 2x/week, attending Khoury career fairs, coffee chats with engineers — all happening in parallel with learning, not after. Every project I build becomes a demo I can send to engineers. Every concept I learn becomes a LinkedIn post. Learning and job search feed each other.
+  - Why: Every practitioner said networking and referrals are how you actually get hired, not cold applications. Waiting until I "feel ready" to start networking means I miss months of relationship-building. Sajjaad said "DO NOT apply without a referral." Building those referral relationships takes time, so start now even before I have impressive demos.
 ---
 
 ## Part 4: Resource Inventory
@@ -942,7 +1014,11 @@ Customize the benchmark approach for your specific goals.
 ### 4.1 Learning Resources
 
 **Instructions:** List specific resources you'll use for each category.
-
+- **Study Tools:**
+    - **HackerRank** (hackerrank.com) — Free. Used by 3,000+ companies (Goldman Sachs, JPMorgan, Amazon, Bloomberg, Adobe, Uber, Wayfair) as their actual candidate screening tool. Covers DSA, SQL, Python, ML, Linux Shell. Has Interview Preparation Kit (69 problems), 1-Month and 3-Month Preparation Kits, and practice assessments that simulate real timed/proctored company tests. Start here FIRST for DSA practice. Also has an AI-assisted IDE in 2025 assessments where companies can see how you use AI — directly relevant to my AI-augmented dev emphasis. Key difference from LeetCode: requires raw stdin/stdout parsing (you read input yourself), which is the #1 thing that trips people up on real assessments.
+    - **LeetCode** (leetcode.com) — Free tier + Premium ($35/mo). Move here AFTER HackerRank foundation. Deeper algorithm pattern practice. Company-tagged problems (Premium shows which companies ask what). More active community with optimized solutions. Key problem lists: Blind 75, NeetCode 150. Pre-parsed function inputs (cleaner than HackerRank). Better for building algorithmic depth and pattern recognition.
+    - **csvistool.com** — Free. Visual tool for learning data structures before practicing problems (Sajjaad's recommendation). Use this to learn each data structure visually, THEN practice problems for that data structure on HackerRank/LeetCode.
+    - **geeksforgeeks.org** — Free. Has optimal solutions with explanations for LeetCode/HackerRank problems. Use when stuck on a problem (Sajjaad's recommendation: work 1-2 hours, then look at the solution, then redo by yourself).
 - **Courses:**
   - Resource 1:
     - URL:
@@ -984,24 +1060,21 @@ Customize the benchmark approach for your specific goals.
   - Community 2:
     - Platform:
     - Priority:
-- **Study Tools:**
-    - Hackerrank (wayfair uses this to interview technical people)
-    - Leetcode
 
 ### 4.2 Tools to Set Up
 
 **Instructions:** Check off once set up and working.
 
-- [ ] Python environment (conda/venv)
-- [ ] PyTorch installed and tested
+- [done] Python environment (conda/venv)
+- [done] PyTorch installed and tested
 - [ ] Docker installed
 - [ ] Cloud account (AWS/GCP) with free tier configured
-- [ ] Git + GitHub configured
+- [done] Git + GitHub configured
 - [ ] IDE set up (VS Code + extensions)
-- [ ] AI coding assistant (Claude Code / Cursor)
+- [done] AI coding assistant (Claude Code / Cursor)
 - [ ] Experiment tracking (W&B / MLflow)
-- [ ] Note-taking system (Notion / Obsidian)
-- [ ] Spaced repetition app (Anki)
+- [done] Note-taking system (Notion / Obsidian)
+- [ ] Spaced repetition system in notion
 
 ---
 
@@ -1012,58 +1085,63 @@ Customize the benchmark approach for your specific goals.
 **Question:** How many hours per week can you realistically dedicate?
 
 - **Monday:**
-  - Available hours:
-  - Best time of day:
+  - Available hours: 3
+  - Best time of day: 12pm-3pm
   - Notes:
 - **Tuesday:**
-  - Available hours:
-  - Best time of day:
+  - Available hours: 3
+  - Best time of day: 12pm-3pm
   - Notes:
 - **Wednesday:**
-  - Available hours:
-  - Best time of day:
+  - Available hours: 3
+  - Best time of day: 12pm-3pm
   - Notes:
 - **Thursday:**
-  - Available hours:
-  - Best time of day:
+  - Available hours: 3
+  - Best time of day: 12pm-3pm
   - Notes:
 - **Friday:**
-  - Available hours:
-  - Best time of day:
+  - Available hours: 3
+  - Best time of day: 12pm-3pm
   - Notes:
 - **Saturday:**
-  - Available hours:
-  - Best time of day:
+  - Available hours: 2
+  - Best time of day: 1pm-3pm
   - Notes:
 - **Sunday:**
-  - Available hours:
-  - Best time of day:
+  - Available hours: 2
+  - Best time of day: 1pm-3pm
   - Notes:
 - **TOTAL:**
-  - Hours per week:
+  - Hours per week: 19
 
 ### 5.2 Time Allocation
 
 **Question:** How will you split your time across activities?
 
 - **Building projects:**
-  - % of time:
-  - Hours/week:
-- **Drilling weak skills:**
-  - % of time:
-  - Hours/week:
-- **Reading/research:**
-  - % of time:
-  - Hours/week:
-- **Retrieval practice:**
-  - % of time:
-  - Hours/week:
+  - % of time: 53%
+  - Hours/week: 10
+  - Notes: Mon-Thu 12pm-3pm is the core project block (12 hrs available, but ~2 hrs will naturally go to gap-filling/research during project work). This is where rec sys projects, RL projects, and deploying demos happen. Includes recursive gap filling with AI when hitting walls.
+- **Drilling weak skills (LeetCode/DSA, debugging practice):**
+  - % of time: 16%
+  - Hours/week: 3
+  - Notes: Friday 12pm-3pm. Dedicated DSA day — 2-3 LeetCode easy problems per session. Start with csvistool.com to learn data structures visually, then do problems across ALL data structures (breadth over difficulty, per Sajjaad's advice). Also practice reading/debugging code without AI help.
+- **Reading/research + retrieval practice:**
+  - % of time: 10%
+  - Hours/week: 2
+  - Notes: Saturday 1pm-3pm. First hour: Victor's active recall drill — explain last week's code from memory without looking at it. If I can't, get a refresher. Draft what I learned into a LinkedIn post. Second hour: Gabriel's recursive gap filling — ask AI to explain concepts hit during the week, ask "what do you mean" recursively, explain back until AI confirms understanding. Also skim system design patterns and research for next week's project tasks.
 - **Community/networking:**
-  - % of time:
-  - Hours/week:
+  - % of time: 11%
+  - Hours/week: 2
+  - Notes: Scattered throughout the week. LinkedIn outreach to Northeastern alumni at target companies, coffee chats, posting about journey 2x/week, attending Khoury career events. Every project demo becomes something to show engineers when asking for referrals.
+- **Catch-up buffer:**
+  - % of time: 10%
+  - Hours/week: 2
+  - Notes: Sunday 1pm-3pm. Reserved for catching up on any activity missed during the week due to other commitments. If nothing was missed, use for extra project time or extra DSA practice. This prevents one busy week from snowballing into falling behind.
 - **TOTAL:**
-  - Should equal 100%:
-  - Total hours/week:
+  - Should equal 100%: 100%
+  - Total hours/week: 19
 
 *Suggestion: Projects should be 50-70% of time for project-based learning.*
 
