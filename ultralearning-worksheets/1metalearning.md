@@ -814,7 +814,17 @@ You'll see that amazon has top 5 northeasrtern students. THen if you search nort
     https://www.citadelsecurities.com/careers/details/ui-engineer/
     Would you be willing to refer me to these openings? Of course, if there is any way I can return the favor in the future, l am happy to do so. Thanks for your time and I look forward to hearing from you soon.
 
+- **Person 9:**
+- Name: Prime
+- Role: SWE Netflix
+- Path:
+- Insights: Great way to get better at interviews is to apply to and interview at places you don't care about working at.
 
+- **Person 9:**
+- Name: 
+- Role:
+- Path:
+- Insights:
 
 
 #### Job Postings Analysis - COMBINED (All Target Roles)
