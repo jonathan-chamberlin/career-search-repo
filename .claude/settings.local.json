@@ -33,7 +33,12 @@
       "Bash(cmd /c 'xcopy \"\"C:\\\\Repositories for Git\\\\career-search\\\\recommendation\"\" \"\"C:\\\\Repositories for Git\\\\rec-system\\\\recommendation\\\\\"\" /E /I')",
       "Bash(cmd /c 'py -3.12 -m venv \"\"C:\\\\Repositories for Git\\\\rec-system\\\\.venv\"\"')",
       "Bash(git -C \"C:\\\\Repositories for Git\\\\career-search\" commit -m \"$\\(cat <<''EOF''\nReorganize files into ultralearning folder and update plan\n\nMove Casey Brown advice notes and ultralearning worksheets into\nultralearning/ directory for better organization. Update plan.md\nand Claude settings.\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\")",
-      "Bash(git -C \"C:\\\\Repositories for Git\\\\career-search\" commit -m \"$\\(cat <<''EOF''\nUpdate Phase 1 and Phase 2 project plans with specific rec sys tasks\n\nReplace generic project bullet points with concrete tasks from the\nContent Discovery Engine technical plan: Goodreads-10K dataset,\nTwo-Tower model with BPR loss, content hybrid explainability,\nFastAPI + React demo, evaluation pipeline, and deployment steps.\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\")"
+      "Bash(git -C \"C:\\\\Repositories for Git\\\\career-search\" commit -m \"$\\(cat <<''EOF''\nUpdate Phase 1 and Phase 2 project plans with specific rec sys tasks\n\nReplace generic project bullet points with concrete tasks from the\nContent Discovery Engine technical plan: Goodreads-10K dataset,\nTwo-Tower model with BPR loss, content hybrid explainability,\nFastAPI + React demo, evaluation pipeline, and deployment steps.\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(for dir in \"C:/Repositories for Git\"/*/)",
+      "Bash(do if [ -d \"$dir/.git\" ])",
+      "Bash(fi)",
+      "Bash(done)",
+      "Bash(git -C \"C:\\\\Repositories for Git\\\\career-search\" commit -m \"$\\(cat <<''EOF''\nUpdate daily log with slash command improvements\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\")"
     ]
   }
 }
