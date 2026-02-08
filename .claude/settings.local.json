@@ -17,7 +17,21 @@
       "Bash(del:*)",
       "Bash(gh api:*)",
       "Bash(dir:*)",
-      "Bash(echo:*)"
+      "Bash(echo:*)",
+      "Bash(findstr:*)",
+      "Bash(if exist \"C:\\\\Repos for Git\" dir /s /b \"C:\\\\Repos for Git\")",
+      "Bash(gh auth:*)",
+      "Bash(where:*)",
+      "Bash(py -3.12 --version:*)",
+      "Bash(py:*)",
+      "Bash(gh:*)",
+      "Bash(choco install:*)",
+      "Bash(winget install:*)",
+      "Bash(\"C:\\\\Program Files\\\\GitHub CLI\\\\gh.exe\" --version)",
+      "Bash(cmd /c \"where gh\")",
+      "Bash(xcopy:*)",
+      "Bash(cmd /c 'xcopy \"\"C:\\\\Repositories for Git\\\\career-search\\\\recommendation\"\" \"\"C:\\\\Repositories for Git\\\\rec-system\\\\recommendation\\\\\"\" /E /I')",
+      "Bash(cmd /c 'py -3.12 -m venv \"\"C:\\\\Repositories for Git\\\\rec-system\\\\.venv\"\"')"
     ]
   }
 }

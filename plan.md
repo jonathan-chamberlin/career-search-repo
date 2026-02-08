@@ -94,6 +94,7 @@ Get tools working. Start building the rec sys project. Begin the LeetCode and ne
 ### Weekly Activities
 
 **Monday, Tuesday, Wednesday — Project**
+- Decide what to build
 - Set up rec sys project repo with demo-guidelines.md folder structure (src/, tests/, configs/, scripts/, app/)
 - Pick dataset (MovieLens, Amazon reviews, or similar from Kaggle)
 - Implement data loading and preprocessing pipeline in PyTorch
@@ -110,7 +111,7 @@ Get tools working. Start building the rec sys project. Begin the LeetCode and ne
 - Write and publish 1-2 posts across LinkedIn, X, and GitHub about what you're learning or building
 - Goal this phase: build relationships. Do NOT ask for referrals yet.
 
-**Friday — LeetCode / DSA**
+**Friday — LeetCode / Data Structures & Algorithms**
 - First 2-3 Fridays: learn data structures visually on csvistool.com (arrays, linked lists, stacks, queues, hash maps, trees, graphs, heaps)
 - Then do 2-3 easy LeetCode problems per session, one data structure per Friday
 - Track which data structures you've covered
