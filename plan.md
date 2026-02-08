@@ -93,17 +93,19 @@ Get tools working. Start building the rec sys project. Begin the LeetCode and ne
 
 ### Weekly Activities
 
-**Monday, Tuesday, Wednesday — Project**
-- Decide what to build
-- Set up rec sys project repo with demo-guidelines.md folder structure (src/, tests/, configs/, scripts/, app/)
-- Pick dataset (MovieLens, Amazon reviews, or similar from Kaggle)
-- Implement data loading and preprocessing pipeline in PyTorch
-- Config-driven design from the start (YAML for hyperparameters, no hardcoded paths)
-- Build basic collaborative filtering model, iterate toward embeddings or two-tower architecture
-- Set up experiment tracking (W&B or MLflow), log training metrics, evaluation metrics, hyperparameters
-- Implement proper train/validation/test split
+**Monday, Tuesday, Wednesday — Project: Content Discovery Engine (Book Rec Sys)**
+- Set up rec sys project repo with folder structure (src/, tests/, configs/, scripts/, app/)
+- Download Goodreads-10K dataset (10K books, 53K users, 6M ratings), explore distributions (rating counts, user activity, genre spread)
+- Implement data loading pipeline: PyTorch Dataset and DataLoader for user-item interactions
+- Implement train/validation/test split BY USER (not by rating — this tests generalization to new users)
+- Set up YAML config for all hyperparameters (embedding dim, learning rate, batch size, negative sampling ratio)
+- Set up Weights & Biases experiment tracking, log all runs with metrics and hyperparameters
+- Implement and evaluate baseline models: Random recommender, Popularity-based recommender (NDCG@10, Hit Rate@10, MRR)
+- Start Two-Tower model: User Tower (interaction history → user embedding) + Item Tower (item features → item embedding) + dot product scoring
+- Implement training loop with BPR loss (pairwise ranking loss) and negative sampling with popularity weighting
+- Train on Goodreads training set, validate on validation set, beat baselines by meaningful margin
 - Debug things yourself before asking AI — build the debugging muscle
-- Recursive gap filling on any concept you don't know (embeddings, loss functions, neural architectures)
+- Recursive gap filling: PyTorch Dataset/DataLoader, NDCG computation, embedding layers, BPR loss derivation, Two-Tower vs NCF vs Matrix Factorization tradeoffs
 
 **Thursday — Networking**
 - Send 2-3 LinkedIn connection requests to Northeastern alumni at target companies (find via linkedin.com/school/khoury-college/people/)
@@ -141,15 +143,21 @@ Ship the rec sys project as a live demo anyone can access via URL. Start project
 
 ### Weekly Activities
 
-**Monday, Tuesday, Wednesday — Project**
-- Improve rec sys model performance: try neural collaborative filtering, two-tower model, or ranking approach (CTR prediction)
-- Add evaluation metrics: NDCG, MRR, hit rate. Compare against baseline.
-- Document why you chose this architecture over alternatives
-- Build demo interface: inference API (FastAPI), simple frontend or Streamlit app
-- Make it interactive: user selects preferences, model returns recommendations with confidence scores
-- Handle edge cases (new user / cold start), follow demo-guidelines.md visual checklist
-- Containerize with Docker, deploy to cloud (AWS/GCP free tier, or Railway/Render)
-- Write README: problem statement, model explanation, architecture diagram, setup instructions, design tradeoffs
+**Monday, Tuesday, Wednesday — Project: Content Discovery Engine (Ship Demo)**
+- Finish Two-Tower model: hyperparameter tuning (embedding dimension, learning rate, batch size, negative sampling ratio), log all experiments to W&B with model checkpoints
+- If Two-Tower training is unstable: fallback to NCF (simpler architecture, same evaluation pipeline)
+- Add content feature hybrid for explainability: extract genre tags, author, publication year, description keywords from Goodreads metadata
+- For each recommendation, generate human-readable explanations: find top-3 similar books from user's liked set (genre overlap, author overlap, embedding distance), format as "Recommended because you liked [Book X] and [Book Y]. Shared genres: Science Fiction, Philosophy."
+- Implement cold-start handling: test synthetic users with only 5 ratings, add popularity-weighted fallback for users with <10 ratings if needed
+- Build FastAPI backend: POST /onboarding (receive ratings, return initial recs), POST /feedback (updated rating, re-ranked recs), GET /recommend/{user_id} (top-K with explanations + confidence), GET /health (model version, dataset version, commit hash). Input validation, error handling, log inference latency. Target <500ms per request.
+- Build React frontend with shadcn/ui + Tailwind: onboarding screen (grid of ~30 books with covers, rate 5-10 books 1-5 stars), results screen (ranked list with cover, title, author, predicted rating, explanation, confidence), feedback loop (rate any rec, refresh re-ranks), model info panel, "Run example" button with pre-filled ratings
+- Fallback: if React eats too much time, switch to Streamlit — a working Streamlit demo beats an unfinished React app
+- Run final offline evaluation on test set, report all metrics vs all baselines with deltas
+- Conduct user studies: recruit 5-10 people, have them rate 10-15 books, rate recommendation quality 1-5, collect qualitative feedback on failure modes
+- Implement simulated A/B test: split test users into Group A (Two-Tower) and Group B (Popularity baseline), compare NDCG@10, report effect size, 95% CI, p-value, create visualization (cut this first if behind schedule)
+- Write unit tests: data transforms, model inference (deterministic output given fixed input), API endpoints, edge cases (1 rating, all 5-star, all 1-star)
+- Dockerize backend and frontend, deploy to Railway or Render (free tier), verify live URL works end-to-end
+- Write README: problem statement, architecture diagram (Two-Tower + content hybrid), model explanation, evaluation results with visualizations, design tradeoffs (why Two-Tower over NCF, why explicit ratings, why books-only), known limitations, next steps
 - Start scoping second project: (1) RL agent with live demo, (2) A/B testing platform, or (3) product analytics with causal inference
 
 **Thursday — Networking**
