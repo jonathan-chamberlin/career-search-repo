@@ -1,4 +1,5 @@
 # What I Did Today
+Referenced the claude slash command /what-i-did-today
 
 02/07/26:
 - **yc_application**: Built the full YC application from scratch — initial draft, refined answers, added Sidequest details, wrote a pitch script with market stats and role assignments.
