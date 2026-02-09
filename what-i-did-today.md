@@ -1,7 +1,7 @@
 # What I Did Today
 Referenced the claude slash command /what-i-did-today
 
-02/08/26 (last checked 21:21):
+02/08/26 (last checked 21:40):
 - **macros**: Added Comet window focusing to website hotkeys and switched tab switching to use RShift modifier.
 - **slash commands**: Created `/update-skill` command that reviews session corrections and bakes them into skill prompts, including capturing verification prompts as signals for missing validation steps. Refined it to list identified skills/commands first for confirmation, and to distinguish between skills and commands that may live in different directories. Updated `/what-i-did-today` to use a `scan-repos.sh` script (bypassing Claude Code's shell-operator permission limitation), added last-checked timestamps to avoid re-fetching old commits, and made bullet descriptions more detailed for repos with many changes.
 - **rec-system-folder**: Connected repo to GitHub remote, pushed initial commit, and created an AHK script for RShift+Arrow browser tab reordering in Comet.
