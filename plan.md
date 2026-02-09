@@ -45,7 +45,7 @@ Track every week. Weekly execution score = (metrics hit / 7) x 100%. 85%+ = on t
 3. Hours on HackerRank/LeetCode/DSA (target: 3)
 4. Hours on research + retrieval (target: 2)
 5. Outreach messages sent — DMs, connection requests, coffee chat asks (target: 3)
-6. Posts published across LinkedIn/X/GitHub (target: 2)
+6. Posts published across LinkedIn/X/Instagram Stories/GitHub (target: 2)
 7. Active recall pass/fail — could you explain last week's code from memory? (target: pass)
 
 ### Rules
@@ -126,9 +126,9 @@ Build the rec sys project and ship it as a live demo anyone can access via URL. 
 #### 🤝 Thursday — Networking
 - Send 2-3 LinkedIn connection requests to Northeastern alumni at target companies (find via linkedin.com/school/khoury-college/people/)
 - Message 1 person/week for a coffee chat using Nishanth's DM templates in 1metalearning.md
-- Write and publish 2 posts/week across LinkedIn, X, and GitHub about what you're learning or building
+- Write and publish 2 posts/week across LinkedIn, X, Instagram Stories, and GitHub about what you're learning or building
 - Goal early in this phase: build relationships. Do NOT ask for referrals yet.
-- Once the rec sys ships: post about it on LinkedIn and X — what you built, what you learned, one interesting technical challenge
+- Once the rec sys ships: post about it on LinkedIn, X, and Instagram Stories — what you built, what you learned, one interesting technical challenge
 - Continue weekly coffee chat outreach (message 1 new person, follow up with existing conversations)
 - Research and sign up for end-of-semester Khoury career events and employer panels — bring your demo
 - Investigate joining AINU when applications open next fall
@@ -191,7 +191,7 @@ Build portfolio website. Scope and build highly ambitious project #2 as a live d
 - Start system design study: read 1 chapter of Grokking System Design or do 1 lesson on educative.io
 
 #### 🤝 Thursday — Networking
-- Post 2x/week about project #2 progress and concepts you're learning on LinkedIn and X
+- Post 2x/week about project #2 progress and concepts you're learning on LinkedIn, X, and Instagram Stories
 - Post about your AI-augmented development workflow — what tools you built, how agents accelerated your work. This content stands out because most people just use AI passively.
 - Continue weekly coffee chat outreach — now you have 2 real demos to show people
 - Start reaching out to slightly harder targets: engineers and technical leads at companies you actually want to work at
@@ -239,7 +239,7 @@ Get interview-ready. Reach out to EVERYONE in the referral list. Start mock inte
 - **This is the most important networking period of the entire plan.**
 - Reach out to ALL people in the referral list for real conversations: Taylor (Google Cloud), Casey Brown, Olivia Gagan (Fidelity), Nishanth (Citadel), Greg Schafer (Scale.ai), Marco, Griffin, Liam Kaufman, Mario, Jonathan Parra, Jai Senthil Kumar, Sebastian Sepulveda
 - Show them your portfolio site and demos. At the end of each conversation, ask: "Would you be down to give me a referral for the upcoming spring co-op cycle?"
-- Continue posting 2x/week on LinkedIn, X, and GitHub about your interview prep journey
+- Continue posting 2x/week on LinkedIn, X, Instagram Stories, and GitHub about your interview prep journey
 - Apply to 1-2 companies you don't care about for real interview reps — this is practice, not the real push (Prime's advice)
 
 #### 🧩 Friday — HackerRank / LeetCode / DSA
@@ -288,7 +288,7 @@ Apply to spring 2027 co-ops with referrals. Interview. Get offers.
 - Ask recruiters if the company has resources to help you pass the online assessment
 - Use Northeastern career services for resume review and interview prep
 - Check NUWorks for spring 2027 co-op postings
-- Post 2x/week on LinkedIn and X about your application journey
+- Post 2x/week on LinkedIn, X, and Instagram Stories about your application journey
 - Contribute to 1-2 open source ML projects (PyTorch, Hugging Face, or Ray) — fix bugs, engage with maintainers on Discord. This builds real codebase experience (reading other people's code, code review, debugging) and looks great on a resume (Maddy Zhang's advice re: Google Summer of Code)
 
 #### 🧩 Friday — HackerRank / LeetCode / DSA
@@ -327,7 +327,7 @@ Accept an offer. Prepare to hit the ground running on day 1.
 
 #### 🤝 Thursday — Networking
 - Thank everyone who gave you referrals, regardless of outcome. Update them on where you landed. These relationships matter for the rest of your career.
-- Post about landing the co-op on LinkedIn and X — this closes the loop on the "building in public" story
+- Post about landing the co-op on LinkedIn, X, and Instagram Stories — this closes the loop on the "building in public" story
 - Connect with future teammates on LinkedIn if possible
 
 #### 🧩 Friday — HackerRank / LeetCode / DSA
