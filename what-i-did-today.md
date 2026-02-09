@@ -1,10 +1,12 @@
 # What I Did Today
 Referenced the claude slash command /what-i-did-today
 
-02/08/26 (last checked 21:40):
+02/08/26 (last checked 01:23):
 - **macros**: Added Comet window focusing to website hotkeys and switched tab switching to use RShift modifier.
 - **slash commands**: Created `/update-skill` command that reviews session corrections and bakes them into skill prompts, including capturing verification prompts as signals for missing validation steps. Refined it to list identified skills/commands first for confirmation, and to distinguish between skills and commands that may live in different directories. Updated `/what-i-did-today` to use a `scan-repos.sh` script (bypassing Claude Code's shell-operator permission limitation), added last-checked timestamps to avoid re-fetching old commits, and made bullet descriptions more detailed for repos with many changes.
 - **rec-system-folder**: Connected repo to GitHub remote, pushed initial commit, and created an AHK script for RShift+Arrow browser tab reordering in Comet.
+- **career-search**: In plan.md clarified that phase 1 is about coding myself and understanding it, and phase 2 is about building with agents.Restructured plan.md from 6 phases to 5 — merged old Phases 1+2 into a single "build + ship rec sys" Phase 1 (Feb-Apr), merged old Phase 3 + project-2 scoping into Phase 2 (May-Jul), renumbered remaining phases. Added emojis to all phase headings and day-of-week headings, converted day-of-week headings to h4, fixed duplicate HackerRank in Friday headers, added HackerRank/SQL/open-source/mock-interview content from metalearning gap analysis.
+- **slash commands**: Ensured daily logs and commit messages communicate impact first — updated `/what-i-did-today` skill and global `CLAUDE.md` to lead with the significant purpose ("why") before listing mechanical tasks, with good/bad examples in both files.
 
 02/07/26:
 - **yc_application**: Built the full YC application from scratch — initial draft, refined answers, added Sidequest details, wrote a pitch script with market stats and role assignments.
