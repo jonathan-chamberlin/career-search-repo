@@ -1,6 +1,11 @@
 # What I Did Today
 Referenced the claude slash command /what-i-did-today
 
+02/09/26 (last checked 21:00):
+- **google-sheets-mcp-server**: Enabled Claude Code to directly read and write Google Spreadsheets without manual download/upload — built a TypeScript MCP server with 10 tools (get/update/append/clear values, spreadsheet info, create/add/delete sheets), configured service account auth, and registered it in .mcp.json.
+- **rec-system-folder**: Started building the Goodbooks-10K data pipeline — added a dataset loading script using pandas, loaded all CSVs (ratings, book_tags, to_read, tags), switched from remote URLs to local files for faster iteration.
+- **career-search**: Added Instagram Stories as a posting platform in plan.md, started the metalearning worksheet with a date, and added npm build permissions to Claude settings.
+
 02/08/26 (last checked 01:23):
 - **macros**: Added Comet window focusing to website hotkeys and switched tab switching to use RShift modifier.
 - **slash commands**: Created `/update-skill` command that reviews session corrections and bakes them into skill prompts, including capturing verification prompts as signals for missing validation steps. Refined it to list identified skills/commands first for confirmation, and to distinguish between skills and commands that may live in different directories. Updated `/what-i-did-today` to use a `scan-repos.sh` script (bypassing Claude Code's shell-operator permission limitation), added last-checked timestamps to avoid re-fetching old commits, and made bullet descriptions more detailed for repos with many changes.
