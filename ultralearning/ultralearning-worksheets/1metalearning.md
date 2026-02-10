@@ -17,7 +17,7 @@
 
 **Time Investment:** Spend 5-10% of your total learning time on metalearning. For a 400-hour learning project, that's ~20-40 hours upfront.
 
-**Date Started:** _______________
+**Date Started:** ______2/9/20206____
 **Date Completed:** _______________
 
 ---

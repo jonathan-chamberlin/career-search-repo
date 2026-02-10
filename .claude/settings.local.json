@@ -38,7 +38,9 @@
       "Bash(do if [ -d \"$dir/.git\" ])",
       "Bash(fi)",
       "Bash(done)",
-      "Bash(git -C \"C:\\\\Repositories for Git\\\\career-search\" commit -m \"$\\(cat <<''EOF''\nUpdate daily log with slash command improvements\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\")"
+      "Bash(git -C \"C:\\\\Repositories for Git\\\\career-search\" commit -m \"$\\(cat <<''EOF''\nUpdate daily log with slash command improvements\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(npm install:*)",
+      "Bash(npm run build:*)"
     ]
   }
 }
