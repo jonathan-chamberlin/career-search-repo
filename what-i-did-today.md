@@ -1,11 +1,12 @@
 # What I Did Today
 Referenced the claude slash command /what-i-did-today
 
-02/09/26 (last checked 01:47):
+02/09/26 (last checked 01:58):
 - **google-sheets-mcp-server**: Enabled Claude Code to directly read and write Google Spreadsheets without manual download/upload — built a TypeScript MCP server with 10 tools (get/update/append/clear values, spreadsheet info, create/add/delete sheets), configured service account auth, and registered it in .mcp.json.
 - **rec-system-folder**: Started building the Goodbooks-10K data pipeline — added a dataset loading script using pandas, loaded all CSVs (ratings, book_tags, to_read, tags), switched from remote URLs to local files for faster iteration. Designed a tracer bullet approach for an end-to-end popularity baseline — wrote the tracer plan in tracer.md and built the untested popularity model in main.py, resolved open questions about the approach.
 - **career-search**: Added Instagram Stories as a posting platform in plan.md, started the metalearning worksheet with a date, and added npm build permissions to Claude settings.
-- **macros**: Increased commit-and-push macro from 3 to 4 presses to prevent accidental triggers.
+- **macros**: Increased commit-and-push macro from 3 to 4 presses to prevent accidental triggers. Diagnosed and fixed phantom key repeat bug — OS auto-repeat was inflating press counts through AHK's `~` passthrough modifier; added `KeyWait` to suppress it.
+- **slash commands**: Created `/debug` skill with systematic debugging methodology — believe the user first, search for known platform issues before theorizing, instrument the exact failure condition, never present speculation as confirmed root cause.
 
 02/08/26 (last checked 01:23):
 - **macros**: Added Comet window focusing to website hotkeys and switched tab switching to use RShift modifier.
