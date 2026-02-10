@@ -2,9 +2,6 @@
 
 ## Reasoning
 
-### Expert
-Jensen Huang said that students should learn how to use AI https://x.com/r0ck3t23/status/2020897598404522290?s=20
-
 ### Goal
 
 Land a spring 2027 co-op/internship as an ML Engineer or Data Scientist (Consumer) at a top-tier company (Meta, Google, Amazon, OpenAI, Anthropic, Airbnb, Palantir etc.). Build toward $270k/year total comp by May 2029.
@@ -171,6 +168,13 @@ Build the rec sys project and ship it as a live demo anyone can access via URL. 
 ## 🚀🎯 Phase 2 (May-Jul) PORTFOLIO + SECOND DEMO + BUILDING WITH AGENTS + SYSTEM DESIGN
 
 Build portfolio website. Scope and build highly ambitious project #2 as a live demo. Start studying system design. Level up AI-augmented development — the method of building becomes a learning objective itself.
+
+### Links to review
+https://www.notion.so/jchamberlin/Create-openclaw-swarm-for-research-research-1-all-the-best-methods-to-use-AI-agents-for-building--303afe0dcf038092a17ad36dc948fa4f?v=2eeafe0dcf038074b090000cab688dc4&source=copy_link
+
+Jensen Huang said that students should learn how to use AI https://x.com/r0ck3t23/status/2020897598404522290?s=20
+
+OpenClaw AI Swarm 
 
 ### Weekly Activities
 

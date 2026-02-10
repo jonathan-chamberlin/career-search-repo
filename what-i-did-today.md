@@ -1,6 +1,11 @@
 # What I Did Today
 Referenced the claude slash command /what-i-did-today
 
+02/10/26 (last checked 16:44):
+- **rec-system-folder**: Completed the tracer bullet end-to-end — tested the popularity model, built a FastAPI `/recommend` endpoint proving backend-to-model pipeline works, added a frontend scaffold with a button that fetches the API and displays a recommendation. Fixed numpy.int64 JSON serialization along the way. Reorganized project structure per demo guidelines — separated model logic into src/ and serving layer into app/, added CORS middleware, fixed stale uvicorn process blocking port 8000.
+- **macros**: Hardened commit macro against false triggers — reset press count when any non-p key is pressed between p-presses (using `A_PriorKey`), preventing words like "poppy" or "app password" from firing it.
+- **slash commands**: Improved professor-mode to treat imperative requests as teaching moments (concepts + function lists, not step-by-step solutions). Improved update-skill to scan for user prompts describing desired behaviors/formats as potential skill gaps to propose fixing.
+
 02/09/26 (last checked 02:19):
 - **google-sheets-mcp-server**: Enabled Claude Code to directly read and write Google Spreadsheets without manual download/upload — built a TypeScript MCP server with 10 tools (get/update/append/clear values, spreadsheet info, create/add/delete sheets), configured service account auth, and registered it in .mcp.json.
 - **rec-system-folder**: Started building the Goodbooks-10K data pipeline — added a dataset loading script using pandas, loaded all CSVs (ratings, book_tags, to_read, tags), switched from remote URLs to local files for faster iteration. Designed a tracer bullet approach for an end-to-end popularity baseline — wrote the tracer plan in tracer.md and built the untested popularity model in main.py, resolved open questions about the approach.
