@@ -204,7 +204,7 @@ Build portfolio website. Scope and build highly ambitious project #2 as a live d
 
 #### 🧠 Saturday — Research + Retrieval
 - First hour: active recall on project #2 code and concepts
-- Second hour: alternate weeks between (1) system design practice — pick a system ("design a recommendation feed," "design Uber") and sketch the architecture in Excalidraw, practice explaining it out loud, and (2) agent workflow practice — experiment with multi-agent orchestration patterns, build a new skill or MCP server, try a new context engineering technique, study how production teams use agentic tools
+- Second hour: alternate weeks between (1) system design practice — pick a system ("design a recommendation feed," "design Uber") and sketch the architecture in Excalidraw, practice explaining it out loud, and (2) agent workflow practice — experiment with multi-agent orchestration patterns, build a new skill or MCP server, try a new context engineering technique, study how production teams use agentic tools and (3) watching videos by youtube channel AI Engineer.
 
 #### 🔄 Sunday — Catch-up buffer
 
