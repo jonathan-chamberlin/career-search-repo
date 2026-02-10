@@ -2,6 +2,9 @@
 
 ## Reasoning
 
+### Expert
+Jensen Huang said that students should learn how to use AI https://x.com/r0ck3t23/status/2020897598404522290?s=20
+
 ### Goal
 
 Land a spring 2027 co-op/internship as an ML Engineer or Data Scientist (Consumer) at a top-tier company (Meta, Google, Amazon, OpenAI, Anthropic, Airbnb, Palantir etc.). Build toward $270k/year total comp by May 2029.
