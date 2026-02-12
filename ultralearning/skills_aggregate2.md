@@ -12,7 +12,7 @@ A synthesized summary of what employers are looking for across job listings in e
 | ML Engineer (Recommendation Systems) | Ranking Systems, Personalization, Real-Time ML, User Modeling, A/B Testing, Content Retrieval | Python, C++, PyTorch, TensorFlow, Spark, Presto, AWS |
 | ML Engineer (Robot Learning) | Perception, Reinforcement Learning, Sim-to-Real, Manipulation, Edge Deployment, Sensor Fusion | Python, C++/Rust, PyTorch, TensorFlow, ROS, ONNX/TensorRT |
 | Analytics / Data Engineer | Data Pipelines, ETL, Data Modeling, Cloud Platforms, Big Data | SQL, Python, Java, Spark, AWS/Azure/GCP, Airflow |
-| AI Engineer | LLM Integration, RAG Pipelines, Full-Stack Development, API Integration | Python, JavaScript/TypeScript, LangChain, Docker, Kubernetes |
+| AI Engineer | LLM/GenAI Integration, RAG Pipelines, Agent Development, Prompt Engineering, Forward Deployed / Customer-Facing | Python, TypeScript, LangChain/LlamaIndex, OpenAI/Anthropic APIs, AWS/GCP, Docker, Kubernetes |
 | Data Scientist (Consumer) | A/B Testing, Causal Inference, Statistical Modeling, Experimentation, Data Visualization | Python, R, SQL, Tableau/Looker, Spark |
 | Data Scientist (ML) | Deep Learning Research, Generative Models, Computer Vision, NLP, Publishing | Python, PyTorch, TensorFlow, CUDA, C++ |
 | Analytics Engineer | Data Modeling, Metrics Design, Dimensional Modeling, Data Quality | SQL, dbt, Python, Snowflake/BigQuery, Spark |
@@ -109,6 +109,38 @@ MS/PhD in Robotics, Computer Science, or ML strongly preferred; 3-6+ years exper
 
 ---
 
+## AI Engineer
+
+### Skills
+Python is the universal requirement. Production experience with LLM APIs (OpenAI, Anthropic/Claude, Gemini) and frameworks (LangChain, LlamaIndex, HuggingFace) is the defining skill. RAG pipelines, prompt engineering, and agentic workflow design are core competencies. Cloud platforms (AWS, GCP, Azure) for ML deployment, plus JavaScript/TypeScript for full-stack integration. SQL and data pipeline skills (Spark, ETL) round out the profile. Docker/Kubernetes and CI/CD for production deployment are increasingly expected.
+
+### Requirements
+Build and deploy production-grade AI agents and LLM-powered applications end-to-end — from prototyping through evaluation to reliable deployment at scale. Convert ambiguous business requirements into technical implementations. Many roles are "forward deployed" or customer-facing: embed with enterprise clients, own their AI strategy, architect multi-agent systems, implement RAG and fine-tuning pipelines, and serve as primary technical contact. Comfort working in dynamic environments with evolving objectives.
+
+### Qualifications
+BS in CS, Math, or quantitative field minimum; graduate degree preferred for FDE roles. New grad roles exist (Quora/Poe, Amazon intern) but most full positions want 2-4+ years of software engineering experience with production LLM/GenAI work. Customer-facing experience (solutions engineering, consulting, forward deployed engineering) is highly valued — this is not a pure backend role. Track record of shipping AI products is more important than publications.
+
+### Skill Frequency (from 10 job listings)
+
+| Skill | Frequency |
+|-------|-----------|
+| Python | 10/10 |
+| LLMs / GenAI | 10/10 |
+| Prompt Engineering | 7/10 |
+| Agent Development | 7/10 |
+| RAG (Retrieval-Augmented Generation) | 5/10 |
+| Cloud Platforms (AWS/GCP/Azure) | 5/10 |
+| Customer-Facing / Forward Deployed | 7/10 |
+| TypeScript/JavaScript | 4/10 |
+| ML Fundamentals (eval, training, optimization) | 6/10 |
+| Docker/Kubernetes/CI-CD | 3/10 |
+| LangChain/LlamaIndex/HuggingFace | 3/10 |
+| SQL / Data Pipelines | 4/10 |
+| Java/C++ | 4/10 |
+| TensorFlow/PyTorch | 3/10 |
+
+---
+
 ## Analytics / Data Engineer
 
 ### Skills
@@ -119,19 +151,6 @@ Design and implement data pipelines connecting various sources; ensure data qual
 
 ### Qualifications
 Currently pursuing or recently completed BS/MS in Computer Science, Engineering, or related STEM field. Prior internship experience and coursework in algorithms, data structures, and database systems are strongly preferred.
-
----
-
-## AI Engineer
-
-### Skills
-Python is essential, with JavaScript/TypeScript for full-stack applications; familiarity with LLM APIs (OpenAI, Claude), LangChain, and RAG pipelines is increasingly important. Understanding of databases (SQL/NoSQL), containerization (Docker, Kubernetes), and CI/CD practices is expected.
-
-### Requirements
-Build and deploy AI-powered features end-to-end; integrate with APIs and services while maintaining production quality. Ability to work in fast-paced, loosely defined environments, talk to users to understand problems, and ship high-quality products quickly.
-
-### Qualifications
-BS/MS in Computer Science or related field for product engineering roles; PhD for research-focused positions with publications in major conferences. Track record of shipping products and previous internship experience is valued.
 
 ---
 
