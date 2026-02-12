@@ -167,9 +167,10 @@ Build the rec sys project and ship it as a live demo anyone can access via URL. 
 
 ## 🚀🎯 Phase 2 (May-Jul) PORTFOLIO + SECOND DEMO + BUILDING WITH AGENTS + SYSTEM DESIGN
 
-Build portfolio website. Scope and build highly ambitious project #2 as a live demo. Start studying system design. Level up AI-augmented development — the method of building becomes a learning objective itself.
+Build portfolio website. Scope and build highly ambitious project #2 as a live demo. Start studying system design. Level up AI-augmented development — the method of building becomes a learning objective itself. Big emphasis on using OpenClaw.
 
 ### Links to review
+https://x.com/twistartups/status/2021008758827102616?s=46
 https://www.notion.so/jchamberlin/Create-openclaw-swarm-for-research-research-1-all-the-best-methods-to-use-AI-agents-for-building--303afe0dcf038092a17ad36dc948fa4f?v=2eeafe0dcf038074b090000cab688dc4&source=copy_link
 
 Jensen Huang said that students should learn how to use AI https://x.com/r0ck3t23/status/2020897598404522290?s=20
