@@ -1,4 +1,4 @@
-# Rules
+# 📏⚖️ Rules
 
 These come from practitioners who already have the jobs I want. Follow them exactly.
 

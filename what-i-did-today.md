@@ -1,8 +1,11 @@
 # What I Did Today
 Referenced the claude slash command /what-i-did-today
 
-02/12/26 (last checked 14:28):
+02/12/26 (last checked 20:54):
 - **career-search**: Built out the AI Engineer job category — added 10 real 2025-2026 "AI Engineer" postings to job_listings.xlsx (Palantir, Quora/Poe, Databricks, Scale AI x2, Anthropic, Snowflake, Amazon AGI, Google Cloud AI, ServiceNow), all focused on applied/forward-deployed AI roles that implement AI to solve business problems. Created a synthesized AI Engineer section in skills_aggregate2.md with skill frequency table showing Python and LLMs/GenAI at 10/10, agent development and prompt engineering at 7/10, and customer-facing work at 7/10.
+- **career-search**: Made the plan more navigable — split plan.md into 7 focused files under plan/ directory.
+- **northeastern_university_folder**: Wrote peer review letter for Corinne's Unit 2 rough draft on "Benito Cereno" — evaluated close reading quality, scholar mapping accuracy, and identified gaps (needs tighter integration between close reading and scholarship, needs to cut from 2500 to 1600 words). Ran full draft-and-revise pipeline with parallel tone review and skeptical professor grading. Added 4 tone guidelines (cut "really" padding, paragraph breaks at tonal shifts, acknowledge knowledge gaps, active verbs in feedback). Created engw3309 skill for Advanced Writing assignments, updated markdown-to-pdf with metadata sanity checks and floating point fix, added draft-and-revise auto-run rule to project CLAUDE.md.
+- **northeastern_university_folder**: Made the meta_ctf skill a complete end-to-end workflow — restructured into 4 phases (setup folder/markdown, solve with screenshots/scripts, handoff answer to user, finalize PDF after user uploads confirmation). Added # Challenge heading to output format, two new tone rules (no iterating narration, no parenthetical editorializing), extracted auto-crop into a reusable script at scripts/auto_crop.py, and specified base64 image embedding for PDF generation. Applied final pickmi.md tone edits and regenerated the PDF.
 - **notion-executive-assistant-folder**: Hardened Kalshi weather bot models and operations — made 5 model improvements to reduce risk and sharpen edges (236 tests passing), added scheduled settlement checks with Telegram alerts, raised daily budget to $10, slowed scan interval to 60min, updated CLAUDE.md with comprehensive system docs.
 
 02/11/26 (last checked 02:44):

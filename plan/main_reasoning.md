@@ -1,17 +1,17 @@
-# Reasoning
+# 🧠💡 Reasoning
 
-## Goal
+## 🎯 Goal
 
 Land a spring 2027 co-op/internship as an ML Engineer, Data Scientist, or AI Engineer at a top-tier company (Meta, Google, Amazon, OpenAI, Anthropic, Airbnb, Palantir, Scale AI, Databricks etc.). Build toward $270k/year total comp by May 2029.
 
-## Target Roles
+## 🏢 Target Roles
 
 1. Machine Learning Engineer
 2. ML Engineer (Recommendation Systems)
 3. Data Scientist (Consumer)
 4. AI Engineer (Applied / Forward Deployed)
 
-## Philosophy
+## 🪨 Philosophy
 
 Fundamentals first. AI as multiplier, not crutch.
 

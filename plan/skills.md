@@ -1,6 +1,6 @@
-# Skills
+# 🛠️📈 Skills
 
-## Prioritizing (from 46 job postings)
+## ✅ Prioritizing (from 46 job postings)
 
 | Skill | Frequency | How I'll Learn It |
 |-------|-----------|-------------------|
@@ -15,7 +15,7 @@
 | SQL | 33% | Through data pipelines in projects |
 | Data Visualization | 33% | Through project dashboards and analysis |
 
-## What I'm NOT Spending Time On
+## 🚫 What I'm NOT Spending Time On
 
 - DS (ML) research track — requires PhD, not targeting this for first job
 - NLP and Computer Vision as standalone study — not interested, low overlap with targets
