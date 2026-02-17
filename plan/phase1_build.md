@@ -2,7 +2,7 @@
 
 Build two projects and ship both as live demos anyone can access via URL. Mon-Tue: write code yourself with /professor-mode as tutor. Wed-Thu: extend the same project with Claude Code. Begin the HackerRank and networking pipelines. Start system design study.
 
-## Project #1: Recommendation System (Feb-Apr target)
+## Project #1: Recommendation System with professor-mode (Feb-Apr target)
 
 ### Mon-Tue Raw Coding Tasks
 - Set up rec sys project repo with folder structure (src/, tests/, configs/, scripts/, app/)
@@ -17,7 +17,7 @@ Build two projects and ship both as live demos anyone can access via URL. Mon-Tu
 - Debug things yourself before asking AI — build the debugging muscle
 - Recursive gap filling: PyTorch Dataset/DataLoader, NDCG computation, embedding layers, BPR loss derivation, Two-Tower vs NCF vs Matrix Factorization tradeoffs
 
-### Wed-Thu AI-Augmented Tasks
+### Wed-Thu Build with AI
 - Set up Weights & Biases experiment tracking, log all runs with metrics and hyperparameters
 - Finish Two-Tower model: hyperparameter tuning (embedding dimension, learning rate, batch size, negative sampling ratio), log all experiments to W&B with model checkpoints
 - If Two-Tower training is unstable: fallback to NCF (simpler architecture, same evaluation pipeline)
