@@ -1,6 +1,14 @@
 # What I Did Today
 Referenced the claude slash command /what-i-did-today
 
+02/21/26 (last checked 13:17):
+- **screentime-blocker**: Made always-on/scheduled blocking fully functional end-to-end — fixed productive time tracking during always-on blocking (timer now counts on productive sites/apps without requiring a manual session), fixed native host app detection during always-on mode (VSCode and other productive apps now correctly resume the timer), built the stayed-strong celebration page with confetti for users who choose to block again after nuclear unblock. Expanded all 5 motivational/guilt quote arrays from ~8 each to ~20+ each. Refined stayed-strong copy to emphasize identity over willpower. Added block-again option on good-choice page and live settings refresh for nuclear block.
+
+02/20/26 (last checked 06:00):
+- **screentime-blocker**: Added break list nuclear blocking (nuclear block all sites from a break list at once); paused work and reward timers when screen is off or locked; fixed ChatGPT domain matching, added Grok to presets.
+- **rec-system-folder**: Added no-terminal installation steps to README.
+- **career-search**: Logged 02/19/26 daily summary.
+
 02/19/26 (last checked 01:54):
 - **screentime-blocker**: Merged UI overhaul branch into main — sign-in footer link, heatmaps, element rearrangement; fixed popup coloring broken by merge (restored CSS variables, removed duplicate code). Rebuilt popup UI with t3.chat warm plum-dark aesthetic and row-based layout. Streamlined Nuclear Block settings with inline cooldown dropdowns and enlarged block page headline.
 - **screentime-blocker**: Made break lists and productive lists survive "Delete All Data" (same pattern as Nuclear Block); added a separate "Delete Analytics" button that resets session history, streaks, and unused rewards without stopping the active session; added School & Academics category to productive site presets (Canvas, Gradescope, Google Classroom, Blackboard, Coursera, Khan Academy, Quizlet, Chegg, Turnitin, Schoology).
