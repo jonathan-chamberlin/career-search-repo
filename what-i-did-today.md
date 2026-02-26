@@ -1,6 +1,10 @@
 # What I Did Today
 Referenced the claude slash command /what-i-did-today
 
+02/26/26 (last checked 13:31):
+- **ds2500-group-project**: Set up the group project repo from scratch — initialized with .gitignore, added project docs (kickoff slides, milestone PDF, proposal, drafts), organized into folders (assignments/, docs/, format_scripts/, archived_docs/), renamed proposal v2 to final version.
+- **ds2500-folder**: Consolidated all big_project files into the ds2500-group-project repo to have one source of truth — compared v5 and final proposals (final was more polished with detailed data sources and revised division of labor), copied missing files over, deleted the big_project folder.
+
 02/25/26 (last checked 00:36):
 - **screentime-blocker**: Built a reward/break system so productive work earns break time on blocked sites — session engine tracks work minutes and grants break rewards, break timer burns down only on break content, proxy skips app killing during breaks but kills all blocked apps on expiry. Added POST /api/session/break/start endpoint, confetti on reward grant, break timer card and "Take a Break" button on dashboard, break-expiry redirect to new break-time-up.html page. Extracted inline CSS/JS to separate files for dashboard/settings/usage pages, modularized server routes, added domain utils module. Built a comprehensive Playwright browser test suite covering 34/35 feature tests (100% pass rate) — hybrid approach using direct localhost UI testing plus HTTP proxy simulation for blocked page verification; found and fixed a production bug where break-expiry redirect fired even when session was inactive.
 
