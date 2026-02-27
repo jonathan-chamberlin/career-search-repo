@@ -1,9 +1,10 @@
 # What I Did Today
 Referenced the claude slash command /what-i-did-today
 
-02/26/26 (last checked 13:31):
+02/26/26 (last checked 22:22):
 - **ds2500-group-project**: Set up the group project repo from scratch — initialized with .gitignore, added project docs (kickoff slides, milestone PDF, proposal, drafts), organized into folders (assignments/, docs/, format_scripts/, archived_docs/), renamed proposal v2 to final version.
-- **ds2500-folder**: Consolidated all big_project files into the ds2500-group-project repo to have one source of truth — compared v5 and final proposals (final was more polished with detailed data sources and revised division of labor), copied missing files over, deleted the big_project folder.
+- **ds2500-folder**: Consolidated all big_project files into the ds2500-group-project repo to have one source of truth — compared v5 and final proposals (final was more polished with detailed data sources and revised division of labor), copied missing files over, deleted the big_project folder. Completed lab 06 (descriptive statistics functions), added Gradescope rename note.
+- **northeastern_university_folder**: Completed CY2550 midterm exam prep and answered all 13 questions — built a concept index mapping every topic to source week/video across 7 weeks of lecture transcripts, created answers.md with full written answers for 12 covered questions (phone phreaking, threat modeling, cryptography, authentication, access control, PKI, STRIDE/DREAD, git commands, cybersecurity definition) and identified the 1 uncovered question (Snort) as "I do not know" per exam rules.
 
 02/25/26 (last checked 00:36):
 - **screentime-blocker**: Built a reward/break system so productive work earns break time on blocked sites — session engine tracks work minutes and grants break rewards, break timer burns down only on break content, proxy skips app killing during breaks but kills all blocked apps on expiry. Added POST /api/session/break/start endpoint, confetti on reward grant, break timer card and "Take a Break" button on dashboard, break-expiry redirect to new break-time-up.html page. Extracted inline CSS/JS to separate files for dashboard/settings/usage pages, modularized server routes, added domain utils module. Built a comprehensive Playwright browser test suite covering 34/35 feature tests (100% pass rate) — hybrid approach using direct localhost UI testing plus HTTP proxy simulation for blocked page verification; found and fixed a production bug where break-expiry redirect fired even when session was inactive.
