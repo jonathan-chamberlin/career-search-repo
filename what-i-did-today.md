@@ -1,8 +1,11 @@
 # What I Did Today
 Referenced the claude slash command /what-i-did-today
 
-02/27/26 (last checked 17:28):
-- **northeastern_university_folder**: Replaced tone_style_guidelines.md with voice_analysis.md as the sole style reference to reduce AI detection — created a comprehensive voice analysis from 9 writing samples (academic essays, CTF writeups, Medium posts) capturing sentence architecture, diction patterns, signature moves, and genre-specific patterns; updated all 4 skills (draft-and-revise, bloggy, engw3309, meta_ctf), both subagent templates, and CLAUDE.md to point to voice_analysis.md; archived tone_style_guidelines.md with a DO NOT USE header. Wrote bloggy 3-1 responses to Isobel Bonetti (Many Lives, Many Masters) and Jiaqi Li (White Rabbit psychedelic rock), both using voice_analysis.md for tone matching. Reorganized project4 log files into cy2550/project4/.
+02/27/26 (last checked 18:29):
+- **northeastern_university_folder**: Replaced tone_style_guidelines.md with voice_analysis.md as the sole style reference to reduce AI detection — created a comprehensive voice analysis from 9 writing samples (academic essays, CTF writeups, Medium posts) capturing sentence architecture, diction patterns, signature moves, and genre-specific patterns; updated all 4 skills (draft-and-revise, bloggy, engw3309, meta_ctf), both subagent templates, and CLAUDE.md to point to voice_analysis.md; archived tone_style_guidelines.md with a DO NOT USE header. Wrote bloggy 3-1 responses to Isobel Bonetti (Many Lives, Many Masters) and Jiaqi Li (White Rabbit psychedelic rock), both using voice_analysis.md for tone matching. Reorganized project4 log files into cy2550/project4/. Validated ai-check skill on benito_test3.md — rewrote 5 flagged sections (63% AI → 0% AI in 2 passes), added ai-check prompt to draft-and-revise Phase 8 output, added parenthetical aside rule to voice_analysis.md.
+- **ds2500-folder**: Renamed lab_exercise_06.py to LAB.py.
+- **school-of-rizz-google-hackathon**: Added users page and updated about page.
+- **windows-qol**: Initial commit with AHK QoL scripts (no remote configured yet).
 
 02/26/26 (last checked 23:29):
 - **ds2500-group-project**: Set up the group project repo from scratch — initialized with .gitignore, added project docs (kickoff slides, milestone PDF, proposal, drafts), organized into folders (assignments/, docs/, format_scripts/, archived_docs/), renamed proposal v2 to final version.
