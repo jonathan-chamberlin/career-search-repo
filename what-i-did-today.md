@@ -1,6 +1,9 @@
 # What I Did Today
 Referenced the claude slash command /what-i-did-today
 
+02/27/26 (last checked 17:28):
+- **northeastern_university_folder**: Replaced tone_style_guidelines.md with voice_analysis.md as the sole style reference to reduce AI detection — created a comprehensive voice analysis from 9 writing samples (academic essays, CTF writeups, Medium posts) capturing sentence architecture, diction patterns, signature moves, and genre-specific patterns; updated all 4 skills (draft-and-revise, bloggy, engw3309, meta_ctf), both subagent templates, and CLAUDE.md to point to voice_analysis.md; archived tone_style_guidelines.md with a DO NOT USE header. Wrote bloggy 3-1 responses to Isobel Bonetti (Many Lives, Many Masters) and Jiaqi Li (White Rabbit psychedelic rock), both using voice_analysis.md for tone matching. Reorganized project4 log files into cy2550/project4/.
+
 02/26/26 (last checked 23:29):
 - **ds2500-group-project**: Set up the group project repo from scratch — initialized with .gitignore, added project docs (kickoff slides, milestone PDF, proposal, drafts), organized into folders (assignments/, docs/, format_scripts/, archived_docs/), renamed proposal v2 to final version.
 - **ds2500-folder**: Consolidated all big_project files into the ds2500-group-project repo to have one source of truth — compared v5 and final proposals (final was more polished with detailed data sources and revised division of labor), copied missing files over, deleted the big_project folder. Completed lab 06 (descriptive statistics functions), added Gradescope rename note.
