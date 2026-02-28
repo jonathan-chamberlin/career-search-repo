@@ -1,11 +1,12 @@
 # What I Did Today
 Referenced the claude slash command /what-i-did-today
 
-02/27/26 (last checked 18:29):
+02/27/26 (last checked 02:49):
 - **northeastern_university_folder**: Built and validated the ai-check skill, an automated AI detection pipeline that scans text against QuillBot, extracts flagged sentences, rewrites them using voice_analysis.md patterns, and rechecks until clean — proved it works end-to-end on benito_test3.md (63% AI → 0% AI in 2 passes, 6 sentences rewritten). Wired ai-check into draft-and-revise as a Phase 8 prompt so every assignment gets offered an AI detection check after completion. Earlier: replaced tone_style_guidelines.md with voice_analysis.md as the sole style reference — created a comprehensive voice analysis from 9 writing samples capturing sentence architecture, diction patterns, signature moves, and genre-specific patterns; updated all 4 skills (draft-and-revise, bloggy, engw3309, meta_ctf), both subagent templates, and CLAUDE.md. Wrote bloggy 3-1 responses to Isobel Bonetti and Jiaqi Li. Added parenthetical aside rule to voice_analysis.md. Reorganized project4 log files into cy2550/project4/.
 - **ds2500-folder**: Renamed lab_exercise_06.py to LAB.py.
 - **school-of-rizz-google-hackathon**: Added users page and updated about page.
 - **windows-qol**: Initial commit with AHK QoL scripts (no remote configured yet).
+- **claude-global**: Converted prompt-dojo from a static command to a skill with category-based phases that force varied, feature-specific questioning instead of repeating the same examples every session. Reframed the entire skill around prompt refinement — each phase now pressure-tests and improves the user's initial feature prompt, culminating in Phase 8 where the final implementation-ready prompt is produced. Added explicit mission: architect-level thinking without years of syntax grinding, producing prompts an AI agent can build from in one shot.
 
 02/26/26 (last checked 23:29):
 - **ds2500-group-project**: Set up the group project repo from scratch — initialized with .gitignore, added project docs (kickoff slides, milestone PDF, proposal, drafts), organized into folders (assignments/, docs/, format_scripts/, archived_docs/), renamed proposal v2 to final version.
