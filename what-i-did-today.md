@@ -1,6 +1,9 @@
 # What I Did Today
 Referenced the claude slash command /what-i-did-today
 
+02/28/26 (last checked 17:39):
+- **school-of-rizz-google-hackathon**: Established project foundation and began architectural design for the tracer bullet — created CLAUDE.md with full stack definition, agent conventions, and coding rules; worked through prompt-dojo Phase 0 and Phase 1 pressure-testing the tracer bullet prompt (onboarding → Gemini Live API voice session → scoring → display). Clarified success criteria, page structure (3 separate pages: onboarding form, voice session, scores display), session-end mechanism options, and where "reasoning agent" vs "voice agent" code actually lives in Next.js (API routes vs client-side WebSocket).
+
 02/27/26 (last checked 03:45):
 - **northeastern_university_folder**: Built and validated the ai-check skill, an automated AI detection pipeline that scans text against QuillBot, extracts flagged sentences, rewrites them using voice_analysis.md patterns, and rechecks until clean — proved it works end-to-end on benito_test3.md (63% AI → 0% AI in 2 passes, 6 sentences rewritten). Wired ai-check into draft-and-revise as a Phase 8 prompt so every assignment gets offered an AI detection check after completion. Earlier: replaced tone_style_guidelines.md with voice_analysis.md as the sole style reference — created a comprehensive voice analysis from 9 writing samples capturing sentence architecture, diction patterns, signature moves, and genre-specific patterns; updated all 4 skills (draft-and-revise, bloggy, engw3309, meta_ctf), both subagent templates, and CLAUDE.md. Wrote bloggy 3-1 responses to Isobel Bonetti and Jiaqi Li. Added parenthetical aside rule to voice_analysis.md. Reorganized project4 log files into cy2550/project4/.
 - **ds2500-folder**: Renamed lab_exercise_06.py to LAB.py.
