@@ -1,8 +1,8 @@
 # What I Did Today
 Referenced the claude slash command /what-i-did-today
 
-02/28/26 (last checked 17:41):
-- **school-of-rizz-google-hackathon**: Established project foundation and began architectural design for the tracer bullet — created CLAUDE.md with full stack definition, agent conventions, and coding rules; worked through prompt-dojo Phase 0 and Phase 1 pressure-testing the tracer bullet prompt (onboarding → Gemini Live API voice session → scoring → display). Clarified success criteria, page structure (3 separate pages: onboarding form, voice session, scores display), session-end mechanism options, and where "reasoning agent" vs "voice agent" code actually lives in Next.js (API routes vs client-side WebSocket).
+02/28/26 (last checked 01:29):
+- **school-of-rizz-google-hackathon**: Established project foundation and began architectural design for the tracer bullet — created CLAUDE.md with full stack definition, agent conventions, and coding rules; added naming conventions table and DB defaults. Worked through prompt-dojo Phases 0–2 pressure-testing the tracer bullet prompt: clarified success criteria, page structure (3 pages: onboarding form, voice session, scores display), session-end mechanism ("End Roleplay" button), where reasoning agent vs voice agent code lives (API routes vs client-side WebSocket), transcript storage design (separate table with per-turn rows vs JSON blob — chose streaming writes to separate table), warmth score extraction mechanism (Gemini outputs structured text JSON alongside audio), and database schema (tracer_test with id/name/warmth_score/created_at, tracer_transcript with id/user_id/timestamp/role/content).
 - **claude-global**: Added `/explain` slash command for breaking down what each bullet or line of code solves and how.
 
 02/27/26 (last checked 03:45):
