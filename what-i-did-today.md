@@ -1,6 +1,9 @@
 # What I Did Today
 Referenced the claude slash command /what-i-did-today
 
+03/04/26 (last checked 13:25):
+- **school-of-rizz-google-hackathon**: Got end-to-end voice roleplay working with Gemini Live API — completed the tracer bullet proving the full path from browser to Gemini and back.
+
 03/01/26 (last checked 02:04):
 - **school-of-rizz-google-hackathon**: Completed full prompt-dojo (all 12 phases) and produced a final agent-ready tracer bullet prompt — resolved WebSocket relay architecture (browser connects directly to Gemini, POSTs to API routes), added onclose error handling, specified all 6 API routes with request/response examples, chose `@google/genai` SDK `live.connect()` over raw WebSocket with ephemeral tokens, defined prompt builder functions in `lib/prompts/`, restructured prompt into Context/Spec/Requirements/Boundaries/Tests format, added always/ask/never boundaries, 5 anti-patterns, and 3-chunk decomposed test plan (DB+API first, frontend without voice second, Gemini Live API last). Moved prompt to `coding_prompts/` folder. Started Phase 12 live fire test: set up Supabase PostgreSQL as the dev database, launched a fresh Claude Code instance with the tracer prompt, monitored the agent's progress (built Prisma schema + migration, lib/db.ts singleton, both prompt files, all 6 API routes with Zod schemas). Diagnosed the agent getting stuck in a Prisma 7 import loop (cycling through config changes without reading server logs) — added an API debugging rule to CLAUDE.md: "check dev server terminal output when routes return HTML instead of JSON."
 
