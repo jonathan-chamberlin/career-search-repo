@@ -3,7 +3,7 @@ Referenced the claude slash command /what-i-did-today
 
 03/06/26 (last checked 01:17):
 - **claude-global**: Installed 32 marketing skills after a full security audit of coreyhaines31/marketingskills — reviewed 100+ files (all 32 SKILL.md files, all 61 CLI tools, GitHub Actions, shell scripts, config files) for prompt injections, adversarial prompting, data exfiltration, privilege escalation, and obfuscated payloads; verdict: all clean with two low-risk items noted (remote VERSIONS.md fetch pattern, unpinned third-party GitHub Action). Cloned, installed to ~/.claude/skills/, committed and pushed.
-- **school-of-rizz-google-hackathon**: Rebranded the tracer bullet from Gemini Live API to OpenAI Realtime API — split the coding prompt into Google and OpenAI variants, updated CLAUDE.md tech stack and agent rules to reference OpenAI Realtime API.
+- **school-of-rizz-google-hackathon**: Rebranded the tracer bullet from Gemini Live API to OpenAI Realtime API — split the coding prompt into Google and OpenAI variants, updated CLAUDE.md tech stack and agent rules to reference OpenAI Realtime API. Clarified UX design inputs and outputs, gathered 50 swipe example screenshots from other apps, and organized them all in Figma.
 
 03/04/26 (last checked 13:25):
 - **school-of-rizz-google-hackathon**: Got end-to-end voice roleplay working with Gemini Live API — completed the tracer bullet proving the full path from browser to Gemini and back.
