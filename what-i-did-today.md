@@ -1,8 +1,9 @@
 # What I Did Today
 Referenced the claude slash command /what-i-did-today
 
-03/12/26 (last checked 15:24):
+03/12/26 (last checked 15:30):
 - **ds2500-folder**: Built quiz 2 study system — created and completed practice exams for Class 11 web scraping retake (test2.md, targeting response.text, tag attributes, class\_, pagination), Class 07 OOP (test.md, covering \_\_init\_\_, \_\_str\_\_, methods, print vs return, full class design), Class 10 EDA & visualization (test.md, covering pandas loading/exploration, seaborn histplot/scatterplot/boxplot, .str.split().str[0].astype(int), countplot vs histplot, manual loop aggregation with plt.bar), and Class 12 APIs & JSON (test.md, covering response.text vs .json(), status codes, query params as dict, nested JSON extraction, POST with json=, GET vs POST). Also completed Lab 07 (z-score, min-max scaling, missing data handling).
+- **claude-global**: Created `/quiz` command — automates practice exam creation, grading, re-grading, and retake generation targeting weak spots.
 
 03/11/26 (last checked 21:28):
 - **ds2500-folder**: Worked through DS2500 class exercises using professor mode — completed all Class 12 API activities (dog image API, sunrise/sunset GET with lat/lng params, POST/GET with restful-api.dev and dynamic id parsing); completed Class 10 Analysis 2 ride bookings (extracted hour integers from time strings using `.str.split().str[0].astype(int)`, built seaborn histplot across 24 hours); completed all Class 11 web scraping activities including multi-page pagination; created two practice exam files (test.md and test2.md) targeting weak spots in BeautifulSoup concepts (response.text vs response object, tag attribute access with `['attr']`, `class_=` keyword).
