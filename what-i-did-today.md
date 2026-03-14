@@ -1,6 +1,11 @@
 # What I Did Today
 Referenced the claude slash command /what-i-did-today
 
+03/13/26 (last checked 00:01):
+- **macros**: Ported automation suite to macOS — reorganized repo into mac/ and windows/ platform folders, built Hammerspoon Lua scripts for macOS automation with auto-reload on config changes, added root README with Mac keybindings; fixed smart-copy recursive Cmd+C loop and eventtaps dying after ~15min (GC was collecting modules — fixed by holding global refs).
+- **northeastern_university**: Added Bloggy 3-2 responses to Jiaqi and Isobel; cleaned up stale ai-check screenshots from repo root.
+- **claude-global**: Prepared config for Mac migration — tracked settings.local.json so permission allowlists transfer across machines, updated skills/settings/professor-mode, added rule to always execute user commands without pushback.
+
 03/12/26 (last checked 15:30):
 - **ds2500-folder**: Built quiz 2 study system — created and completed practice exams for Class 11 web scraping retake (test2.md, targeting response.text, tag attributes, class\_, pagination), Class 07 OOP (test.md, covering \_\_init\_\_, \_\_str\_\_, methods, print vs return, full class design), Class 10 EDA & visualization (test.md, covering pandas loading/exploration, seaborn histplot/scatterplot/boxplot, .str.split().str[0].astype(int), countplot vs histplot, manual loop aggregation with plt.bar), and Class 12 APIs & JSON (test.md, covering response.text vs .json(), status codes, query params as dict, nested JSON extraction, POST with json=, GET vs POST). Also completed Lab 07 (z-score, min-max scaling, missing data handling).
 - **claude-global**: Created `/quiz` command — automates practice exam creation, grading, re-grading, and retake generation targeting weak spots.
