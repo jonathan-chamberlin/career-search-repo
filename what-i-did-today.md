@@ -1,6 +1,10 @@
 # What I Did Today
 Referenced the claude slash command /what-i-did-today
 
+03/15/26 (last checked 16:30):
+- **northeastern_university**: Upgraded three skills based on session corrections — added ralph loop (iterative skeptical review, max 10 rounds) and 6 new anti-detection rules to technical-writeup; added combined PDF workflow, batch generation warnings, backtick-to-image-ref conversion, and 1-inch margin fix to markdown-to-pdf; fixed Windows paths to cross-platform in technical-writeup and ai-check. Polished all 10 CY2550 Project 5 level writeups (fixed PDF margins/wrapping, cleaned headers, replaced em dashes, removed stale text), regenerated all PDFs, generated combined project5.pdf, ran AI detection on all 10 levels (all passed clean), verified flags match format and submission files.
+- **cy2550**: Pushed Project 5 DAC challenge submission (email.txt and flags.txt with all 10 flags) to the separate Gradescope autograder repo.
+
 03/13/26 (last checked 00:12):
 - **macros**: Ported automation suite to macOS — reorganized repo into mac/ and windows/ platform folders, built Hammerspoon Lua scripts for macOS automation with auto-reload on config changes, added root README with Mac keybindings; fixed eventtaps dying after ~15min (GC was collecting modules — fixed by holding global refs); removed smart-copy script entirely after it was intercepting Cmd+C system-wide and breaking clipboard.
 - **northeastern_university**: Added Bloggy 3-2 responses to Jiaqi and Isobel; cleaned up stale ai-check screenshots from repo root.
