@@ -1,6 +1,9 @@
 # What I Did Today
 Referenced the claude slash command /what-i-did-today
 
+03/19/26 (last checked 01:24):
+- **northeastern_university**: Added CY2550 week 9 discussion post on social engineering and post-quantum cryptography.
+
 03/18/26 (last checked 15:49):
 - **screentime-blocker**: Diagnosed and fixed the nuclear block SPA escape bug — YouTube's client-side routing let users navigate freely after entering through an allowed video exception (declarativeNetRequest only blocks main_frame navigations, not pushState). Combined analysis from two LLMs to confirm the root cause, user-verified the hypothesis, then patched the tab-monitor to enforce nuclear blocks on URL changes.
 
