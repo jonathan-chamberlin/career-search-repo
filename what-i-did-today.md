@@ -1,6 +1,12 @@
 # What I Did Today
 Referenced the claude slash command /what-i-did-today
 
+03/22/26 (last checked 20:30):
+- **mac-automation**: Built full remote Claude Code control system accessible from phone. Started with custom Python Telegram bot + tmux subprocess spawner, hit PATH and UX issues, researched existing solutions (ccbot, ccgram, teleforge), then replaced everything with ccgram — a production-grade Telegram ↔ tmux bridge where each forum topic maps 1:1 to a Claude Code session. Set up Tailscale VPN (100.x.x.x mesh network) with hardened SSH (key-only, Tailscale-only ListenAddress), configured launchd auto-start for ccgram, installed Claude Code hooks for session notifications, created health check cron job. Moved all secrets to .env, made scripts portable. Configured macOS to never auto-sleep so Telegram bot stays reachable 24/7.
+- **northeastern_university**: Added Unit 3 final draft; added revision club letters for Isobel and Jiaqi; minor week 9 punctuation fix.
+- **claude-global**: Fixed ai-check skill to use per-file quillbot folders preventing screenshot collisions.
+- **macros**: Changed commit-push macro to send plain Enter instead of Ctrl+Enter.
+
 03/19/26 (last checked 01:24):
 - **northeastern_university**: Added CY2550 week 9 discussion post on social engineering and post-quantum cryptography.
 
