@@ -1,6 +1,10 @@
 # What I Did Today
 Referenced the claude slash command /what-i-did-today
 
+03/26/26 (last checked 15:41):
+- **northeastern_university**: Wrote CY2550 week 10 reply post on OSINT — responded to Daniel Liang's post about Gemini crawling the dark web and Copilot CVEs, added three new CVE examples (RoguePilot, CVE-2026-26144, CVE-2026-26133) showing the prompt injection trend, connected Gemini's organizational profiling back to OSINT concepts, passed ai-check at 98% human-written after one rewrite.
+- **schedule**: Tweaked morning routine — added 10-min makeup step after meditation, combined morning stack and peptides into single 5-min event.
+
 03/23/26 (last checked 14:45):
 - **figma-mcp**: Diagnosed and rebuilt broken High Score Screen in Figma — original had all 30+ elements orphaned as canvas siblings (not nested in frame) with wrong colors due to `set_fill_color` requiring nested `{color: {r,g,b,a}}` format via WebSocket (not flat params). Deleted old nodes, rebuilt from screenshot with correct dark navy background, gold text, chart area, sections, and proper element nesting. Updated figma-design skill with critical WebSocket gotchas (`set_fill_color` nesting, text color only via `fontColor` at creation, always pass `parentId`), added "Recreate from Screenshot" workflow and mandatory visual verification step, created `figma-commands.md` reference with full parameter signatures, extracted reusable Bun WebSocket script template to `scripts/figma-ws.mjs`, fixed misleading CLAUDE.md docs. Moved Primary button into Activity Selection Screen frame. Exported all 11 flow screens and stitched into single horizontal image for mentor sharing.
 
