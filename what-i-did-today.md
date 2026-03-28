@@ -1,11 +1,11 @@
 # What I Did Today
 Referenced the claude slash command /what-i-did-today
 
-03/27/26 (last checked 16:19):
+03/27/26 (last checked 22:02):
 - **claude-global**: Fixed invisible ~/.claude in macOS file pickers — discovered a stale ~/claude/ duplicate (old copy with 59 skills) was masking the real hidden .claude/ (175 skills), deleted the duplicate, created symlink (~/claude -> ~/.claude/) so the real config is accessible in all GUI file pickers. Packaged app-mafia-mobile skill as exportable .skill file in Downloads for Claude.ai upload.
 - **whop-transcript**: Built App Mafia knowledge base — distilled course playbook into a consumer app strategy skill; built whop video transcript extractor with overlay UI.
 - **figma-mcp**: Added 6 new API gotchas and verification patterns to figma-design skill.
-- **Social IQ**: Configured iPhone-only target and added project docs.
+- **Social IQ**: Configured iPhone-only target and added project docs. Later: added full reference library (ideation, design, competitive analysis, tech stack, monetization, analytics, mascot, viral growth, social IQ loop), first ADR (primary action decision), and updated CLAUDE.md with correct iOS 17.0+ target and pointers to references/.
 
 03/26/26 (last checked 15:41):
 - **northeastern_university**: Wrote CY2550 week 10 reply post on OSINT — responded to Daniel Liang's post about Gemini crawling the dark web and Copilot CVEs, added three new CVE examples (RoguePilot, CVE-2026-26144, CVE-2026-26133) showing the prompt injection trend, connected Gemini's organizational profiling back to OSINT concepts, passed ai-check at 98% human-written after one rewrite.
