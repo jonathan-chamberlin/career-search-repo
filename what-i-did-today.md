@@ -1,6 +1,10 @@
 # What I Did Today
 Referenced the claude slash command /what-i-did-today
 
+03/28/26 (last checked 22:22):
+- **Social IQ**: Built hackathon MVP and pivoted ICP based on real founder feedback. Built a working web prototype on Base44 in 5 iterative prompts: onboarding quiz, fake calendar integration ("scanning your week..."), one full scenario (The Frustrated Coworker) with READ → THINK → SPEAK steps, wrong-answer hint banners explaining consequences, correct-answer explanations with labeling technique. Wrote demo video script and hackathon submission copy. Then pivoted ICP from introverted gamer to self-improvement guy (18-28, charisma/influence niche) after two independent founders at the hackathon (Ritwik from Fragile, Kelly Palmer from Eight Sleep) converged on the same correction unprompted. Updated all reference docs (ideation, design, mascot tone), wrote 20 scenario lessons across 5 categories (workplace, dating, friendships, family, strangers), added ADR 003 for the ICP shift, added founder advice reference to CLAUDE.md.
+- **schedule**: Renamed panels to scripts, default wake 7:15 AM, removed meditation, CWOOPP 20 min, Saturday as work day.
+
 03/27/26 (last checked 22:21):
 - **claude-global**: Fixed invisible ~/.claude in macOS file pickers — discovered a stale ~/claude/ duplicate (old copy with 59 skills) was masking the real hidden .claude/ (175 skills), deleted the duplicate, created symlink (~/claude -> ~/.claude/) so the real config is accessible in all GUI file pickers. Packaged app-mafia-mobile skill as exportable .skill file in Downloads for Claude.ai upload.
 - **whop-transcript**: Built App Mafia knowledge base — distilled course playbook into a consumer app strategy skill; built whop video transcript extractor with overlay UI.
