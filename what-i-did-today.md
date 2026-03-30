@@ -1,6 +1,10 @@
 # What I Did Today
 Referenced the claude slash command /what-i-did-today
 
+03/30/26 (last checked 19:26):
+- **Social IQ**: Rewrote all 5 lesson scenarios to be simpler, more relatable, and dating-oriented (Lesson 2 changed from vulnerability play to playful tease at a pool table, Lesson 3 "cool shirt guy" as group center of mass, Lesson 4/5 streamlined explanations). Created `lessons-stepdata.md` — a Base44-pasteable structured format for all 5 lessons with READ → THINK → SPEAK steps, correct/wrong markers, and per-option explanations. Fixed VS Code on Mac not auto-reloading externally modified files by adding `files.watcherPolling: true` to global settings.
+- **ds2500-group-project**: Added submitted milestone 3 progress report PDF.
+
 03/29/26 (last checked 12:30):
 - **northeastern_university**: Revised ENGW3309 Unit 3 final draft to A-level quality — ran full draft-and-revise pipeline (gap analysis against 9 rubric criteria + 13 professor grading standards, voice analysis scan finding 44 violations). Structural fixes: restructured thesis paragraph to lead with equivalence claim instead of pre-loading the gap, added reader orientation for Blakeslee and Benjamin, fixed scholar-student claim boundaries in Benjamin section, engaged Benjamin's ritual-to-politics mechanism (named what the "politics" is: pitch decks, funding proposals, AI literacy signaling), closed the "simple" two-audience loop in synthesis, made career paragraph analytical not autobiographical, added intent limitation acknowledgment, sharpened Blakeslee gap articulation, added missing citations with page numbers. Voice polish: removed 16 meta-commentary sentences, fixed 12 negation-pair flips, compressed stacked enumerations. Passed skeptical professor review at B+/A-, applied remaining fixes. Passed QuillBot AI check (94-100% human-written across all chunks, zero flagged sentences). Generated submission PDF.
 - **ds2500-group-project**: Added Jonathan's CVD analysis notebook, milestone 3 draft, and reorganized repo.
