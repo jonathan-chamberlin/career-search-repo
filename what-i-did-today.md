@@ -1,8 +1,10 @@
 # What I Did Today
 Referenced the claude slash command /what-i-did-today
 
-03/31/26 (last checked 14:44):
+03/31/26 (last checked 17:48):
 - **Social IQ**: Split onboarding questions into two ICP variants (shy/socially-struggling vs self-improvement/goal-oriented) with new charisma-framed questions for the current ICP. Added ADR 004 documenting the ship-day scope cut (removed 62% of planned work using the Musk Algorithm to ship same-day).
+- **northeastern_university**: Wrote CY2550 Week 11 discussion post on exploits (MITRE ATT&CK Credential Access tactic + OS Credential Dumping T1003 with sub-techniques, mitigations, and detection; CVE-2026-32746 telnetd buffer overflow). Ran full draft-and-revise pipeline, skeptical professor review (100/100), and QuillBot AI check (rewrote flagged paragraphs from 35% to 0% AI-detected, final score 0% AI / 100% human). Also added CS3200 HW6, MetaCTF 8 challenges, Unit 4 bloggy, and skill updates.
+- **ds2500**: Completed Lab 09 linear regression and Quiz 3 practice sets.
 
 03/30/26 (last checked 19:26):
 - **Social IQ**: Rewrote all 5 lesson scenarios to be simpler, more relatable, and dating-oriented (Lesson 2 changed from vulnerability play to playful tease at a pool table, Lesson 3 "cool shirt guy" as group center of mass, Lesson 4/5 streamlined explanations). Created `lessons-stepdata.md`, a Base44-pasteable structured format for all 5 lessons. Updated make-socialiq-content skill with sharp-friend voice rules based on real user feedback (Hudson said tone felt like "robot teacher doing WikiHow"), rewrote all 5 lessons' explanations in new tone (validate-first, 2-3 sentences max, insider-tip energy). Consolidated lesson files, removed redundant splits. Fixed VS Code auto-reload on Mac by installing Auto Reload extension (native file watcher doesn't handle dirty buffers).
