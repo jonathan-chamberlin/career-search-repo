@@ -1,8 +1,11 @@
 # What I Did Today
 Referenced the claude slash command /what-i-did-today
 
+03/31/26 (last checked 14:44):
+- **Social IQ**: Split onboarding questions into two ICP variants (shy/socially-struggling vs self-improvement/goal-oriented) with new charisma-framed questions for the current ICP. Added ADR 004 documenting the ship-day scope cut (removed 62% of planned work using the Musk Algorithm to ship same-day).
+
 03/30/26 (last checked 19:26):
-- **Social IQ**: Rewrote all 5 lesson scenarios to be simpler, more relatable, and dating-oriented (Lesson 2 changed from vulnerability play to playful tease at a pool table, Lesson 3 "cool shirt guy" as group center of mass, Lesson 4/5 streamlined explanations). Created `lessons-stepdata.md` — a Base44-pasteable structured format for all 5 lessons with READ → THINK → SPEAK steps, correct/wrong markers, and per-option explanations. Fixed VS Code on Mac not auto-reloading externally modified files by adding `files.watcherPolling: true` to global settings.
+- **Social IQ**: Rewrote all 5 lesson scenarios to be simpler, more relatable, and dating-oriented (Lesson 2 changed from vulnerability play to playful tease at a pool table, Lesson 3 "cool shirt guy" as group center of mass, Lesson 4/5 streamlined explanations). Created `lessons-stepdata.md`, a Base44-pasteable structured format for all 5 lessons. Updated make-socialiq-content skill with sharp-friend voice rules based on real user feedback (Hudson said tone felt like "robot teacher doing WikiHow"), rewrote all 5 lessons' explanations in new tone (validate-first, 2-3 sentences max, insider-tip energy). Consolidated lesson files, removed redundant splits. Fixed VS Code auto-reload on Mac by installing Auto Reload extension (native file watcher doesn't handle dirty buffers).
 - **ds2500-group-project**: Added submitted milestone 3 progress report PDF.
 
 03/29/26 (last checked 12:30):
