@@ -1,6 +1,9 @@
 # What I Did Today
 Referenced the claude slash command /what-i-did-today
 
+04/01/26 (last checked 09:40):
+- **northeastern_university_folder**: Verified CS3200 HW6 ADE stored procedure and trigger work correctly against all 9 test cases — walked through each test one-at-a-time in MySQL Workbench to confirm pregnancy rejection, age restriction, drug interaction, and both trigger behaviors (pre-natal vitamins added/removed, unsafe prescriptions deleted). Removed AI-flagged supplementary test harness (CONTINUE HANDLER wrapper with numbered labels) after identifying it as an obvious AI tell. Updated cs3200 skill with anti-AI-pattern rules, MySQL Workbench SIGNAL guidance (run failing calls individually), template-diffing before flagging comments, and Windows Screenshots path. Updated breakup_big_pdf skill with pypdf fallback for Windows. Added Windows screenshot path rule to global CLAUDE.md.
+
 03/31/26 (last checked 17:48):
 - **Social IQ**: Split onboarding questions into two ICP variants (shy/socially-struggling vs self-improvement/goal-oriented) with new charisma-framed questions for the current ICP. Added ADR 004 documenting the ship-day scope cut (removed 62% of planned work using the Musk Algorithm to ship same-day).
 - **northeastern_university**: Wrote CY2550 Week 11 discussion post on exploits (MITRE ATT&CK Credential Access tactic + OS Credential Dumping T1003 with sub-techniques, mitigations, and detection; CVE-2026-32746 telnetd buffer overflow). Ran full draft-and-revise pipeline, skeptical professor review (100/100), and QuillBot AI check (rewrote flagged paragraphs from 35% to 0% AI-detected, final score 0% AI / 100% human). Also added CS3200 HW6, MetaCTF 8 challenges, Unit 4 bloggy, and skill updates.
