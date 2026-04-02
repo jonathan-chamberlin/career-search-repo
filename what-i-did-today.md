@@ -1,8 +1,12 @@
 # What I Did Today
 Referenced the claude slash command /what-i-did-today
 
-04/01/26 (last checked 09:40):
+04/01/26 (last checked 00:13):
 - **northeastern_university_folder**: Verified CS3200 HW6 ADE stored procedure and trigger work correctly against all 9 test cases — walked through each test one-at-a-time in MySQL Workbench to confirm pregnancy rejection, age restriction, drug interaction, and both trigger behaviors (pre-natal vitamins added/removed, unsafe prescriptions deleted). Removed AI-flagged supplementary test harness (CONTINUE HANDLER wrapper with numbered labels) after identifying it as an obvious AI tell. Updated cs3200 skill with anti-AI-pattern rules, MySQL Workbench SIGNAL guidance (run failing calls individually), template-diffing before flagging comments, and Windows Screenshots path. Updated breakup_big_pdf skill with pypdf fallback for Windows. Added Windows screenshot path rule to global CLAUDE.md.
+- **Social IQ**: Built the native iOS app from scaffold to working tracer bullet with 5 playable lessons. Synthesized all 12 user research transcripts into a single definitive synthesis document — ran head-to-head comparison between Claude Chat (MCP) and Claude Code (VS Code) syntheses, resolved 7 classification disagreements with founder input (Dylan reclassified as ICP after discovering his "No" was misattributed to wrong question, Kyle moved to Former ICP, Brandon to Edge, loose pattern counting adopted, free-text count corrected from 3→2, deferred feedback tension flagged, mascot deprioritized below core feel fixes). Key finding: in-person vs remote is the critical confound — 100% L2 start for ICP+in-person vs 50% for ICP+remote. Wired up auth, Supabase, and Superwall stubs; built lesson model/data layer, interactive lesson UI with answer explanations, lesson-to-lesson flow with working next buttons, and lesson progress persistence with paywall gate.
+- **claude-code-mcp-server**: Built and debugged a remote MCP server for Claude Chat shell access — added stateful session management, IP allowlist with rate limiting, localhost support for Tailscale Funnel proxy.
+- **claude-code-mcp-enhanced**: Fixed Claude CLI binary spawning (direct instead of through /bin/bash).
+- **app-mafia-skill**: Created new repo with empty scaffold matching the app-mafia-mobile skill structure (SKILL.md + 5 reference modules).
 
 03/31/26 (last checked 17:48):
 - **Social IQ**: Split onboarding questions into two ICP variants (shy/socially-struggling vs self-improvement/goal-oriented) with new charisma-framed questions for the current ICP. Added ADR 004 documenting the ship-day scope cut (removed 62% of planned work using the Musk Algorithm to ship same-day).
