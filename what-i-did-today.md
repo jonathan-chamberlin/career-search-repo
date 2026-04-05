@@ -1,6 +1,12 @@
 # What I Did Today
 Referenced the claude slash command /what-i-did-today
 
+04/04/26 (last checked 00:15):
+- **social-iq**: Made analytics pipeline reliable and added paywall event tracking. Fixed Mixpanel events not appearing immediately by adding flush() after every track() call; wired up `paywall_presented` (with trigger property) and `subscription_started` events in SuperwallService; moved UserDefaults keys and product IDs out of gitignored AppConfig into tracked AppConstants.swift; archived unused Example Paywall via Superwall MCP; anonymized onboarding social proof names. Earlier: split OnboardingView god class into coordinator + 12 step files, enriched Mixpanel with per-step onboarding and per-question lesson tracking, expanded onboarding for ICP segmentation, aligned Superwall placement names, added app-store-connect skill, updated testflight-deploy to full CLI pipeline. Debugged end-to-end via XcodeBuildMCP simulator automation + Mixpanel MCP — confirmed events fire and flush correctly, apparent missing events were Mixpanel query ingestion delay.
+- **decision-series**: Built autonomous agent loop infrastructure — multi-decision card support with reply-to matching and reaction workflow, shared lib extraction, send_status command for task completion notifications, launchd watcher with auto-start and stale task recovery, after-task review step.
+- **northeastern_university**: ENGW3309 Unit 4 rough draft (Reality Transurfing review for Medium), Project 8 CMD CTF flags (5/5), daily-tasks skill and canvas-dispatcher, Gradescope submission workflow for CY2550.
+- **canvas-lms-mcp**: Added group file upload tool and fixed list_courses pagination (per_page=100).
+
 04/03/26 (last checked 00:24):
 - **social-iq**: Uploaded first build to App Store Connect with placeholder app icon. Synthesized sorority group session into structured user research, added DEEF feedback on approaching guys and taking compliments, added Elijah + Theo feedback and updated Kofi with follow-up data.
 - **decision-series**: Built the decision series agent loop — orchestration scripts and system prompt. Built a Supabase Edge Function proxy for Telegram to bypass university network block.
