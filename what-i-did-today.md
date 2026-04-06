@@ -1,6 +1,11 @@
 # What I Did Today
 Referenced the claude slash command /what-i-did-today
 
+04/05/26 (last checked 21:45):
+- **social-iq**: Added floating feedback button with pre-filled Google Form, StoreKit config, and debug subscription toggle. Added ITSAppUsesNonExemptEncryption=NO to skip App Store compliance review on future builds.
+- **notion-mcp**: Fixed top-prepend bug — replaced fragile delete-all-and-rebuild approach with read-as-markdown + prepend + replace, preventing archived block errors.
+- **decision-series**: Verified previous agent's work (Notion goal doc update, notion-mcp fix), refreshed leftoff.md with multi-repo orchestration goal and current state. Resolved task capture workflow question — existing Notion task + agent tag from phone already covers the use case.
+
 04/04/26 (last checked 00:15):
 - **social-iq**: Made analytics pipeline reliable and added paywall event tracking. Fixed Mixpanel events not appearing immediately by adding flush() after every track() call; wired up `paywall_presented` (with trigger property) and `subscription_started` events in SuperwallService; moved UserDefaults keys and product IDs out of gitignored AppConfig into tracked AppConstants.swift; archived unused Example Paywall via Superwall MCP; anonymized onboarding social proof names. Earlier: split OnboardingView god class into coordinator + 12 step files, enriched Mixpanel with per-step onboarding and per-question lesson tracking, expanded onboarding for ICP segmentation, aligned Superwall placement names, added app-store-connect skill, updated testflight-deploy to full CLI pipeline. Debugged end-to-end via XcodeBuildMCP simulator automation + Mixpanel MCP — confirmed events fire and flush correctly, apparent missing events were Mixpanel query ingestion delay.
 - **decision-series**: Built autonomous agent loop infrastructure — multi-decision card support with reply-to matching and reaction workflow, shared lib extraction, send_status command for task completion notifications, launchd watcher with auto-start and stale task recovery, after-task review step.
