@@ -1,6 +1,11 @@
 # What I Did Today
 Referenced the claude slash command /what-i-did-today
 
+04/06/26 (last checked 02:19):
+- **social-iq**: Killed the "test feel" and made lessons feel like a real product — added Ren's conversational voice layer with collapsible explanations, gold theme replacing purple gradients, haptics on correct answers and lesson completion, sound effects (correct/wrong/completion), social proof percentile scores on lesson complete, animated Next button that appears after reviewing wrong answers, progress line stepper replacing tappable pills, academic-styled research frameworks sheet, reddit seeding comments for discovery channels, and data cleanup (trimmed redundant explanation openings, capitalized Ren sentences, fixed punctuation).
+- **cs3200-project**: Wired all 17 SQL queries into the web app with user/food management pages.
+- **northeastern_university**: Added MetaCTF 9, KC7 Project 6, last discussion, and Project 8 coursework.
+
 04/05/26 (last checked 21:45):
 - **social-iq**: Added floating feedback button with pre-filled Google Form, StoreKit config, and debug subscription toggle. Added ITSAppUsesNonExemptEncryption=NO to skip App Store compliance review on future builds.
 - **notion-mcp**: Fixed top-prepend bug — replaced fragile delete-all-and-rebuild approach with read-as-markdown + prepend + replace, preventing archived block errors.
