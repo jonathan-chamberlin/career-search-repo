@@ -1,6 +1,11 @@
 # What I Did Today
 Referenced the claude slash command /what-i-did-today
 
+04/07/26 (last checked 01:33):
+- **social-iq**: Found and fixed a bug where the final onboarding step (bridge_to_paywall) was never tracked in Mixpanel — `advance()` exited early because it's the last step with no `.next`. Added `trackStepCompleted()` in `completeOnboardingAndDismiss()`. Verified all 15 onboarding step_name values fire correctly by walking through the full onboarding flow on the simulator via XcodeBuildMCP, cross-checking each event against Mixpanel MCP queries. Confirmed `undefined` step_name values (17 users) are historical data from before quiz substep analytics names were wired up, not a current bug. Also: animated lesson completion screen with score count-up and percentile flash, gold fill bar replacing countdown number on Next Lesson auto-advance, extracted shared UI patterns and eliminated magic numbers.
+- **cs3200-project**: Prepared poster presentation deliverables — Q&A prep sheet, submission-ready materials, and updated leftoff with remaining tasks.
+- **ds2500-group-project**: Fixed 3 factual claims in Milestone 4 presentation after verification; added presentation slides and executed CVD analysis notebook.
+
 04/06/26 (last checked 02:19):
 - **social-iq**: Killed the "test feel" and made lessons feel like a real product — added Ren's conversational voice layer with collapsible explanations, gold theme replacing purple gradients, haptics on correct answers and lesson completion, sound effects (correct/wrong/completion), social proof percentile scores on lesson complete, animated Next button that appears after reviewing wrong answers, progress line stepper replacing tappable pills, academic-styled research frameworks sheet, reddit seeding comments for discovery channels, and data cleanup (trimmed redundant explanation openings, capitalized Ren sentences, fixed punctuation).
 - **cs3200-project**: Wired all 17 SQL queries into the web app with user/food management pages.
