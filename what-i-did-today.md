@@ -1,6 +1,11 @@
 # What I Did Today
 Referenced the claude slash command /what-i-did-today
 
+04/13/26 (last checked 22:48):
+- **social-iq**: Addressed App Store 3.1.2(c) compliance by adding Terms of Use and Privacy Policy links so the submission meets Apple's auto-renewable subscription disclosure requirements.
+- **ds2500-group-project**: Merged teammate Anuhya's PR and integrated Tsion's cleaned code file into the group repo.
+- **cs3200-project**: Committed database backup files to preserve project state.
+
 04/12/26 (last checked 23:08):
 - **cs3200-project**: Reworked the poster presentation into a tighter ~13 minute walkthrough, split the script into part 1 / part 2, and reorganized the presentation files.
 - **northeastern_university**: Submitted KC7 Project 6 Part 1, made progress on Part 2, and gave ENGW3309 Unit 4 peer feedback.
