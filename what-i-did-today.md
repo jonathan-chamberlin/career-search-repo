@@ -1,7 +1,8 @@
 # What I Did Today
 Referenced the claude slash command /what-i-did-today
 
-04/13/26 (last checked 22:48):
+04/13/26 (last checked 22:51):
+- **claude-global**: Overhauled the global Claude Code harness to act on an insights report and narrow focus to the iOS stack. Implemented insights-report action items across rules, skills, hooks, and agents: rewrote CLAUDE.md, added two new agents (analytics-regression, testflight-triage), added an analytics-manifest schema, added mcp-preflight/run-analytics-regression/testflight-triage shell scripts, updated settings.json hooks, and added full /improve and /ship skill workflows. Added iOS/Swift skills, notion tooling (build_titles/fetch_content/patch_pages), and repo-map scripts (generate-repo-map.sh, repo-map.py) plus insights usage data. Archived 85 unused language/framework skills (~29k lines deleted — Django, Laravel, Perl, Go, Rust, Kotlin, C++, Springboot, Flutter, Docker, etc.) into skills-archive/ to focus the active skill set on iOS.
 - **social-iq**: Addressed App Store 3.1.2(c) compliance by adding Terms of Use and Privacy Policy links so the submission meets Apple's auto-renewable subscription disclosure requirements.
 - **ds2500-group-project**: Merged teammate Anuhya's PR and integrated Tsion's cleaned code file into the group repo.
 - **cs3200-project**: Committed database backup files to preserve project state.
